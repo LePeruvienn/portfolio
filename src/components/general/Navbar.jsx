@@ -3,10 +3,10 @@ import { NavLink } from "react-router-dom";
 function Navbar () {
 
 	return (
-		<nav className="bg-blue-300 text-white z-10 font-sans flex flex-row justify-between py-4 px-52 absolute bg-transparent shadow w-full">
+		<nav className="relative !z-50 border-solid border-y-1 border-gray-400 bg-gradient-to-b from-gray-900 to-black text-white font-sans flex flex-row justify-between py-4 px-52 shadow shadow-white w-full">
 			<div className="mb-2 sm:mb-0">
 				<a href="#" className="text-2xl text-grey-darkest">
-					Arthur.
+					Arthur <span className="animate-pulse"> _ </span>
 				</a>
 			</div>
 			<div className="w-120 flex flex-row justify-between items-center">
@@ -37,10 +37,9 @@ function Navbar () {
 					Projects
 				</NavLink>
 
-				<button type="button" className="text-white text-lg font-bold bg-red-500 focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center">
+				<button type="button" className="text-white bg-indigo-500 shadow-xl shadow-indigo-500/50 focus:ring-4 focus:outline-none focus:ringblue font-bold rounded-lg text-sm px-5 py-2.5 text-center">
 					Contact me!
 				</button>
-
 			</div>
 		</nav>
 	)

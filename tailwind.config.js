@@ -6,6 +6,9 @@ export default {
 	],
 	theme: {
 		extend: {
+			borderWidth: {
+				'1': '1px',
+			},
 			width: {
 				'104': '26rem',
 				'112': '28rem',
