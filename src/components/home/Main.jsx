@@ -1,10 +1,16 @@
-import Background from './Background.jsx';
+import Textbox from './Textbox.jsx';
 
 function Main () {
 
 	return (
 		<main>
-			<Background/>
+			<div
+				className="
+					flex justify-center items-center h-screen
+				"	
+			>
+				<Textbox/>
+			</div>
 		</main>
 	)
 }
