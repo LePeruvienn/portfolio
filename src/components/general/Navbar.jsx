@@ -13,7 +13,7 @@ function Navbar () {
 				<NavLink
 					to="/home"
 					className={({ isActive }) =>
-						isActive ? "text-lg text-red-500" : "text-lg text-grey-darkest hover:text-red-500"
+						isActive ? "text-lg text-indigo-500" : "text-lg text-grey-darkest hover:text-indigo-500"
 					}
 				>
 					Home
@@ -22,7 +22,7 @@ function Navbar () {
 				<NavLink
 					to="/book"
 					className={({ isActive }) =>
-						isActive ? "text-lg text-red-500" : "text-lg text-grey-darkest hover:text-red-500"
+						isActive ? "text-lg text-indigo-500" : "text-lg text-grey-darkest hover:text-indigo-500"
 					}
 				>
 					About
@@ -31,7 +31,7 @@ function Navbar () {
 				<NavLink
 					to="/blog"
 					className={({ isActive }) =>
-						isActive ? "text-lg text-red-500" : "text-lg text-grey-darkest hover:text-red-500"
+						isActive ? "text-lg text-indigo-500" : "text-lg text-grey-darkest hover:text-indigo-500"
 					}
 				>
 					Projects
