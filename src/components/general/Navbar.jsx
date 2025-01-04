@@ -11,7 +11,7 @@ function Navbar () {
 			</div>
 			<div className="w-120 flex flex-row justify-between items-center">
 				<NavLink
-					to="/home"
+					to="/home#"
 					className={({ isActive }) =>
 						isActive ? "text-lg text-indigo-500" : "text-lg text-grey-darkest hover:text-indigo-500"
 					}
@@ -20,7 +20,7 @@ function Navbar () {
 				</NavLink>
 				
 				<NavLink
-					to="/about"
+					to="/about#"
 					className={({ isActive }) =>
 						isActive ? "text-lg text-indigo-500" : "text-lg text-grey-darkest hover:text-indigo-500"
 					}
@@ -29,7 +29,7 @@ function Navbar () {
 				</NavLink>
 
 				<NavLink
-					to="/projects"
+					to="/projects#"
 					className={({ isActive }) =>
 						isActive ? "text-lg text-indigo-500" : "text-lg text-grey-darkest hover:text-indigo-500"
 					}
@@ -37,7 +37,7 @@ function Navbar () {
 					Projects
 				</NavLink>
 				
-				<Link to="/contact">
+				<Link to="/contact#">
 					<button
 						type="button"
 						className="text-white bg-indigo-500 shadow-xl shadow-indigo-500/50 focus:ring-4 focus:outline-none focus:ringblue font-bold rounded-lg text-sm px-5 py-2.5 text-center"
