@@ -12,6 +12,14 @@ function Textbox() {
 				flex flex-col
 			"
 		>
+			<h2 class="text-5xl font-extrabold text-white">
+				Hello World !
+			</h2>
+
+			<p className="my-3 text-xl">
+				Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis orci lacus. Duis mollis felis sed diam mattis, vel sodales est dapibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+			</p>
+
 			<p className="mb-3 text-xl">
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis orci lacus. Duis mollis felis sed diam mattis, vel sodales est dapibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
 			</p>
@@ -41,12 +49,24 @@ function Textbox() {
 				</div>
 				<div
 					className="
-						bg-red-500 col-span-2 row-span-3
+						bg-black col-span-2 row-span-3
 						flex justify-center items-center
 						hover:scale-105 transition
+						relative
 					"
 				>
-					<span className="font-bold text-xl">
+					{/* Background Layer */}
+					<div
+						className="
+							absolute inset-0
+							bg-[url('public/img/projects.gif')] bg-cover bg-center
+							filter blur-sm opacity-50
+							- z-10
+						"
+					></div>
+
+					{/* Content Layer */}
+					<span className="font-bold text-xl z-10">
 						My Projects
 					</span>
 				</div>
