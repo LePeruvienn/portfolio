@@ -39,7 +39,8 @@ function Footer () {
 						<ul className="text-gray-400 font-medium">
 							<li className="mb-4">
 								<a
-									href="#"
+									href="https://github.com/LePeruvienn"
+									target="_blank"
 									className="hover:underline "
 								>
 									GitHub
@@ -47,10 +48,20 @@ function Footer () {
 							</li>
 							<li className="mb-4">
 								<a 
-									href="#"
+									href="https://www.linkedin.com/in/arthur-pinel-87a91a270/"
+									target="_blank"
 									className="hover:underline"
 								>
 									Linkedin
+								</a>
+							</li>
+							<li className="mb-4">
+								<a 
+									href="mailto:koto91@free.fr"
+									target="_blank"
+									className="hover:underline"
+								>
+									Mail
 								</a>
 							</li>
 						</ul>

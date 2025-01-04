@@ -12,7 +12,7 @@ function Textbox() {
 				flex flex-col
 			"
 		>
-			<h2 class="text-5xl font-extrabold text-white">
+			<h2 className="text-5xl font-extrabold text-white">
 				Hello World !
 			</h2>
 
@@ -28,10 +28,15 @@ function Textbox() {
 				Nulla convallis quam vel ultricies vestibulum. Sed et commodo arcu, in condimentum augue. Ut maximus varius tortor. Sed sed est congue, vestibulum risus vitae, feugiat lacus. Vestibulum tempus, mauris nec iaculis porta, lorem turpis sollicitudin urna, nec mollis est libero a velit.
 			</p>
 
-			<h1 className="text-5xl mb-5">Check these out!</h1>
+			<h1 className="text-5xl mb-5">
+				Check these out!
+			</h1>
 
 			<div className="w-full flex-grow grid grid-cols-4 grid-rows-3 gap-1">
-				<div
+				<a
+					href="/cv/CV_apinel2_fr.pdf"
+					target="_blank"
+					rel="noopener noreferrer"
 					className="
 						bg-rose-900 row-span-2
 						flex justify-center items-center
@@ -46,8 +51,9 @@ function Textbox() {
 							Resume
 						</span>
 					</div>
-				</div>
-				<div
+				</a>
+				<a
+					href="/projects"
 					className="
 						bg-black col-span-2 row-span-3
 						flex justify-center items-center
@@ -55,7 +61,6 @@ function Textbox() {
 						relative
 					"
 				>
-					{/* Background Layer */}
 					<div
 						className="
 							absolute inset-0
@@ -65,12 +70,13 @@ function Textbox() {
 						"
 					></div>
 
-					{/* Content Layer */}
 					<span className="font-bold text-xl z-10">
 						My Projects
 					</span>
-				</div>
-				<div
+				</a>
+				<a
+					href="https://github.com/LePeruvienn"
+					target="_blank"
 					className="
 						bg-gray-800 col-start-4
 						flex justify-center items-center
@@ -85,8 +91,10 @@ function Textbox() {
 							GitHub
 						</span>
 					</div>
-				</div>
-				<div
+				</a>
+				<a
+					href="https://www.linkedin.com/in/arthur-pinel-87a91a270/"
+					target="_blank"
 					className="
 						bg-blue-900 col-start-4 row-start-2
 						flex justify-center items-center
@@ -101,8 +109,9 @@ function Textbox() {
 							LinkedIn
 						</span>
 					</div>
-				</div>
-				<div
+				</a>
+				<a
+					href="mailto:koto91@free.fr"
 					className="
 						bg-gray-500 col-start-4 row-start-3
 						flex justify-center items-center
@@ -117,8 +126,9 @@ function Textbox() {
 							Mail
 						</span>
 					</div>
-				</div>
-				<div
+				</a>
+				<a
+					href="/about"
 					className="
 						bg-purple-900 col-start-1 row-start-3
 						flex justify-center items-center
@@ -133,7 +143,7 @@ function Textbox() {
 							About me
 						</span>
 					</div>
-				</div>
+				</a>
 			</div>
 		</div>
 	);
