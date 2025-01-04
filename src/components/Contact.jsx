@@ -1,11 +1,17 @@
+import Navbar from './general/Navbar.jsx';
+import Footer from './general/Footer.jsx';
 
 function Contact () {
 
 	return (
-		<main>
-			<h1 class="color-red"> Contact </h1>
-		</main>
+		<>
+			<Navbar/>
+			<div className="min-h-screen">
+				<h1 className="text-6xl text-white"> Contact </h1>
+			</div>
+			<Footer/>
+		</>
 	)
 }
 
-export default App
+export default Contact

@@ -68,7 +68,7 @@ function Footer () {
 					</div>
 				</div>
 			</div>
-			<hr className="my-6 border-gray-200 sm:mx-auto border-gray-700 lg:my-8" />
+			<hr className="my-6 sm:mx-auto border-gray-700 lg:my-8" />
 			<div className="sm:flex sm:items-center sm:justify-between">
 				<span className="text-sm sm:text-center text-gray-400">
 					© 2025 Arthur PINEL.

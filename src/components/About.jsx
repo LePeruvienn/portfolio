@@ -1,11 +1,17 @@
+import Navbar from './general/Navbar.jsx';
+import Footer from './general/Footer.jsx';
 
 function About () {
 
 	return (
-		<main>
-			<h1 class="color-red"> About </h1>
-		</main>
+		<>
+			<Navbar/>
+			<div className="min-h-screen">
+				<h1 className="text-6xl text-white"> About Me </h1>
+			</div>
+			<Footer/>
+		</>
 	)
 }
 
-export default App
+export default About
