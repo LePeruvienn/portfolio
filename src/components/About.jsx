@@ -7,7 +7,7 @@ function About() {
 	return (
 		<>
 			<Navbar />
-			<div className="about-container">
+			<div className="md-container min-h-screen">
 
 				<h1>
 					About Me
