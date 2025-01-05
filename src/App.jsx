@@ -10,7 +10,7 @@ function App () {
 
 	return (
 		<>
-			<BrowserRouter>
+			<BrowserRouter basename="/portfolio">
 				{/* Make the brwoser scroll to the top of the page */}
 				<ScrollToTop/>
 
