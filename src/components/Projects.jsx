@@ -2,6 +2,9 @@ import Navbar from './general/Navbar.jsx';
 import Footer from './general/Footer.jsx';
 import Project from './projects/Project.jsx';
 
+// Importing projects data
+import projectsData from "../assets/datas/projects.json" // Import the JSON data
+
 
 
 function Projects () {
@@ -18,7 +21,19 @@ function Projects () {
 				</p>
 
 				<div className="mt-10">
-					<Project/>
+
+					{/* Generating projects components */}
+					{projectsData.projects.map((project, index) => (
+						<div key={index} className="mt-10">
+							<Project
+								name={project.name}
+								year={project.year}
+								description={project.description}
+								links={project.links}
+								image={project.image}
+							/>
+						</div>
+					))}
 				</div>
 			</div>
 			<Footer/>

@@ -1,0 +1,17 @@
+{
+	"projects": [
+		{
+			"name": "Project Name",
+			"year": 2024,
+			"description": [
+				"Competitive games and scavenger hunts played across the entire city. Like Jet Lag: The Game, but without the budget.",
+				"A live game for which I build the website, help consult for game balance, and run Game Control. The website includes event information, team management, and, during the game, live scoring and judging functionality."
+			],
+			"links": {
+				"github": "#",
+				"website": "#"
+			},
+			"image": "/img/semantique.png"
+		}
+	]
+}

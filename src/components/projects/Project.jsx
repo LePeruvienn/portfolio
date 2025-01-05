@@ -1,6 +1,5 @@
-import projectImage from '../../assets/img/projects/semantique.png';
 
-function Project () {
+function Project ({name, year, description, links, image }) {
 
 	return (
 
@@ -9,23 +8,23 @@ function Project () {
 		">
 			<div>
 				<h2 className="text-white text-3xl pb-3 font-bold"> 
-					Project Name <span className="font-normal"> - 2024 </span>
+					{name} <span className="font-normal"> - {year} </span>
 				</h2>
-				<p className="text-white text-xl pb-2">
-					Competitive games and scavenger hunts played across the entire city. Like Jet Lag: The Game, but without the budget.
-				</p>
-				<p className="text-white text-xl pb-2">
-					A live game for which I build the website, help consult for game balance, and run Game Control. The website includes event information, team management, and, during the game, live scoring and judging functionality.
-				</p>
+				{/* Generating project description */}
+				{description.map((text, index) => (
+					<p key={index} className="text-white text-xl pb-2">
+						{text}
+					</p>
+				))}
 				<div className="mt-2 flex flex-row">
 					<a 
-						href="#"
+						href={links.github}
 						className="text-xl font-bold text-teal-400 hover:text-teal-600 transition-colors duration-300 pr-5 hover:underline"
 					>
 						GithubRepo
 					</a>
 					<a 
-						href="#"
+						href={links.website}
 						className="text-xl font-bold text-teal-400 hover:text-teal-600 transition-colors duration-300 pr-5 hover:underline"
 					>
 						Website
@@ -38,8 +37,8 @@ function Project () {
 						transform rotate-y-[-30deg] hover:rotate-y-[-10deg] transition-transform duration-300
 						drop-shadow-lg
 					"
-					src={projectImage}
-					alt="Project"
+					src={image}
+					alt={name}
 				/>
 			</div>
 		</div>
