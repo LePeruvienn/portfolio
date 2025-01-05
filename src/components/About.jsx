@@ -67,7 +67,7 @@ function About() {
 					</li>
 				</ul>
 
-				<p><a href="#"> To see more of my projects ... </a></p>
+				<p><a href="/projects"> To see more of my projects ... </a></p>
 
 				<h2>Technical and Personal Skills</h2>
 

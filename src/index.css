@@ -18,7 +18,7 @@ body {
 
 	/* Heading 1 */
 	.about-container > h1 {
-		@apply text-8xl font-extrabold py-4 text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400;
+		@apply text-8xl font-extrabold py-4 text-center bg-clip-text text-transparent bg-gradient-to-r from-white to-indigo-400;
 	}
 
 	/* Heading 2 */
@@ -49,5 +49,46 @@ body {
 	/* Container Background */
 	.about-container {
 		@apply bg-gradient-to-br from-gray-800 via-gray-900 to-black;
+	}
+
+	/* Contact Page Container */
+	.contact-container {
+		@apply min-h-screen py-24 px-[10%] text-white;
+	}
+
+	/* Heading 1 */
+	.contact-container > h1 {
+		@apply text-8xl font-extrabold py-4 text-center bg-clip-text text-transparent bg-gradient-to-r from-white to-indigo-400;
+	}
+
+	/* Paragraph */
+	.contact-container > p {
+		@apply text-2xl py-4 text-gray-300 text-center;
+	}
+
+	/* Form Styling */
+	.contact-form {
+		@apply mt-8 max-w-2xl mx-auto bg-gray-800 p-8 rounded-lg shadow-lg;
+	}
+
+	.contact-form .form-group {
+		@apply mb-6;
+	}
+
+	.contact-form label {
+		@apply block text-lg font-medium text-gray-300 mb-2;
+	}
+
+	.contact-form input,
+	.contact-form textarea {
+		@apply w-full p-4 bg-gray-700 text-gray-100 rounded-md border border-gray-600 focus:outline-none focus:ring-2 focus:ring-teal-400 focus:border-transparent;
+	}
+
+	.contact-form textarea {
+		@apply resize-none;
+	}
+
+	.submit-button {
+		@apply bg-teal-500 text-white font-bold py-3 px-6 rounded-lg hover:bg-teal-600 transition-colors duration-300;
 	}
 }
