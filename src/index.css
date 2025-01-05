@@ -6,3 +6,48 @@
 body {
   background: linear-gradient(to bottom, #1a202c, #000000);
 }
+
+
+/* In your Tailwind configuration or external CSS file */
+@layer components {
+
+	/* Container */
+	.about-container {
+		@apply min-h-screen py-24 px-[20%] text-white bg-gray-900;
+	}
+
+	/* Heading 1 */
+	.about-container > h1 {
+		@apply text-8xl font-extrabold py-4 text-center bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-teal-400;
+	}
+
+	/* Heading 2 */
+	.about-container > h2 {
+		@apply text-5xl pt-8 pb-4 text-white font-semibold border-b-4 border-gray-500;
+	}
+
+	/* Paragraphs */
+	.about-container > p {
+		@apply text-2xl py-4 leading-relaxed text-gray-300;
+	}
+
+	/* List */
+	.about-container > ul {
+		@apply list-disc space-y-3 pl-8 py-4 text-xl text-gray-300;
+	}
+
+	/* List Item */
+	.about-container > li {
+		@apply leading-relaxed py-2;
+	}
+
+	/* Links */
+	.about-container a {
+		@apply text-teal-400 hover:text-teal-600 transition-colors duration-300;
+	}
+
+	/* Container Background */
+	.about-container {
+		@apply bg-gradient-to-br from-gray-800 via-gray-900 to-black;
+	}
+}
