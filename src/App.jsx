@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import { HashRouter, Routes, Route, Navigate } from 'react-router-dom';
 import Home from './components/Home.jsx';
 import About from './components/About.jsx';
 import Projects from './components/Projects.jsx';
@@ -10,7 +10,7 @@ function App () {
 
 	return (
 		<>
-			<BrowserRouter basename="/portfolio">
+			<HashRouter>
 				{/* Make the brwoser scroll to the top of the page */}
 				<ScrollToTop/>
 
@@ -22,7 +22,7 @@ function App () {
 					<Route path="/projects" element={ <Projects/>} />
 					<Route path="/contact" element={ <Contact/> } />
 				</Routes>
-			</BrowserRouter>
+			</HashRouter>
 		</>
 	)
 }

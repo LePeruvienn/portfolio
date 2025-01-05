@@ -5,9 +5,8 @@ function UsefulLinks () {
 
 		<div className="w-full flex-grow grid grid-cols-4 grid-rows-3 gap-1">
 			<a
-				href="/cv/CV_apinel2_fr.pdf"
+				href="https://github.com/LePeruvienn/portfolio/blob/main/public/cv/CV_apinel_fr.pdf"
 				target="_blank"
-				rel="noopener noreferrer"
 				className="
 					bg-rose-900 row-span-2
 					flex justify-center items-center
@@ -24,7 +23,7 @@ function UsefulLinks () {
 				</div>
 			</a>
 			<a
-				href="/projects"
+				href="#/projects"
 				className="
 					bg-black col-span-2 row-span-3
 					flex justify-center items-center
@@ -99,7 +98,7 @@ function UsefulLinks () {
 				</div>
 			</a>
 			<a
-				href="/about"
+				href="#/about"
 				className="
 					bg-purple-900 col-start-1 row-start-3
 					flex justify-center items-center

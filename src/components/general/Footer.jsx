@@ -19,16 +19,16 @@ function Footer () {
 						</h2>
 						<ul className="text-gray-400 font-medium">
 							<li className="mb-4">
-								<a href="/home" className="hover:underline"> Home </a>
+								<a href="#/home" className="hover:underline"> Home </a>
 							</li>
 							<li className="mb-4">
-								<a href="/about" className="hover:underline"> About </a>
+								<a href="#/about" className="hover:underline"> About </a>
 							</li>
 							<li className="mb-4">
-								<a href="/projects" className="hover:underline"> Projects </a>
+								<a href="#/projects" className="hover:underline"> Projects </a>
 							</li>
 							<li className="mb-4">
-								<a href="/contact" className="hover:underline"> Contact </a>
+								<a href="#/contact" className="hover:underline"> Contact </a>
 							</li>
 						</ul>
 					</div>
