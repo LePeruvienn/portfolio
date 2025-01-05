@@ -1,5 +1,6 @@
 import Navbar from './general/Navbar.jsx';
 import Footer from './general/Footer.jsx';
+import UsefulLinks from './general/UsefulLinks.jsx';
 
 function About() {
 
@@ -93,6 +94,7 @@ function About() {
 				<p>
 					In case you missed them on the home page ...
 				</p>
+				<UsefulLinks/>
 			</div>
 			<Footer />
 		</>
