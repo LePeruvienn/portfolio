@@ -17,18 +17,24 @@ function Project ({name, year, description, links, image }) {
 					</p>
 				))}
 				<div className="mt-2 flex flex-row">
-					<a 
-						href={links.github}
-						className="text-xl font-bold text-teal-400 hover:text-teal-600 transition-colors duration-300 pr-5 hover:underline"
-					>
-						GithubRepo
-					</a>
-					<a 
-						href={links.website}
-						className="text-xl font-bold text-teal-400 hover:text-teal-600 transition-colors duration-300 pr-5 hover:underline"
-					>
-						Website
-					</a>
+					{ links.github && (
+						<a 
+							href={links.github}
+							target="_blank"
+							className="text-xl font-bold text-teal-400 hover:text-teal-600 transition-colors duration-300 pr-5 hover:underline"
+						>
+							GitHub Repository
+						</a>
+					)}
+					{ links.website && (
+						<a 
+							href={links.website}
+							target="_blank"
+							className="text-xl font-bold text-teal-400 hover:text-teal-600 transition-colors duration-300 pr-5 hover:underline"
+						>
+							Website
+						</a>
+					)}
 				</div>
 			</div>
 			<div className="perspective-1600 transform transition-all duration-300 hover:rotate-y-[-15deg]">

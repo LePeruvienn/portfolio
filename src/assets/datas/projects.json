@@ -1,17 +1,68 @@
 {
 	"projects": [
 		{
-			"name": "Project Name",
-			"year": 2024,
+			"name": "FEURnite",
+			"year": "In progress",
 			"description": [
-				"Competitive games and scavenger hunts played across the entire city. Like Jet Lag: The Game, but without the budget.",
-				"A live game for which I build the website, help consult for game balance, and run Game Control. The website includes event information, team management, and, during the game, live scoring and judging functionality."
+				"FEURnite is a fast-paced, multiplayer battle royale game with quirky, duck-themed chaos. You play as a duck named 'Koua', thrust into a chaotic battle royale where floating islands crumble over time. Combining platforming and shooting mechanics, players must loot weapons and items to outsmart opponents and survive the collapsing terrain. ",
+				"Built in Unity 3D with Photon for seamless multiplayer networking, FEURnite delivers a fast-paced, competitive experience where the last Koua standing claims victory."
 			],
 			"links": {
-				"github": "#",
-				"website": "#"
+				"github": "https://github.com/LePeruvienn/FEURnite",
+				"website": ""
+			},
+			"image": "/img/feurnite.png"
+		},
+		{
+			"name": "Analyse de données sémantique",
+			"year": 2024,
+			"description": [
+				"The Project focuses on leveraging semantic web technologies to analyze the global impact of natural and technological disasters.",
+				"Using data from sources like Our World in Data and structured ontologies created with Protégé, the project models disasters, their impacts, locations, and affected countries."
+			],
+			"links": {
+				"github": "https://github.com/LePeruvienn/BUT3-Web-Semantique",
+				"website": "https://leperuvienn.github.io/BUT3-Web-Semantique/"
 			},
 			"image": "/img/semantique.png"
+		},
+		{
+			"name": "Author Website",
+			"year": 2023,
+			"description": [
+				"This project involved creating a modern and responsive website for an author to showcase her books and engage with her readers. Using React for dynamic user interactions and Tailwind CSS for sleek, customizable design, the site delivers an elegant platform tailored to the author’s unique style.","With intuitive navigation, book previews, and a contact section, the website provides a seamless and engaging experience for visitors, embodying the author’s creative vision."
+			],
+			"links": {
+				"github": "https://github.com/LePeruvienn/react-project",
+				"website": "https://leperuvienn.github.io/react-project/"
+			},
+			"image": "/img/cenezas.png"
+		},
+		{
+			"name": "Zombie Math",
+			"year": 2023,
+			"description": [
+				 "In this game, players face relentless waves of zombies in a dungeon, with their numbers increasing each round. The player must survive by using a vacuum device to perform operations on the zombies, reducing their numbers to zero and earning points. Using the vacuum consumes energy, and when depleted, it becomes temporarily unusable.",
+				"Developed in Unity, the game blends survival mechanics with strategic gameplay, challenging players to manage their health, energy, and actions to achieve the highest score."
+			],
+			"links": {
+				"github": "https://github.com/LePeruvienn/Unity-Math",
+				"website": ""
+			},
+			"image": "/img/zombiemath.png"
+		},
+		{
+			"name": "FEUR Pizza",
+			"year": 2022,
+			"description": [
+				"This project is a fully functional e-commerce website featuring a user-friendly interface and robust administrative panel. The platform enables efficient management of orders, inventory, and user accounts.",
+				"Built using PHP and a MySQL database, it offers secure and scalable performance, ensuring seamless integration of front-end and back-end operations."
+			],
+			"links": {
+				"github": "",
+				"website": ""
+			},
+			"image": "/img/feurpizza.png"
 		}
 	]
 }

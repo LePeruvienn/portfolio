@@ -19,15 +19,15 @@ function Textbox() {
 			</h2>
 
 			<p className="my-3 text-xl">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis orci lacus. Duis mollis felis sed diam mattis, vel sodales est dapibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+				I am a passionate third-year Computer Science student with a deep interest in technology, creativity, and problem-solving. My journey has led me to explore various fields, from software development and web design to video game creation, where I combine technical expertise with my love for storytelling and interactive experiences.
 			</p>
 
 			<p className="mb-3 text-xl">
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis orci lacus. Duis mollis felis sed diam mattis, vel sodales est dapibus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.
+				This portfolio is a reflection of my growth, achievements, and aspirations. It showcases the projects that have shaped me, including innovative applications, websites, and video games. Through these projects, I have developed not only my technical skills but also my creativity and ability to bring ideas to life.
 			</p>
 
 			<p className="mb-10 text-xl">
-				Nulla convallis quam vel ultricies vestibulum. Sed et commodo arcu, in condimentum augue. Ut maximus varius tortor. Sed sed est congue, vestibulum risus vitae, feugiat lacus. Vestibulum tempus, mauris nec iaculis porta, lorem turpis sollicitudin urna, nec mollis est libero a velit.
+				My goal is to use this space to connect with like-minded professionals, share my passion for technology and game development, and inspire others to embrace innovation and learning.
 			</p>
 
 			<h1 className="text-5xl mb-5">

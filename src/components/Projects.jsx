@@ -35,7 +35,12 @@ function Projects () {
 						</div>
 					))}
 				</div>
+
+				<p className="mt-20">
+					<strong> Feel free to see more by visiting my <a href="https://github.com/LePeruvienn?tab=repositories" target="_blank"> GitHub reposiories </a> ! </strong>
+				</p>
 			</div>
+
 			<Footer/>
 		</>
 	)
