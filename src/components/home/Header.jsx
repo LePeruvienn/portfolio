@@ -33,10 +33,26 @@ function Header() {
 		return () => clearInterval(interval);
 	}, [texts.length]);
 
+
+	// Making the arrow scroll to the navbar
+	const scrollToNavBar = () => {
+		
+		// Get the navbar element
+		const navbarID = "navbar"
+		const element = document.getElementById(navbarID);
+
+		// throw error if we dont found the navbar
+		if (!element)
+			return console.error ("home/Header.jsx ERRROR : Navbar ID doest not match any element !!");
+
+		// Scroll to the navbar
+		element.scrollIntoView({ behavior: "smooth" });
+	};
+
 	return (
 		<header>
 			<motion.div
-				className="!z-0 flex items-center justify-center h-screen"
+				className="!z-0 flex flex-col items-center justify-center h-screen"
 				style={{ transform: `translateY(-${scrollY * 1}px)` }} // Adjust scroll speed
 				initial={{ y: 0 }}
 				animate={{ y: +scrollY * 1 }}
@@ -63,6 +79,27 @@ function Header() {
 							</motion.span>
 						</p>
 					</AnimatePresence>
+				</div>
+
+				{/* Bouncing arrow element */}
+				<div 
+					onClick={scrollToNavBar}
+					className="
+						animate-bounce 
+						w-14 mt-40 p-3
+						rounded-full
+						bg-gray-1000
+						border-2 border-indigo-400
+						cursor-pointer
+					"
+				>
+					<svg 
+						className="fill-indigo-200" 
+						xmlns="http://www.w3.org/2000/svg" 
+						viewBox="0 0 16 16"
+					>
+						<path fillRule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1"/>
+					</svg>
 				</div>
 			</motion.div>
 		</header>

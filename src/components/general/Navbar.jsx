@@ -3,7 +3,7 @@ import { NavLink, Link } from "react-router-dom";
 
 function Navbar () {
 	return (
-		<nav className="sticky top-0 !z-50 border-solid border-y-1 border-gray-400 bg-gradient-to-b from-gray-900 to-black text-white font-sans flex flex-row justify-between py-4 px-52 shadow shadow-white w-full">
+		<nav id="navbar" className="sticky top-0 !z-50 border-solid border-y-1 border-gray-400 bg-gradient-to-b from-gray-900 to-black text-white font-sans flex flex-row justify-between py-4 px-52 shadow shadow-white w-full">
 			<div className="mb-2 sm:mb-0">
 				<a href="#" className="text-2xl text-grey-darkest">
 					Arthur <span className="animate-pulse"> _ </span>

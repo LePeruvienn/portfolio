@@ -33,7 +33,7 @@ body {
 
 	/* List */
 	.about-container > ul {
-		@apply list-disc space-y-3 pl-8 py-4 text-xl text-gray-300;
+		@apply list-disc space-y-3 pl-8 pb-4 text-xl text-gray-300;
 	}
 
 	/* List Item */

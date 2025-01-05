@@ -9,7 +9,9 @@ function About() {
 			<Navbar />
 			<div className="about-container">
 
-				<h1>About Me</h1>
+				<h1>
+					About Me
+				</h1>
 
 				<p>
 					Currently a third-year student in <strong>Computer Science at the University of Paris-Saclay</strong>, I am passionate about technology and creation. My journey has allowed me to explore a wide range of fields, from complex IT projects to creative and sports activities, which have enriched my perspective and work methodology.
