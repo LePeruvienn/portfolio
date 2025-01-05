@@ -35,7 +35,7 @@ function UsefulLinks () {
 				<div
 					className="
 						absolute inset-0
-						bg-[url('public/img/projects.gif')] bg-cover bg-center
+						bg-[url('/portfolio/img/projects.gif')] bg-cover bg-center
 						filter blur-sm opacity-50
 						- z-10
 					"

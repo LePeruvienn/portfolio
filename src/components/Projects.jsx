@@ -30,7 +30,7 @@ function Projects () {
 								year={project.year}
 								description={project.description}
 								links={project.links}
-								image={project.image}
+								image={`/portfolio/${project.image}`}
 							/>
 						</div>
 					))}
