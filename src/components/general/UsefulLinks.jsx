@@ -8,8 +8,8 @@ function UsefulLinks () {
 
 	// Determine the correct link based on the selected language
 	const resumeLink = language === 'fr' 
-		? 'https://github.com/LePeruvienn/portfolio/blob/main/public/cv/CV_apinel_fr.pdf'
-		: 'https://github.com/LePeruvienn/portfolio/blob/main/public/cv/CV_apinel_en.pdf';
+		? 'https://github.com/LePeruvienn/portfolio/blob/main/public/cv/cv_arthur_fr.pdf'
+		: 'https://github.com/LePeruvienn/portfolio/blob/main/public/cv/cv_arthur_en.pdf';
 
 	return (
 
