@@ -3,6 +3,7 @@ import Home from './components/Home.jsx';
 import About from './components/About.jsx';
 import Projects from './components/Projects.jsx';
 import Contact from './components/Contact.jsx';
+import FunFacts from './components/FunFacts.jsx';
 
 import ScrollToTop from './components/utils/ScrollToTop.jsx';
 
@@ -21,6 +22,7 @@ function App () {
 					<Route path="/about" element={ <About/> }/>
 					<Route path="/projects" element={ <Projects/>} />
 					<Route path="/contact" element={ <Contact/> } />
+					<Route path="/funfacts" element={ <FunFacts/> } />
 				</Routes>
 			</HashRouter>
 		</>

@@ -1,6 +1,7 @@
 import Navbar from './general/Navbar.jsx';
 import Footer from './general/Footer.jsx';
 import Project from './projects/Project.jsx';
+import { useTranslation } from 'react-i18next';
 
 // Importing projects data
 import projectsData from "../assets/datas/projects.json" // Import the JSON data
@@ -9,12 +10,16 @@ import projectsData from "../assets/datas/projects.json" // Import the JSON data
 
 function Projects () {
 
+	const { t, i18n } = useTranslation();
+
 	return (
 		<>
 			<Navbar/>
 			<div className="md-container">
 
-				<h1 className="text-6xl text-white"> Projects </h1>
+				<h1 className="text-6xl text-white">
+					{ t ("projects") }
+				</h1>
 				
 				<p>
 					Here is a selection of the projects that i have been working on. Starting with the most recents !

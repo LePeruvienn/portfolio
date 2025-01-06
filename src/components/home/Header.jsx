@@ -1,7 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 
 function Header() {
+
+	const { t, i18n } = useTranslation();
+
 	// State for the scroll position
 	const [scrollY, setScrollY] = useState(0);
 
@@ -67,7 +71,7 @@ function Header() {
 					</h1>
 					<AnimatePresence>
 						<p className="transition ease-in-out delay-0 flex items-center justify-center mb-10 text-4xl text-gray-300">
-							<span className="mr-2">I do</span>
+							<span className="mr-2"> { t ("ido") }</span>
 							<motion.span
 								key={texts[index]}
 								initial={{ opacity: 0, y: 20 }}

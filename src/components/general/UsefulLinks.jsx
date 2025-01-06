@@ -1,11 +1,21 @@
+import { useTranslation } from 'react-i18next';
 
 function UsefulLinks () {
+
+	const { t, i18n } = useTranslation();
+	// Get the current language
+	const language = i18n.language;
+
+	// Determine the correct link based on the selected language
+	const resumeLink = language === 'fr' 
+		? 'https://github.com/LePeruvienn/portfolio/blob/main/public/cv/CV_apinel_fr.pdf'
+		: 'https://github.com/LePeruvienn/portfolio/blob/main/public/cv/CV_apinel_en.pdf';
 
 	return (
 
 		<div className="w-full flex-grow grid grid-cols-4 grid-rows-3 gap-1">
 			<a
-				href="https://github.com/LePeruvienn/portfolio/blob/main/public/cv/CV_apinel_fr.pdf"
+				href={resumeLink}
 				target="_blank"
 				className="
 					bg-rose-900 row-span-2
@@ -18,7 +28,7 @@ function UsefulLinks () {
 					  <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0M9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1M11 8a3 3 0 1 1-6 0 3 3 0 0 1 6 0m2 5.755V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1v-.245S4 12 8 12s5 1.755 5 1.755"/>
 					</svg>
 					<span className="font-bold">
-						Resume
+						{ t ("resume") }
 					</span>
 				</div>
 			</a>
@@ -41,7 +51,7 @@ function UsefulLinks () {
 				></div>
 
 				<span className="font-bold text-xl z-10">
-					My Projects
+						{ t ("myProjects") }
 				</span>
 			</a>
 			<a
@@ -110,7 +120,7 @@ function UsefulLinks () {
 					  <path d="M8 16A8 8 0 1 0 8 0a8 8 0 0 0 0 16m.93-9.412-1 4.705c-.07.34.029.533.304.533.194 0 .487-.07.686-.246l-.088.416c-.287.346-.92.598-1.465.598-.703 0-1.002-.422-.808-1.319l.738-3.468c.064-.293.006-.399-.287-.47l-.451-.081.082-.381 2.29-.287zM8 5.5a1 1 0 1 1 0-2 1 1 0 0 1 0 2"/>
 					</svg>
 					<span className="font-bold">
-						About me
+						{ t ("aboutMe") }
 					</span>
 				</div>
 			</a>
