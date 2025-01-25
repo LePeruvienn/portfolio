@@ -13,7 +13,7 @@ function Header() {
 	const [index, setIndex] = useState(0);
 
 	// List of the used texts
-	const texts = ["Javascript", "React", "Game dev"];
+	const texts = t("skills", { returnObjects: true });
 
 	// Track the current scroll position
 	useEffect(() => {
@@ -62,15 +62,15 @@ function Header() {
 				animate={{ y: +scrollY * 1 }}
 				transition={{ type: "spring", stiffness: 100 }}
 			>
-				<div className="relative bg-black bg-opacity-50 text-white w-144 flex flex-col items-center justify-center shadow-lg">
-					<h1 className="text-10xl font-bold">
+				<div className="relative bg-black bg-opacity-50 max-w-full py-10 px-20 text-white flex flex-col items-center justify-center shadow-lg">
+					<h1 className="text-7xl sm:text-10xl font-bold">
 						Arthur
 					</h1>
-					<h1 className="text-10xl font-bold">
+					<h1 className="text-7xl sm:text-10xl font-bold">
 						Pinel <span className="animate-pulse"> _ </span>
 					</h1>
 					<AnimatePresence>
-						<p className="transition ease-in-out delay-0 flex items-center justify-center mb-10 text-4xl text-gray-300">
+						<p className="transition ease-in-out delay-0 flex items-center justify-center mt-10 text-2xl sm:text-4xl text-gray-300">
 							<span className="mr-2"> { t ("ido") }</span>
 							<motion.span
 								key={texts[index]}

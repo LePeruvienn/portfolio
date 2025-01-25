@@ -1,4 +1,5 @@
 {
+    "skills": ["JavaScript", "React", "Unity", "C/C++", "SQL", "Python", "SPARQL", "PHP", "JAVA", "Vim", "Git", "Video games", "Linux", "Networking"],
 	"ido": "I do",
 	"home": "Home",
 	"other": "Other",

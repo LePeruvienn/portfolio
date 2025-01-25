@@ -1,5 +1,6 @@
 {
-	"ido": "Je fais du",
+    "skills": ["JavaScript", "React", "Unity", "C/C++", "SQL", "Python", "SPARQL", "PHP", "JAVA", "Vim", "Git", "Jeux vidéo", "Linux", "Réseaux"],
+	"ido": "Je fais du  ",
 	"home": "Acceuil",
 	"other": "Autres",
 	"about": "À propos",
