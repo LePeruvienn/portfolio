@@ -16,6 +16,7 @@ function Textbox() {
 				p-6 sm:p-8 md:p-10
 				text-white 
 				bg-gray-900 
+				bg-opacity-85 sm:bg-opacity-100
 				drop-shadow-2xl 
 				rounded 
 				flex flex-col

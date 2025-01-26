@@ -59,7 +59,7 @@ function Language () {
 				</svg>
 			</button>
 			{dropdownOpen && (
-				<div className="absolute z-10 bg-gray-800 bg-opacity-30 divide-y divide-gray-100 rounded-lg shadow">
+				<div className="absolute z-10 bg-gray-900 bg-opacity-90 divide-y divide-gray-100 rounded-lg shadow">
 					<ul className="p-2">
 						{ languages
 							.filter (lang => lang.code !== i18n.language)
