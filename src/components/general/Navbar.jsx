@@ -25,7 +25,7 @@ function Navbar() {
 				</div>
 
 				{/* Burger Icon for mobile */}
-				<div className="lg:hidden">
+				<div className="lg:hidden flex">
 					<button onClick={toggleMenu} className="text-white focus:outline-none">
 						{isOpen ? <X size={28} /> : <Menu size={28} />}
 					</button>
@@ -87,7 +87,7 @@ function Navbar() {
 
 			{/* Mobile Menu */}
 			{isOpen && (
-				<div className="lg:hidden flex flex-col space-y-4 bg-black px-6 py-4">
+				<div className="lg:hidden flex flex-col space-y-4 px-6 py-4">
 					<NavLink
 						to="/home#"
 						onClick={toggleMenu}
@@ -135,7 +135,7 @@ function Navbar() {
 					<Link to="/contact#" onClick={toggleMenu}>
 						<button
 							type="button"
-							className="text-white bg-indigo-500 shadow-xl shadow-indigo-500/50 focus:ring-4 focus:outline-none focus:ring-blue-500 font-bold rounded-lg text-sm px-5 py-2.5 text-center w-full"
+							className="text-white bg-indigo-500 shadow-xl shadow-indigo-500/50 focus:ring-4 focus:outline-none focus:ring-blue-500 font-bold rounded-lg text-sm px-5 py-2.5 text-center"
 						>
 							{t('contact')}!
 						</button>
