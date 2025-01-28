@@ -22,7 +22,7 @@ function Textbox() {
 				flex flex-col
 			"
 		>
-			<h2 className="text-3xl sm:text-4xl md:text-6xl font-extrabold text-white">
+			<h2 className="text-3xl sm:text-4xl md:text-6xl font-extrabold text-white mb-2">
 				Hello World !
 			</h2>
 
@@ -38,7 +38,7 @@ function Textbox() {
 				{t("headerP3")}
 			</p>
 
-			<h1 className="text-white text-2xl sm:text-3xl md:text-4xl mb-4 sm:mb-5">
+			<h1 className="text-white text-xl sm:text-2xl md:text-3xl mb-4 sm:mb-5">
 				{t("checkTheseOut")}
 			</h1>
 
