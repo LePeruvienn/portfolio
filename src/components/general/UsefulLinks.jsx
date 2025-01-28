@@ -13,7 +13,7 @@ function UsefulLinks () {
 
 	return (
 
-		<div className="w-full flex-grow grid grid-cols-4 grid-rows-3 gap-1">
+		<div className="w-full text-white flex-grow grid grid-cols-4 grid-rows-3 gap-1">
 			<a
 				href={resumeLink}
 				target="_blank"

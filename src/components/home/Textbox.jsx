@@ -14,7 +14,7 @@ function Textbox() {
 				xl:w-[50%] 
 				mx-auto 
 				p-6 sm:p-8 md:p-10
-				text-white 
+				text-gray-400 
 				bg-gray-900 
 				bg-opacity-85 sm:bg-opacity-100
 				drop-shadow-2xl 
@@ -22,24 +22,24 @@ function Textbox() {
 				flex flex-col
 			"
 		>
-			<h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold text-white">
+			<h2 className="text-3xl sm:text-4xl md:text-6xl font-extrabold text-white">
 				Hello World !
 			</h2>
 
-			<p className="my-2 sm:my-3 text-lg sm:text-xl">
+			<p className="my-2 sm:my-3 text-lg sm:text-xl md:text-2xl">
 				{t("headerP1")}
 			</p>
 
-			<p className="mb-2 sm:mb-3 text-lg sm:text-xl">
+			<p className="mb-2 sm:mb-3 text-lg sm:text-xl md:text-2xl">
 				{t("headerP2")}
 			</p>
 
-			<p className="mb-6 sm:mb-8 md:mb-10 text-lg sm:text-xl">
+			<p className="mb-6 sm:mb-8 md:mb-10 text-lg sm:text-xl md:text-2xl">
 				{t("headerP3")}
 			</p>
 
-			<h1 className="text-3xl sm:text-4xl md:text-5xl mb-4 sm:mb-5">
-				{t("checkTheseOut")}!
+			<h1 className="text-white text-2xl sm:text-3xl md:text-4xl mb-4 sm:mb-5">
+				{t("checkTheseOut")}
 			</h1>
 
 			<UsefulLinks />
