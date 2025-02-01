@@ -5,11 +5,11 @@ import { useTranslation } from 'react-i18next';
 import { Menu, X } from "lucide-react"; // Icons for the burger menu.
 
 function Navbar() {
-	const { t, i18n } = useTranslation();
-	const [isOpen, setIsOpen] = useState(false);
+	const { t, i18n } = useTranslation ("home");
+	const [isOpen, setIsOpen] = useState (false);
 
 	const toggleMenu = () => {
-		setIsOpen(!isOpen);
+		setIsOpen (!isOpen);
 	};
 
 	return (

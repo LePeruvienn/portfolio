@@ -2,39 +2,39 @@ import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslation } from 'react-i18next';
 
-function Header() {
+function Header () {
 
-	const { t, i18n } = useTranslation();
+	const { t, i18n } = useTranslation ("home");
 
 	// State for the scroll position
-	const [scrollY, setScrollY] = useState(0);
+	const [scrollY, setScrollY] = useState (0);
 
 	// Index of the current text selected
-	const [index, setIndex] = useState(0);
+	const [index, setIndex] = useState (0);
 
 	// List of the used texts
-	const texts = t("skills", { returnObjects: true });
+	const texts = t ("skills", { returnObjects: true });
 
 	// Track the current scroll position
-	useEffect(() => {
+	useEffect ( () => {
 		const handleScroll = () => {
-			setScrollY(window.scrollY);
+			setScrollY (window.scrollY);
 		};
 
-		window.addEventListener("scroll", handleScroll);
+		window.addEventListener ("scroll", handleScroll);
 
 		// Cleanup listener on unmount
-		return () => window.removeEventListener("scroll", handleScroll);
+		return () => window.removeEventListener ("scroll", handleScroll);
 	}, []);
 
 	// Switch the current text every 2 seconds
-	useEffect(() => {
-		const interval = setInterval(() => {
-			setIndex((prev) => (prev + 1) % texts.length);
+	useEffect ( () => {
+		const interval = setInterval ( () => {
+			setIndex ( (prev) => (prev + 1) % texts.length);
 		}, 2000);
 
 		// Cleanup interval on unmount
-		return () => clearInterval(interval);
+		return () => clearInterval (interval);
 	}, [texts.length]);
 
 
@@ -43,7 +43,7 @@ function Header() {
 		
 		// Get the navbar element
 		const navbarID = "navbar"
-		const element = document.getElementById(navbarID);
+		const element = document.getElementById (navbarID);
 
 		// throw error if we dont found the navbar
 		if (!element)

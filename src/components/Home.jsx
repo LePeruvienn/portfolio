@@ -8,7 +8,7 @@ function Home () {
 	return (
 		<>
 			<Header/>
-			<div className="relative !z-10 min-h-screen">
+			<div className="relative !z-10">
 				<Navbar/>
 				<Main/>
 			</div>

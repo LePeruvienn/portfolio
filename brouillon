@@ -1,0 +1,128 @@
+import React from 'react';
+
+const AboutMe = () => {
+	return (
+		<div className="md-container">
+			{/* Main Heading */}
+			<h1>Hello, I'm Arthur!</h1>
+
+			{/* Profile Picture */}
+			<div className="flex justify-center my-8">
+				<div className="w-48 h-48 md:w-64 md:h-64 rounded-full overflow-hidden border-4 border-teal-400 shadow-lg hover:shadow-xl transition-shadow duration-300">
+					<img
+						src="https://via.placeholder.com/256" // Replace with your profile picture URL
+						alt="Alex"
+						className="w-full h-full object-cover"
+					/>
+				</div>
+			</div>
+
+			{/* Introduction */}
+			<p className="text-center max-w-2xl mx-auto">
+				A passionate <span className="text-teal-400 font-semibold">Frontend Developer</span> and
+				<span className="text-indigo-400 font-semibold"> UI/UX Enthusiast</span> based in New York. 
+				I love turning ideas into beautiful, functional, and user-friendly experiences.
+			</p>
+
+			{/* Skills Section */}
+			<h2>What I Do</h2>
+			<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+				<div className="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+					<h3 className="text-2xl font-bold text-teal-400 mb-2">Web Development</h3>
+					<p className="text-gray-300">
+						Building responsive and dynamic websites using React, Tailwind CSS, and modern JavaScript.
+					</p>
+				</div>
+				<div className="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+					<h3 className="text-2xl font-bold text-indigo-400 mb-2">UI/UX Design</h3>
+					<p className="text-gray-300">
+						Crafting intuitive and visually appealing interfaces that enhance user experience.
+					</p>
+				</div>
+				<div className="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
+					<h3 className="text-2xl font-bold text-purple-400 mb-2">Open Source</h3>
+					<p className="text-gray-300">
+						Contributing to open-source projects and sharing knowledge with the developer community.
+					</p>
+				</div>
+			</div>
+
+			{/* Timeline Section */}
+			<h2>My Journey</h2>
+			<div className="space-y-8 relative">
+				{/* Timeline Line */}
+				<div className="absolute left-1/2 w-1 h-full bg-gray-700 transform -translate-x-1/2"></div>
+
+				{/* Timeline Item 1 */}
+				<div className="relative pl-8 md:pl-0 md:flex md:items-center md:justify-between">
+					<div className="md:w-5/12 md:pr-8">
+						<h3 className="text-xl font-bold text-teal-400">Started Coding</h3>
+						<p className="text-gray-300">2016</p>
+						<p className="text-gray-300">
+							I wrote my first "Hello, World!" program and fell in love with coding.
+						</p>
+					</div>
+					<div className="hidden md:block md:w-2/12 text-center">
+						<div className="w-6 h-6 bg-teal-400 rounded-full"></div>
+					</div>
+					<div className="md:w-5/12"></div>
+				</div>
+
+				{/* Timeline Item 2 */}
+				<div className="relative pl-8 md:pl-0 md:flex md:items-center md:justify-between">
+					<div className="md:w-5/12"></div>
+					<div className="hidden md:block md:w-2/12 text-center">
+						<div className="w-6 h-6 bg-indigo-400 rounded-full"></div>
+					</div>
+					<div className="md:w-5/12 md:pl-8">
+						<h3 className="text-xl font-bold text-indigo-400">First Job as a Developer</h3>
+						<p className="text-gray-300">2018</p>
+						<p className="text-gray-300">
+							Landed my first job as a junior developer and started building real-world applications.
+						</p>
+					</div>
+				</div>
+
+				{/* Timeline Item 3 */}
+				<div className="relative pl-8 md:pl-0 md:flex md:items-center md:justify-between">
+					<div className="md:w-5/12 md:pr-8">
+						<h3 className="text-xl font-bold text-purple-400">Open Source Contributor</h3>
+						<p className="text-gray-300">2020</p>
+						<p className="text-gray-300">
+							Started contributing to open-source projects and collaborating with developers worldwide.
+						</p>
+					</div>
+					<div className="hidden md:block md:w-2/12 text-center">
+						<div className="w-6 h-6 bg-purple-400 rounded-full"></div>
+					</div>
+					<div className="md:w-5/12"></div>
+				</div>
+			</div>
+
+			{/* Fun Facts Section */}
+			<h2>Fun Facts About Me</h2>
+			<ul className="list-disc list-inside space-y-2">
+				<li>I once built a website in 48 hours during a hackathon. ☕</li>
+				<li>I'm a coffee addict and a part-time barista. ☕</li>
+				<li>I love photography and often capture moments from my travels. 📸</li>
+				<li>I'm a huge fan of sci-fi movies and books. 🚀</li>
+				<li>I enjoy hiking and exploring nature in my free time. 🌲</li>
+			</ul>
+
+			{/* Call to Action */}
+			<div className="text-center mt-12">
+				<p className="text-xl text-gray-300 mb-4">
+					Want to work together or just say hi? Let's connect!
+				</p>
+				<a
+					href="/contact"
+					className="submit-button inline-block"
+				>
+					Get in Touch
+				</a>
+			</div>
+		</div>
+	);
+};
+
+export default AboutMe;

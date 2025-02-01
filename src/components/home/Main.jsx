@@ -35,7 +35,7 @@ function Main() {
 	return (
 		<main>
 			<div
-				className="flex justify-center items-center min-h-screen"
+				className="flex justify-center items-center sm:min-h-screen"
 				style={{
 					background: `linear-gradient(to top left, ${gradientStart} 0%, ${gradientEnd} 100%)`,
 					transition: 'background 0.3s ease' // Smooth transition for the gradient change

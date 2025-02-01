@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next';
 
 function UsefulLinks () {
 
-	const { t, i18n } = useTranslation();
+	const { t, i18n } = useTranslation ("home");
 	// Get the current language
 	const language = i18n.language;
 

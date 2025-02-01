@@ -4,7 +4,7 @@ import { useTranslation } from 'react-i18next';
 
 function FuncFats () {
 
-	const { t } = useTranslation();
+	const { t } = useTranslation ("other");
 
 	return (
 		<>
