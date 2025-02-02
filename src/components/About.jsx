@@ -2,6 +2,7 @@ import Navbar from "./general/Navbar.jsx";
 import Footer from "./general/Footer.jsx";
 import UsefulLinks from "./general/UsefulLinks.jsx";
 import TechCarousel from "./about/techsCarousel.jsx";
+import Projects from "./about/projects.jsx";
 import { useTranslation } from "react-i18next";
 
 function About() {
@@ -144,7 +145,7 @@ function About() {
 					<div className="flex items-center gap-4">
 						<div className="w-3 h-3 rounded-full bg-teal-400"></div>
 						<div>
-							<h4 className="text-xl font-semibold text-teal-400">
+							<h4 className="text-2xl font-semibold text-teal-400">
 								Programmation Graphique
 							</h4>
 							<p className="text-xl text-gray-300">
@@ -156,7 +157,7 @@ function About() {
 					<div className="flex items-center gap-4">
 						<div className="w-3 h-3 rounded-full bg-indigo-400"></div>
 						<div>
-							<h4 className="text-xl font-semibold text-indigo-400">
+							<h4 className="text-2xl font-semibold text-indigo-400">
 								Animations 3D
 							</h4>
 							<p className="text-xl text-gray-300">
@@ -168,7 +169,7 @@ function About() {
 					<div className="flex items-center gap-4">
 						<div className="w-3 h-3 rounded-full bg-purple-400"></div>
 						<div>
-							<h4 className="text-xl font-semibold text-purple-400">
+							<h4 className="text-2xl font-semibold text-purple-400">
 								Les Fondations du jeu en ligne
 							</h4>
 							<p className="text-xl text-gray-300">
@@ -177,13 +178,6 @@ function About() {
 						</div>
 					</div>
 				</div>
-
-				{/* Tech Stack Section */}
-				<p>
-					Voici une petite liste de toutes les technologies avec lequels j'ai eu de l'expérience, hésitez pas à me contacter si vous voulez collaborez pour un projet :)
-				</p>
-
-				  <TechCarousel techs={techs} />
 
 
 				{/* Timeline Section */}
@@ -211,6 +205,24 @@ function About() {
 						</div>
 					))}
 				</div>
+
+				{/* Project Section */}
+				<h2 className="text-2xl font-bold"> Projets </h2>
+
+				<p>
+					Voici trois projet que j'ai beaucoup aimé et qui m'ont aussi beaucoup appris, hésitez pas à jeter un coup d'oeuil !
+				</p>
+
+				<Projects/>
+
+
+				{/* Tech Stack Section */}
+				<p>
+					Voici une petite liste de toutes les technologies avec lequels j'ai eu de l'expérience, hésitez pas à me contacter si vous voulez collaborez pour un projet :)
+				</p>
+
+
+			  <TechCarousel techs={techs} />
 
 				{/* Useful Links Section */}
 				<h2 className="text-2xl font-bold">Useful Links</h2>
