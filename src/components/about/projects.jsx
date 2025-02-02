@@ -38,6 +38,41 @@ function Projects() {
 		"e-Commerce": "bg-pink-500"
 	};
 
+	const techs = [
+		{
+			title: "React",
+			color: "bg-teal-400"
+		},
+		{
+			title: "Node.js",
+			color: "bg-indigo-400"
+		},
+		{
+			title: "Python",
+			color: "bg-purple-400"
+		},
+		{
+			title: "JavaScript",
+			color: "bg-orange-400"
+		},
+		{
+			title: "CSS",
+			color: "bg-red-400"
+		},
+		{
+			title: "HTML",
+			color: "bg-yellow-400"
+		},
+		{
+			title: "Docker",
+			color: "bg-green-400"
+		},
+		{
+			title: "Git",
+			color: "bg-blue-400"
+		}
+	];
+
 	return (
 		<div className="space-y-8 p-8">
 			<div className="flex justify-around gap-8 flex-wrap">

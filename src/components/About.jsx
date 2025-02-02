@@ -3,6 +3,7 @@ import Footer from "./general/Footer.jsx";
 import UsefulLinks from "./general/UsefulLinks.jsx";
 import TechCarousel from "./about/techsCarousel.jsx";
 import Projects from "./about/projects.jsx";
+import Outils from "./about/Outils.jsx";
 import { useTranslation } from "react-i18next";
 
 function About() {
@@ -99,12 +100,18 @@ function About() {
 							Salut c'est Arthur !
 						</h1>
 						<p className="mt-4 text-xl text-gray-300">
-							Je me représente haha, étudiant en informatique qui adore  <span className="text-teal-400 font-semibold">Frontend Developer</span> and
-							<span className="text-indigo-400 font-semibold"> UI/UX Enthusiast</span> based in New York. 
-							I love turning ideas into beautiful, functional, and user-friendly experiences.
+							Curieux et créatif, j’aime relever des défis et explorer de nouvelles idées. Que ce soit dans le <span className="text-purple-400 font-semibold">développement de jeux vidéo</span> ou l’apprentissage de nouvelles compétences, je suis toujours à la recherche de projets stimulants.
+						</p>
+
+						<p className="mt-4 text-xl text-gray-300">
+							Actuellement <span className="text-teal-400 font-semibold"> développeur freelance </span>, je mets mon imagination et ma motivation au service de projets ambitieux. Toujours en quête de défis, je cherche à créer, innover et donner du sens à mon travail.
 						</p>
 					</div>
 				</div>
+
+				<p>
+				🚀 Ce qui me motive ? Créer, innover et donner du sens à ce que je fais, en alliant passion et engagement.
+				</p>
 
 				{/* Skills Section */}
 				<h2 className="text-2xl font-bold">
@@ -138,7 +145,7 @@ function About() {
 				</div>
 
 				<p>
-					Ce que je cherche à explorer aujourd'hui 🚀
+					Ce que je cherche à explorer aujourd'hui ✨
 				</p>
 
 				<div className="space-y-6">
@@ -206,13 +213,13 @@ function About() {
 					))}
 				</div>
 
-				{/* Project Section */}
-				<h2 className="text-2xl font-bold"> Projets </h2>
+				<h2 className="text-2xl font-bold"> Quelques Projets </h2>
 
 				<p>
 					Voici trois projet que j'ai beaucoup aimé et qui m'ont aussi beaucoup appris, hésitez pas à jeter un coup d'oeuil !
 				</p>
 
+				{/* Project Section */}
 				<Projects/>
 
 
@@ -221,8 +228,13 @@ function About() {
 					Voici une petite liste de toutes les technologies avec lequels j'ai eu de l'expérience, hésitez pas à me contacter si vous voulez collaborez pour un projet :)
 				</p>
 
+				<TechCarousel techs={techs} />
+				
+				<h2 className="text-2xl font-bold"> Mes Outils </h2>
+				
+				<Outils/>
 
-			  <TechCarousel techs={techs} />
+				<h2 className="text-2xl font-bold"> En dehors du code </h2>
 
 				{/* Useful Links Section */}
 				<h2 className="text-2xl font-bold">Useful Links</h2>
