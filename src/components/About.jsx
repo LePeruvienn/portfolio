@@ -4,9 +4,13 @@ import UsefulLinks from "./general/UsefulLinks.jsx";
 import TechCarousel from "./about/techsCarousel.jsx";
 import Projects from "./about/projects.jsx";
 import Outils from "./about/Outils.jsx";
+import Languages from "./about/Languages.jsx";
+import DropdownList from "./about/DropdownList.jsx";
+import Hobbys from "./about/Hobbys.jsx";
 import { useTranslation } from "react-i18next";
 
-function About() {
+function About () {
+
 	const { t, i18n } = useTranslation("about");
 
 	const timelineData = [
@@ -234,59 +238,34 @@ function About() {
 				
 				<Outils/>
 
-				<h2 className="text-2xl font-bold"> En dehors du code </h2>
+				<h2 className="mb-4 text-2xl font-bold"> En dehors du code </h2>
 
 				<p>
 					J'ai toujours aimé les ordinateur et depuis tout petit je m'amuse à créer des choses à l'aide ces machines. Grâce à cette curiosité qui m'animais chaque jour j'ai toucher à plein de logiciel qui m'ont permis de réaliser ce que je voulais.
 				</p>
 
-				<p>
+				<p className="mb-4">
 					Voici un peu à quoi tout ce que j'ai toucher
 				</p>
 
-				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-					<div className="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 flex items-center gap-6">
-						<div className="w-12 h-12 rounded-full bg-teal-400 flex items-center justify-center">
-						</div>
-						<div>
-							<h4 className="text-xl font-semibold text-teal-400">
-								Graphisme & Design
-							</h4>
-							<p className="text-gray-300">
-								blablablabla blabla
-							</p>
-						</div>
-					</div>
 
-					<div className="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 flex items-center gap-6">
-						<div className="w-12 h-12 rounded-full bg-indigo-400 flex items-center justify-center">
-						</div>
-						<div>
-							<h4 className="text-xl font-semibold text-indigo-400">
-								Edition vidéo
-							</h4>
-							<p className="text-gray-300">
-								blablablabla blabla
-							</p>
-						</div>
-					</div>
+				<DropdownList/>
 
-					<div className="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 flex items-center gap-6">
-						<div className="w-12 h-12 rounded-full bg-purple-400 flex items-center justify-center">
-						</div>
-						<div>
-							<h4 className="text-xl font-semibold text-purple-400">
-								Level Design
-							</h4>
-							<p className="text-gray-300">
-								blablablabla blabla
-							</p>
-						</div>
-					</div>
-				</div>
+				<h2> Langues </h2>
+
+				<p>
+					J'ai toujours apprécié apprendre les langue, issue d'un famille péruvienne j'ai alors depuis mon plus jeune age su parler Espagnol et cette double culture m'as données gout à découvrir de nouvelles langues ains que leurs culture.
+				</p>
+
+				<Languages/>
 
 				<h2 className="text-2xl font-bold"> Mes hobbys </h2>
 
+				<p>
+					Sinon comme tout le monde j'ai plein d'hobby en dehors de l'informatique comme par exemple ...
+				</p>
+
+				<Hobbys/>
 
 				{/* Useful Links Section */}
 				<h2 className="text-2xl font-bold">Useful Links</h2>
