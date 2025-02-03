@@ -58,11 +58,7 @@ function DropdownList () {
 								</div>
 							</div>
 							{/* Arrow Icon */}
-							{openIndex === index ? (
-								<FaChevronUp className="text-gray-400" size={20} />
-							) : (
-								<FaChevronDown className="text-gray-400" size={20} />
-							)}
+							<FaChevronUp className={`text-gray-400 ${openIndex === index ? "rotate-0" : "rotate-180"} transition`} size={20} />
 						</div>
 
 						{/* Dropdown Content with Animation */}

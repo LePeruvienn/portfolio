@@ -16,13 +16,13 @@ const languages = [
 	},
 	{ 
 		lang: "Anglais", 
-		level: "Très à l'aise", 
+		level: "C1", 
 		flag: "🇬🇧", 
 		color: "green-400"
 	},
 	{ 
 		lang: "Allemand", 
-		level: "Très basique", 
+		level: "A2", 
 		flag: "🇩🇪", 
 		color: "gray-400"
 	},
@@ -45,7 +45,7 @@ function LanguageCarousel() {
 						<h3 className={`text-2xl font-bold text-${language.color}`}>
 							{language.lang}
 						</h3>
-						<p className="text-gray-300 text-md">{language.level}</p>
+						<p className="font-bold text-gray-400 text-md">{language.level}</p>
 					</div>
 				))}
 			</div>
