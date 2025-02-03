@@ -236,6 +236,58 @@ function About() {
 
 				<h2 className="text-2xl font-bold"> En dehors du code </h2>
 
+				<p>
+					J'ai toujours aimé les ordinateur et depuis tout petit je m'amuse à créer des choses à l'aide ces machines. Grâce à cette curiosité qui m'animais chaque jour j'ai toucher à plein de logiciel qui m'ont permis de réaliser ce que je voulais.
+				</p>
+
+				<p>
+					Voici un peu à quoi tout ce que j'ai toucher
+				</p>
+
+				<div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+					<div className="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 flex items-center gap-6">
+						<div className="w-12 h-12 rounded-full bg-teal-400 flex items-center justify-center">
+						</div>
+						<div>
+							<h4 className="text-xl font-semibold text-teal-400">
+								Graphisme & Design
+							</h4>
+							<p className="text-gray-300">
+								blablablabla blabla
+							</p>
+						</div>
+					</div>
+
+					<div className="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 flex items-center gap-6">
+						<div className="w-12 h-12 rounded-full bg-indigo-400 flex items-center justify-center">
+						</div>
+						<div>
+							<h4 className="text-xl font-semibold text-indigo-400">
+								Edition vidéo
+							</h4>
+							<p className="text-gray-300">
+								blablablabla blabla
+							</p>
+						</div>
+					</div>
+
+					<div className="bg-gray-800 p-6 rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300 flex items-center gap-6">
+						<div className="w-12 h-12 rounded-full bg-purple-400 flex items-center justify-center">
+						</div>
+						<div>
+							<h4 className="text-xl font-semibold text-purple-400">
+								Level Design
+							</h4>
+							<p className="text-gray-300">
+								blablablabla blabla
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<h2 className="text-2xl font-bold"> Mes hobbys </h2>
+
+
 				{/* Useful Links Section */}
 				<h2 className="text-2xl font-bold">Useful Links</h2>
 				<p>In case you missed them on the home page ...</p>
