@@ -1,7 +1,43 @@
 import React, { useEffect, useRef, useState } from "react";
 import { motion, useAnimation } from "framer-motion";
 
-const TechCarousel = ({ techs }) => {
+function TechCarousel () {
+
+	const techs = [
+		{
+			title: "React",
+			color: "bg-teal-400"
+		},
+		{
+			title: "Node.js",
+			color: "bg-indigo-400"
+		},
+		{
+			title: "Python",
+			color: "bg-purple-400"
+		},
+		{
+			title: "JavaScript",
+			color: "bg-orange-400"
+		},
+		{
+			title: "CSS",
+			color: "bg-red-400"
+		},
+		{
+			title: "HTML",
+			color: "bg-yellow-400"
+		},
+		{
+			title: "Docker",
+			color: "bg-green-400"
+		},
+		{
+			title: "Git",
+			color: "bg-blue-400"
+		}
+	];
+
 
 	const carouselRef = useRef (null);
 	const [carouselWidth, setCarouselWidth] = useState (0);
