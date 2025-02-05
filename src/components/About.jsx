@@ -54,7 +54,7 @@ function About () {
 				🚀 Ce qui me motive ? Créer, innover et donner du sens à ce que je fais, en alliant passion et engagement.
 				</p>
 
-				{/* Skills Section */}
+				{/* Ce que j'aime Section */}
 				<h2 className="text-2xl font-bold">
 					Ce que j'aime faire
 				</h2>
@@ -89,6 +89,7 @@ function About () {
 					Ce que je cherche à explorer aujourd'hui ✨
 				</p>
 
+				{/* Explore Section */}
 				<Explore/>
 
 
