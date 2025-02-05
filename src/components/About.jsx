@@ -1,6 +1,7 @@
 import Navbar from "./general/Navbar.jsx";
 import Footer from "./general/Footer.jsx";
 import UsefulLinks from "./general/UsefulLinks.jsx";
+import Explore from "./about/Explore.jsx";
 import TechCarousel from "./about/techsCarousel.jsx";
 import Projects from "./about/projects.jsx";
 import Outils from "./about/Outils.jsx";
@@ -88,43 +89,7 @@ function About () {
 					Ce que je cherche à explorer aujourd'hui ✨
 				</p>
 
-				<div className="space-y-6">
-					<div className="flex items-center gap-4">
-						<div className="w-3 h-3 rounded-full bg-teal-400"></div>
-						<div>
-							<h4 className="text-2xl font-semibold text-teal-400">
-								Programmation Graphique
-							</h4>
-							<p className="text-xl text-gray-300">
-								blablablabla blabla
-							</p>
-						</div>
-					</div>
-
-					<div className="flex items-center gap-4">
-						<div className="w-3 h-3 rounded-full bg-indigo-400"></div>
-						<div>
-							<h4 className="text-2xl font-semibold text-indigo-400">
-								Animations 3D
-							</h4>
-							<p className="text-xl text-gray-300">
-								blablablabla blabla
-							</p>
-						</div>
-					</div>
-
-					<div className="flex items-center gap-4">
-						<div className="w-3 h-3 rounded-full bg-purple-400"></div>
-						<div>
-							<h4 className="text-2xl font-semibold text-purple-400">
-								IA et Cybersécurité
-							</h4>
-							<p className="text-xl text-gray-300">
-								blablablabla blabla
-							</p>
-						</div>
-					</div>
-				</div>
+				<Explore/>
 
 
 				{/* Timeline Section */}
@@ -192,9 +157,21 @@ function About () {
 
 				<Hobbys/>
 
+				{/* Last p */}
+
+				<h2 className="mt-8"> Merci ! </h2>
+
+				<p className ="mt-2">
+					Voila c'est tout pour ma présntation ! Hésitez pas à jeter un coup d'oeuil à mes projets si c'est pas déja fait ! 
+				</p>
+
 				{/* Useful Links Section */}
-				<h2 className="text-2xl font-bold">Useful Links</h2>
-				<p>In case you missed them on the home page ...</p>
+				<h2 className="text-2xl font-bold">
+					Liens Utiles
+				</h2>
+				<p>
+					In case you missed them on the home page ...
+				</p>
 				<UsefulLinks />
 			</div>
 			<Footer />
