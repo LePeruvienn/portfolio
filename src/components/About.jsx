@@ -2,6 +2,7 @@ import Navbar from "./general/Navbar.jsx";
 import Footer from "./general/Footer.jsx";
 import UsefulLinks from "./general/UsefulLinks.jsx";
 import Explore from "./about/Explore.jsx";
+import Future from "./about/Future.jsx"
 import TechCarousel from "./about/techsCarousel.jsx";
 import Projects from "./about/projects.jsx";
 import Outils from "./about/Outils.jsx";
@@ -103,6 +104,11 @@ function About () {
 				</div>
 
 				<Timeline/>
+
+				{/* Future Section */}
+				<h2 className="text-2xl font-bold mb-4">Et après ?</h2>
+
+				<Future/>
 
 				{/* Project Section */}
 				<h2 className="text-2xl font-bold"> Quelques Projets </h2>
