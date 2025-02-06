@@ -150,7 +150,10 @@ function About () {
 				<h2> Langues </h2>
 
 				<p>
-					J'ai toujours apprécié apprendre les langue, issue d'un famille péruvienne j'ai alors depuis mon plus jeune age su parler Espagnol et cette double culture m'as données gout à découvrir de nouvelles langues ains que leurs culture.
+					Je viens d’une famille <strong>péruvienne et française</strong>, et grâce à ma <strong>double nationalité</strong>, j’ai grandi en parlant <strong>espagnol et français</strong>, mes deux <strong>langues maternelles</strong>. Cette double culture m’a toujours donné envie de découvrir de nouvelles langues et de m’immerger dans des cultures différentes. À force de voyager dans différents pays, j'ai pris goût à m'intéresser à <strong>d'autres cultures</strong> ainsi qu'à leurs <strong>langues</strong>.
+				</p>
+				<p>
+					Voici une petite liste des langues que je parle (plus ou moins bien). Clique pour les découvrir !
 				</p>
 
 				<Languages/>

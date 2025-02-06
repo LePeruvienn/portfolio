@@ -21,8 +21,7 @@ const Future = () => {
 
 				{showMore && (
 					<p className="mt-2">
-						Par ailleurs, l'<span className="font-bold">enseignement</span> 
-						m'intéresse particulièrement, car transmettre des connaissances est une vocation 
+						Par ailleurs, l'<span className="font-bold">enseignement</span> m'intéresse particulièrement, car transmettre des connaissances est une vocation 
 						qui me tient à cœur. Toutefois, avant d'envisager un rôle d'enseignant, je souhaite 
 						d'abord construire ma propre carrière, que ce soit dans le secteur public ou privé. 
 						Acquérir une solide expérience professionnelle me permettra non seulement de mieux 
