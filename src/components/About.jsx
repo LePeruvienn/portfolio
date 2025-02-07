@@ -11,6 +11,7 @@ import DropdownList from "./about/DropdownList.jsx";
 import Hobbys from "./about/Hobbys.jsx";
 import Timeline from "./about/Timeline.jsx";
 import { useTranslation } from "react-i18next";
+import { Link } from "react-router-dom";
 
 function About () {
 
@@ -112,9 +113,11 @@ function About () {
 
 				{/* Project Section */}
 				<h2 className="text-2xl font-bold"> Quelques Projets </h2>
-
 				<p>
-					Voici trois projet que j'ai beaucoup aimé et qui m'ont aussi beaucoup appris, hésitez pas à jeter un coup d'oeuil !
+					J'ai réalisé de nombreux <strong>projets</strong> ces <strong>trois dernières années</strong>, que ce soit dans le cadre de <strong>mes études</strong> ou à titre <strong>personnel</strong>. Je me suis toujours <strong>donné à fond</strong> dans ce que j'entreprenais. Par exemple, j'ai été <strong>chef de projet</strong> lors de mon <strong>projet de dernière année</strong>, un <strong>jeu vidéo 3D multijoueur</strong> en développement. J'occupais alors le rôle de <strong>Scrum Master</strong> dans l'équipe, j'aime bien porter ce genre de role dans les projets
+				</p>
+				<p>
+					Je vous présente ici <strong>trois projets</strong> que j'ai trouvés <strong>cool</strong> ! N'hésitez pas à aller <strong>jeter un coup d'œil</strong> à la section <Link to="/projects#">Projets</Link>, où vous pourrez découvrir <strong>d'autres réalisations</strong>.
 				</p>
 
 				<Projects/>
@@ -153,7 +156,7 @@ function About () {
 					Je viens d’une famille <strong>péruvienne et française</strong>, et grâce à ma <strong>double nationalité</strong>, j’ai grandi en parlant <strong>espagnol et français</strong>, mes deux <strong>langues maternelles</strong>. Cette double culture m’a toujours donné envie de découvrir de nouvelles langues et de m’immerger dans des cultures différentes. À force de voyager dans différents pays, j'ai pris goût à m'intéresser à <strong>d'autres cultures</strong> ainsi qu'à leurs <strong>langues</strong>.
 				</p>
 				<p>
-					Voici une petite liste des langues que je parle (plus ou moins bien). Clique pour les découvrir !
+					Voici une petite liste des langues que je parle (plus ou moins bien). <strong>Clique pour les découvrir</strong> !
 				</p>
 
 				<Languages/>
