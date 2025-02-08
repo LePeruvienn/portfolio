@@ -1,12 +1,11 @@
 import Navbar from './general/Navbar.jsx';
 import Footer from './general/Footer.jsx';
 import Project from './projects/Project.jsx';
+import projects from "../assets/datas/projects.json"
 import { useTranslation } from 'react-i18next';
 
 // Importing projects data
 import projectsData from "../assets/datas/projects.json" // Import the JSON data
-
-
 
 function Projects () {
 
@@ -18,27 +17,19 @@ function Projects () {
 			<div className="md-container">
 
 				<h1 className="text-6xl text-white">
-					{ t ("projects") }
+					Mes Projets
 				</h1>
 				
 				<p>
-					Here is a selection of the projects that i have been working on. Starting with the most recents !
+					Voila les différents travaux que j'ai réaliser durant ma vie ! Il ya pas mal de truc donc hésitez pas à filtrer les projets qui vont intéresse.
 				</p>
 
-				<div className="mt-10">
+				<div className="space-y-10">
 
-					{/* Generating projects components */}
-					{projectsData.projects.map((project, index) => (
-						<div key={index} className="mt-10">
-							<Project
-								name={project.name}
-								year={project.year}
-								description={project.description}
-								links={project.links}
-								image={`/portfolio/${project.image}`}
-							/>
-						</div>
+					{projects.map((project, index) => (
+						<Project key={index} project={project} />
 					))}
+
 				</div>
 
 				<p className="mt-20">
