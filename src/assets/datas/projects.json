@@ -1,18 +1,18 @@
 [
 	{
-		"title": "Jeu de Plateforme 2D",
-		"date": "2023",
+		"title": "Portfolio",
+		"date": "2025",
 		"images": ["/portfolio/img/project1-1.png", "/portfolio/img/project1-2.png"],
 		"sections": {
-			"Description": "Un jeu de plateforme développé en JavaScript avec un moteur personnalisé et des mécaniques inspirées de Celeste.",
-			"Défis": "Optimiser la physique du jeu et rendre le gameplay fluide sur navigateur.",
-			"Apprentissage": "Maitrise du Canvas API et amélioration des performances en JavaScript."
+			"Description": "Mon site internet ! Et oui celui dont vous etes actuellement en train de naviguer, c'est toujours quelque chose que j'ai voulu faire, je l'ai réaliser à l'occasion de mes candidatures lors de ma poursuite d'études, j'espère qu'il vous plait !",
+			"Plus d'infos": "J'ai vraiment voulu que ce site ne soit pas juste un bout de papier que tout le monde lit à peine donc j'ai passer beaucoup de temps à essayer de le donner vie et de faire en sorte qu'il re transcrisse bien ma personnalité.",
+			"Liens": "Maitrise du Canvas API et amélioration des performances en JavaScript."
 		},
-		"tech": ["JavaScript", "Canvas API", "WebGL"],
+		"tech": ["JavaScript", "Canvas API"],
 		"color": "teal-400"
 	},
 	{
-		"title": "Dashboard de Monitoring",
+		"title": "FEURnite",
 		"date": "2024",
 		"images": ["/portfolio/img/project2-1.png", "/portfolio/img/project2-2.png"],
 		"sections": {
@@ -20,11 +20,167 @@
 			"Défis": "Gestion efficace des requêtes API et rafraîchissement des données en direct.",
 			"Apprentissage": "Expérience approfondie en WebSockets et React Hooks."
 		},
-		"tech": ["React", "Node.js", "MongoDB"],
+		"tech": ["React", "Node.js"],
 		"color": "indigo-400"
 	},
 	{
-		"title": "Jeu Multijoueur Web",
+		"title": "Amour en images",
+		"date": "2025",
+		"images": ["/portfolio/img/project3-1.png", "/portfolio/img/project3-2.png"],
+		"sections": {
+			"Description": "Développement d'un jeu en ligne massivement multijoueur avec serveur dédié et gameplay dynamique.",
+			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",
+			"Apprentissage": "Maitrise des serveurs dédiés et des protocoles réseaux pour les jeux en ligne."
+		},
+		"tech": ["Unity", "Photon", "C#"],
+		"color": "purple-400"
+	},
+	{
+		"title": "Analyse de données sémantique",
+		"date": "2025",
+		"images": ["/portfolio/img/project3-1.png", "/portfolio/img/project3-2.png"],
+		"sections": {
+			"Description": "Développement d'un jeu en ligne massivement multijoueur avec serveur dédié et gameplay dynamique.",
+			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",
+			"Apprentissage": "Maitrise des serveurs dédiés et des protocoles réseaux pour les jeux en ligne."
+		},
+		"tech": ["Unity", "Photon", "C#"],
+		"color": "purple-400"
+	},
+	{
+		"title": "Empanadas !",
+		"date": "2025",
+		"images": ["/portfolio/img/project3-1.png", "/portfolio/img/project3-2.png"],
+		"sections": {
+			"Description": "Développement d'un jeu en ligne massivement multijoueur avec serveur dédié et gameplay dynamique.",
+			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",
+			"Apprentissage": "Maitrise des serveurs dédiés et des protocoles réseaux pour les jeux en ligne."
+		},
+		"tech": ["Unity", "Photon", "C#"],
+		"color": "purple-400"
+	},
+	{
+		"title": "Fabiola PINEL",
+		"date": "2025",
+		"images": ["/portfolio/img/project3-1.png", "/portfolio/img/project3-2.png"],
+		"sections": {
+			"Description": "Développement d'un jeu en ligne massivement multijoueur avec serveur dédié et gameplay dynamique.",
+			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",
+			"Apprentissage": "Maitrise des serveurs dédiés et des protocoles réseaux pour les jeux en ligne."
+		},
+		"tech": ["Unity", "Photon", "C#"],
+		"color": "purple-400"
+	},
+	{
+		"title": "Zombie Math",
+		"date": "2025",
+		"images": ["/portfolio/img/project3-1.png", "/portfolio/img/project3-2.png"],
+		"sections": {
+			"Description": "Développement d'un jeu en ligne massivement multijoueur avec serveur dédié et gameplay dynamique.",
+			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",
+			"Apprentissage": "Maitrise des serveurs dédiés et des protocoles réseaux pour les jeux en ligne."
+		},
+		"tech": ["Unity", "Photon", "C#"],
+		"color": "purple-400"
+	},
+	{
+		"title": "Administration réseau",
+		"date": "2025",
+		"images": ["/portfolio/img/project3-1.png", "/portfolio/img/project3-2.png"],
+		"sections": {
+			"Description": "Développement d'un jeu en ligne massivement multijoueur avec serveur dédié et gameplay dynamique.",
+			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",
+			"Apprentissage": "Maitrise des serveurs dédiés et des protocoles réseaux pour les jeux en ligne."
+		},
+		"tech": ["Unity", "Photon", "C#"],
+		"color": "purple-400"
+	},
+	{
+		"title": "Platformer 2D",
+		"date": "2025",
+		"images": ["/portfolio/img/project3-1.png", "/portfolio/img/project3-2.png"],
+		"sections": {
+			"Description": "Développement d'un jeu en ligne massivement multijoueur avec serveur dédié et gameplay dynamique.",
+			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",
+			"Apprentissage": "Maitrise des serveurs dédiés et des protocoles réseaux pour les jeux en ligne."
+		},
+		"tech": ["Unity", "Photon", "C#"],
+		"color": "purple-400"
+	},
+	{
+		"title": "FEUR Pizza",
+		"date": "2025",
+		"images": ["/portfolio/img/project3-1.png", "/portfolio/img/project3-2.png"],
+		"sections": {
+			"Description": "Développement d'un jeu en ligne massivement multijoueur avec serveur dédié et gameplay dynamique.",
+			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",
+			"Apprentissage": "Maitrise des serveurs dédiés et des protocoles réseaux pour les jeux en ligne."
+		},
+		"tech": ["Unity", "Photon", "C#"],
+		"color": "purple-400"
+	},
+	{
+		"title": "Genshin DLE",
+		"date": "2025",
+		"images": ["/portfolio/img/project3-1.png", "/portfolio/img/project3-2.png"],
+		"sections": {
+			"Description": "Développement d'un jeu en ligne massivement multijoueur avec serveur dédié et gameplay dynamique.",
+			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",
+			"Apprentissage": "Maitrise des serveurs dédiés et des protocoles réseaux pour les jeux en ligne."
+		},
+		"tech": ["Unity", "Photon", "C#"],
+		"color": "purple-400"
+	},
+	{
+		"title": "Serveur Apache",
+		"date": "2025",
+		"images": ["/portfolio/img/project3-1.png", "/portfolio/img/project3-2.png"],
+		"sections": {
+			"Description": "Développement d'un jeu en ligne massivement multijoueur avec serveur dédié et gameplay dynamique.",
+			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",
+			"Apprentissage": "Maitrise des serveurs dédiés et des protocoles réseaux pour les jeux en ligne."
+		},
+		"tech": ["Unity", "Photon", "C#"],
+		"color": "purple-400"
+	},
+	{
+		"title": "C Snake",
+		"date": "2025",
+		"images": ["/portfolio/img/project3-1.png", "/portfolio/img/project3-2.png"],
+		"sections": {
+			"Description": "Développement d'un jeu en ligne massivement multijoueur avec serveur dédié et gameplay dynamique.",
+			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",
+			"Apprentissage": "Maitrise des serveurs dédiés et des protocoles réseaux pour les jeux en ligne."
+		},
+		"tech": ["Unity", "Photon", "C#"],
+		"color": "purple-400"
+	},
+	{
+		"title": "Trello Lite",
+		"date": "2025",
+		"images": ["/portfolio/img/project3-1.png", "/portfolio/img/project3-2.png"],
+		"sections": {
+			"Description": "Développement d'un jeu en ligne massivement multijoueur avec serveur dédié et gameplay dynamique.",
+			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",
+			"Apprentissage": "Maitrise des serveurs dédiés et des protocoles réseaux pour les jeux en ligne."
+		},
+		"tech": ["Unity", "Photon", "C#"],
+		"color": "purple-400"
+	},
+	{
+		"title": "Jeu de carte",
+		"date": "2025",
+		"images": ["/portfolio/img/project3-1.png", "/portfolio/img/project3-2.png"],
+		"sections": {
+			"Description": "Développement d'un jeu en ligne massivement multijoueur avec serveur dédié et gameplay dynamique.",
+			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",
+			"Apprentissage": "Maitrise des serveurs dédiés et des protocoles réseaux pour les jeux en ligne."
+		},
+		"tech": ["Unity", "Photon", "C#"],
+		"color": "purple-400"
+	},
+	{
+		"title": "To the Backs",
 		"date": "2025",
 		"images": ["/portfolio/img/project3-1.png", "/portfolio/img/project3-2.png"],
 		"sections": {

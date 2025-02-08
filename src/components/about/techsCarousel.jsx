@@ -1,43 +1,10 @@
 import React, { useEffect, useRef, useState } from "react";
+import techsColor from "../../assets/datas/techsColor.json"
 import { motion, useAnimation } from "framer-motion";
 
 function TechCarousel () {
 
-	const techs = [
-		{
-			title: "React",
-			color: "bg-teal-400"
-		},
-		{
-			title: "Node.js",
-			color: "bg-indigo-400"
-		},
-		{
-			title: "Python",
-			color: "bg-purple-400"
-		},
-		{
-			title: "JavaScript",
-			color: "bg-orange-400"
-		},
-		{
-			title: "CSS",
-			color: "bg-red-400"
-		},
-		{
-			title: "HTML",
-			color: "bg-yellow-400"
-		},
-		{
-			title: "Docker",
-			color: "bg-green-400"
-		},
-		{
-			title: "Git",
-			color: "bg-blue-400"
-		}
-	];
-
+	const techs = [ "React", "Node.js", "Python", "JavaScript", "CSS", "HTML", "Git"];
 
 	const carouselRef = useRef (null);
 	const [carouselWidth, setCarouselWidth] = useState (0);
@@ -73,12 +40,12 @@ function TechCarousel () {
 				className="flex"
 				animate={controls}
 			>
-				{duplicatedTechs.map(({ title, color }, index) => (
+				{duplicatedTechs.map((name,  index) => (
 					<motion.div
 						key={index}
-						className={`${color} p-6 rounded-lg shadow-lg text-center hover:scale-110 transition-all duration-300 w-32 sm:w-64 flex-shrink-0 mx-4`}
+						className={`${techsColor[name].bg} p-6 rounded-lg shadow-lg text-center hover:scale-110 transition-all duration-300 w-32 sm:w-64 flex-shrink-0 mx-4`}
 					>
-						<h3 className="text-xl font-semibold text-white">{title}</h3>
+						<h3 className="text-xl font-semibold text-white">{name}</h3>
 					</motion.div>
 				))}
 			</motion.div>

@@ -2,6 +2,8 @@ import { useState } from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import { motion } from "framer-motion";
 
+import techsColor from "../../assets/datas/techsColor.json"
+
 function Project ( { project } ) {
 
 	const [currentImage, setCurrentImage] = useState(0);
@@ -47,8 +49,8 @@ function Project ( { project } ) {
 
 			{/* Contenu du projet avec sections cliquables */}
 			<div className="p-6 md:w-3/5 flex flex-col">
-				<h3 className={`text-3xl font-bold text-${project.color}`}>{project.title}</h3>
-				<p className="text-gray-400 font-semibold text-lg">{project.date}</p>
+				<h3 className={`text-3xl font-bold text-gray-200`}>{project.title}</h3>
+				<p className="text-gray-400 font-semibold text-xl">{project.date}</p>
 
 				{/* Navigation entre sections */}
 				<div className="flex space-x-4 mt-4 border-b border-gray-600 pb-2">
@@ -81,7 +83,7 @@ function Project ( { project } ) {
 					{project.tech.map((tech, index) => (
 						<motion.span 
 							key={index} 
-							className={`px-4 py-2 text-sm font-semibold bg-${project.color} text-gray-900 rounded-lg shadow-md`}
+							className={`px-4 py-2 text-sm font-semibold ${techsColor[tech]?.bg} text-gray-200 rounded-lg shadow-md`}
 							whileHover={{ scale: 1.1 }}
 						>
 							{tech}

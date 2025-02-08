@@ -6,6 +6,11 @@ export default {
 	],
 	theme: {
 		extend: {
+			colors: {
+				purple: {
+					600: '#7c3aed',
+				},
+			},
 			borderWidth: {
 				'1': '1px',
 			},
