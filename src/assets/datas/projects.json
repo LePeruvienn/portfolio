@@ -8,7 +8,7 @@
 			"Plus d'infos": "J'ai vraiment voulu que ce site ne soit pas juste un bout de papier que tout le monde lit à peine donc j'ai passer beaucoup de temps à essayer de le donner vie et de faire en sorte qu'il re transcrisse bien ma personnalité.",
 			"Liens": "Maitrise du Canvas API et amélioration des performances en JavaScript."
 		},
-		"tech": ["JavaScript", "Canvas API"],
+		"tech": ["JavaScript","React", "Tailwind CSS", "Git"],
 		"color": "teal-400"
 	},
 	{
@@ -20,7 +20,7 @@
 			"Défis": "Gestion efficace des requêtes API et rafraîchissement des données en direct.",
 			"Apprentissage": "Expérience approfondie en WebSockets et React Hooks."
 		},
-		"tech": ["React", "Node.js"],
+		"tech": ["Unity", "Photon", "C#", "Git"],
 		"color": "indigo-400"
 	},
 	{
@@ -32,7 +32,7 @@
 			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",
 			"Apprentissage": "Maitrise des serveurs dédiés et des protocoles réseaux pour les jeux en ligne."
 		},
-		"tech": ["Unity", "Photon", "C#"],
+		"tech": ["JavaScript", "React", "Python", "Django", "Tailwind CSS", "SQL", "Git"],
 		"color": "purple-400"
 	},
 	{
@@ -44,7 +44,7 @@
 			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",
 			"Apprentissage": "Maitrise des serveurs dédiés et des protocoles réseaux pour les jeux en ligne."
 		},
-		"tech": ["Unity", "Photon", "C#"],
+		"tech": ["JavaScript", "Angular", "Graph DB", "SPARQL", "Git"],
 		"color": "purple-400"
 	},
 	{
@@ -56,7 +56,7 @@
 			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",
 			"Apprentissage": "Maitrise des serveurs dédiés et des protocoles réseaux pour les jeux en ligne."
 		},
-		"tech": ["Unity", "Photon", "C#"],
+		"tech": ["HTML", "CSS", "Python", "Django", "SQL", "Git"],
 		"color": "purple-400"
 	},
 	{
@@ -68,7 +68,7 @@
 			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",
 			"Apprentissage": "Maitrise des serveurs dédiés et des protocoles réseaux pour les jeux en ligne."
 		},
-		"tech": ["Unity", "Photon", "C#"],
+		"tech": ["JavaScript", "React", "Tailwind CSS", "Git"],
 		"color": "purple-400"
 	},
 	{
@@ -80,7 +80,7 @@
 			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",
 			"Apprentissage": "Maitrise des serveurs dédiés et des protocoles réseaux pour les jeux en ligne."
 		},
-		"tech": ["Unity", "Photon", "C#"],
+		"tech": ["Unity", "C#", "Git"],
 		"color": "purple-400"
 	},
 	{
@@ -92,7 +92,7 @@
 			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",
 			"Apprentissage": "Maitrise des serveurs dédiés et des protocoles réseaux pour les jeux en ligne."
 		},
-		"tech": ["Unity", "Photon", "C#"],
+		"tech": ["Linux", "Shell", "Réseaux"],
 		"color": "purple-400"
 	},
 	{
@@ -104,7 +104,7 @@
 			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",
 			"Apprentissage": "Maitrise des serveurs dédiés et des protocoles réseaux pour les jeux en ligne."
 		},
-		"tech": ["Unity", "Photon", "C#"],
+		"tech": ["JavaScript", "Canvas API"],
 		"color": "purple-400"
 	},
 	{
@@ -116,7 +116,7 @@
 			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",
 			"Apprentissage": "Maitrise des serveurs dédiés et des protocoles réseaux pour les jeux en ligne."
 		},
-		"tech": ["Unity", "Photon", "C#"],
+		"tech": ["HTML", "CSS", "PHP", "JAVA", "SQL"],
 		"color": "purple-400"
 	},
 	{
@@ -128,7 +128,7 @@
 			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",
 			"Apprentissage": "Maitrise des serveurs dédiés et des protocoles réseaux pour les jeux en ligne."
 		},
-		"tech": ["Unity", "Photon", "C#"],
+		"tech": ["HTML", "CSS", "JavaScript", "PHP"],
 		"color": "purple-400"
 	},
 	{
@@ -140,7 +140,7 @@
 			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",
 			"Apprentissage": "Maitrise des serveurs dédiés et des protocoles réseaux pour les jeux en ligne."
 		},
-		"tech": ["Unity", "Photon", "C#"],
+		"tech": ["Linux", "Apache"],
 		"color": "purple-400"
 	},
 	{
@@ -152,7 +152,7 @@
 			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",
 			"Apprentissage": "Maitrise des serveurs dédiés et des protocoles réseaux pour les jeux en ligne."
 		},
-		"tech": ["Unity", "Photon", "C#"],
+		"tech": ["C/C++"],
 		"color": "purple-400"
 	},
 	{
@@ -164,7 +164,7 @@
 			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",
 			"Apprentissage": "Maitrise des serveurs dédiés et des protocoles réseaux pour les jeux en ligne."
 		},
-		"tech": ["Unity", "Photon", "C#"],
+		"tech": ["Java"],
 		"color": "purple-400"
 	},
 	{
@@ -176,7 +176,7 @@
 			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",
 			"Apprentissage": "Maitrise des serveurs dédiés et des protocoles réseaux pour les jeux en ligne."
 		},
-		"tech": ["Unity", "Photon", "C#"],
+		"tech": ["C/C++", "Replit"],
 		"color": "purple-400"
 	},
 	{
@@ -188,7 +188,7 @@
 			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",
 			"Apprentissage": "Maitrise des serveurs dédiés et des protocoles réseaux pour les jeux en ligne."
 		},
-		"tech": ["Unity", "Photon", "C#"],
+		"tech": ["HTML", "CSS"],
 		"color": "purple-400"
 	}
 ]
