@@ -2,7 +2,7 @@
 	{
 		"title": "Portfolio",
 		"date": "2025",
-		"images": ["/portfolio/img/project1-1.png", "/portfolio/img/project1-2.png"],
+		"images": ["/portfolio/img/projets/portfolio-1.png", "/portfolio/img/projets/portfolio-2.png"],
 		"sections": {
 			"Description": "Mon site internet ! Et oui celui dont vous etes actuellement en train de naviguer, c'est toujours quelque chose que j'ai voulu faire, je l'ai réaliser à l'occasion de mes candidatures lors de ma poursuite d'études, j'espère qu'il vous plait !",
 			"Plus d'infos": "J'ai vraiment voulu que ce site ne soit pas juste un bout de papier que tout le monde lit à peine donc j'ai passer beaucoup de temps à essayer de le donner vie et de faire en sorte qu'il re transcrisse bien ma personnalité.",
@@ -14,7 +14,7 @@
 	{
 		"title": "FEURnite",
 		"date": "2024",
-		"images": ["/portfolio/img/project2-1.png", "/portfolio/img/project2-2.png"],
+		"images": ["/portfolio/img/projets/feurnite-1.png", "/portfolio/img/projets/feurnite-2.png", "/portfolio/img/projets/feurnite-3.png", "/portfolio/img/projets/feurnite-4.png", "/portfolio/img/projets/feurnite-5.png"],
 		"sections": {
 			"Description": "Un tableau de bord interactif permettant de surveiller des performances serveur en temps réel.",
 			"Défis": "Gestion efficace des requêtes API et rafraîchissement des données en direct.",
@@ -38,7 +38,7 @@
 	{
 		"title": "Analyse de données sémantique",
 		"date": "2025",
-		"images": ["/portfolio/img/project3-1.png", "/portfolio/img/project3-2.png"],
+		"images": ["/portfolio/img/projets/semantique-1.png", "/portfolio/img/projets/semantique-2.png", "/portfolio/img/projets/semantique-3.png"],
 		"sections": {
 			"Description": "Développement d'un jeu en ligne massivement multijoueur avec serveur dédié et gameplay dynamique.",
 			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",
@@ -50,7 +50,7 @@
 	{
 		"title": "Empanadas !",
 		"date": "2025",
-		"images": ["/portfolio/img/project3-1.png", "/portfolio/img/project3-2.png"],
+		"images": ["/portfolio/img/projets/empanadas-1.png", "/portfolio/img/projets/empanadas-2.png", "/portfolio/img/projets/empanadas-3.png"],
 		"sections": {
 			"Description": "Développement d'un jeu en ligne massivement multijoueur avec serveur dédié et gameplay dynamique.",
 			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",
@@ -62,7 +62,7 @@
 	{
 		"title": "Fabiola PINEL",
 		"date": "2025",
-		"images": ["/portfolio/img/project3-1.png", "/portfolio/img/project3-2.png"],
+		"images": ["/portfolio/img/projets/fabiola-1.png", "/portfolio/img/projets/fabiola-2.png"],
 		"sections": {
 			"Description": "Développement d'un jeu en ligne massivement multijoueur avec serveur dédié et gameplay dynamique.",
 			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",
@@ -74,7 +74,7 @@
 	{
 		"title": "Zombie Math",
 		"date": "2025",
-		"images": ["/portfolio/img/project3-1.png", "/portfolio/img/project3-2.png"],
+		"images": ["/portfolio/img/projets/zombiemath-1.png", "/portfolio/img/projets/zombiemath-2.png", "/portfolio/img/projets/zombiemath-3.png", "/portfolio/img/projets/zombiemath-4.png", "/portfolio/img/projets/zombiemath-5.png"],
 		"sections": {
 			"Description": "Développement d'un jeu en ligne massivement multijoueur avec serveur dédié et gameplay dynamique.",
 			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",
@@ -86,7 +86,7 @@
 	{
 		"title": "Administration réseau",
 		"date": "2025",
-		"images": ["/portfolio/img/project3-1.png", "/portfolio/img/project3-2.png"],
+		"images": ["/portfolio/img/projets/marionet-1.png", "/portfolio/img/projets/marionet-2.png"],
 		"sections": {
 			"Description": "Développement d'un jeu en ligne massivement multijoueur avec serveur dédié et gameplay dynamique.",
 			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",
@@ -98,7 +98,7 @@
 	{
 		"title": "Platformer 2D",
 		"date": "2025",
-		"images": ["/portfolio/img/project3-1.png", "/portfolio/img/project3-2.png"],
+		"images": ["/portfolio/img/projets/platformer-1.png", "/portfolio/img/projets/platformer-2.png"],
 		"sections": {
 			"Description": "Développement d'un jeu en ligne massivement multijoueur avec serveur dédié et gameplay dynamique.",
 			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",
@@ -110,7 +110,7 @@
 	{
 		"title": "FEUR Pizza",
 		"date": "2025",
-		"images": ["/portfolio/img/project3-1.png", "/portfolio/img/project3-2.png"],
+		"images": ["/portfolio/img/projets/pizza-1.png", "/portfolio/img/projets/pizza-2.png"],
 		"sections": {
 			"Description": "Développement d'un jeu en ligne massivement multijoueur avec serveur dédié et gameplay dynamique.",
 			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",
@@ -134,7 +134,7 @@
 	{
 		"title": "Serveur Apache",
 		"date": "2025",
-		"images": ["/portfolio/img/project3-1.png", "/portfolio/img/project3-2.png"],
+		"images": ["/portfolio/img/projets/apache-1.png", "portfolio/img/projets/apache-2.png"],
 		"sections": {
 			"Description": "Développement d'un jeu en ligne massivement multijoueur avec serveur dédié et gameplay dynamique.",
 			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",
@@ -146,7 +146,7 @@
 	{
 		"title": "C Snake",
 		"date": "2025",
-		"images": ["/portfolio/img/project3-1.png", "/portfolio/img/project3-2.png"],
+		"images": ["/portfolio/img/projets/snake-1.png", "/portfolio/img/projets/snake-2.png"],
 		"sections": {
 			"Description": "Développement d'un jeu en ligne massivement multijoueur avec serveur dédié et gameplay dynamique.",
 			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",
@@ -158,7 +158,7 @@
 	{
 		"title": "Trello Lite",
 		"date": "2025",
-		"images": ["/portfolio/img/project3-1.png", "/portfolio/img/project3-2.png"],
+		"images": ["/portfolio/img/projets/trello-1.png", "/portfolio/img/projets/trello-2.png"],
 		"sections": {
 			"Description": "Développement d'un jeu en ligne massivement multijoueur avec serveur dédié et gameplay dynamique.",
 			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",
@@ -170,7 +170,7 @@
 	{
 		"title": "Jeu de carte",
 		"date": "2025",
-		"images": ["/portfolio/img/project3-1.png", "/portfolio/img/project3-2.png"],
+		"images": ["/portfolio/img/projets/cartes-1.png", "/portfolio/img/projets/cartes-2.png", "/portfolio/img/projets/cartes-3.png"],
 		"sections": {
 			"Description": "Développement d'un jeu en ligne massivement multijoueur avec serveur dédié et gameplay dynamique.",
 			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",
@@ -182,7 +182,7 @@
 	{
 		"title": "To the Backs",
 		"date": "2025",
-		"images": ["/portfolio/img/project3-1.png", "/portfolio/img/project3-2.png"],
+		"images": ["/portfolio/img/projets/backs-1.png", "/portfolio/img/projets/backs-2.png", "/portfolio/img/projets/backs-3.png"],
 		"sections": {
 			"Description": "Développement d'un jeu en ligne massivement multijoueur avec serveur dédié et gameplay dynamique.",
 			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",

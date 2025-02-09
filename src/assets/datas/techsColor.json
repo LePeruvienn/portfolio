@@ -1,13 +1,18 @@
 {
 	"React": {
-		"bg": "bg-teal-400",
-		"text": "text-teal-400",
-		"border": "border-teal-400"
+		"bg": "bg-blue-400",
+		"text": "text-blue-400",
+		"border": "border-blue-400"
+	},
+	"Graph DB": {
+		"bg": "bg-blue-400",
+		"text": "text-blue-400",
+		"border": "border-blue-400"
 	},
 	"Node.js": {
-		"bg": "bg-indigo-400",
-		"text": "text-indigo-400",
-		"border": "border-indigo-400"
+		"bg": "bg-green-400",
+		"text": "text-green-400",
+		"border": "border-green-400"
 	},
 	"Python": {
 		"bg": "bg-purple-400",
@@ -30,24 +35,24 @@
 		"border": "border-yellow-400"
 	},
 	"Docker": {
-		"bg": "bg-green-400",
-		"text": "text-green-400",
-		"border": "border-green-400"
-	},
-	"Git": {
 		"bg": "bg-blue-400",
 		"text": "text-blue-400",
 		"border": "border-blue-400"
 	},
+	"Git": {
+		"bg": "bg-red-400",
+		"text": "text-red-400",
+		"border": "border-red-400"
+	},
 	"SPARQL": {
-		"bg": "bg-pink-400",
-		"text": "text-pink-400",
-		"border": "border-pink-400"
+		"bg": "bg-green-400",
+		"text": "text-green-400",
+		"border": "border-green-400"
 	},
 	"Angular": {
-		"bg": "bg-red-500",
-		"text": "text-red-500",
-		"border": "border-red-500"
+		"bg": "bg-red-400",
+		"text": "text-red-400",
+		"border": "border-red-400"
 	},
 	"Django": {
 		"bg": "bg-green-500",
@@ -70,9 +75,9 @@
 		"border": "border-gray-700"
 	},
 	"Tailwind CSS": {
-		"bg": "bg-cyan-400",
-		"text": "text-cyan-400",
-		"border": "border-cyan-400"
+		"bg": "bg-teal-400",
+		"text": "text-teal-400",
+		"border": "border-teal-400"
 	},
 	"TypeScript": {
 		"bg": "bg-blue-500",
@@ -85,9 +90,9 @@
 		"border": "border-orange-500"
 	},
 	"SQL": {
-		"bg": "bg-indigo-600",
-		"text": "text-indigo-600",
-		"border": "border-indigo-600"
+		"bg": "bg-indigo-400",
+		"text": "text-indigo-400",
+		"border": "border-indigo-400"
 	},
 	"Shell": {
 		"bg": "bg-gray-800",
@@ -95,9 +100,9 @@
 		"border": "border-gray-800"
 	},
 	"JAVA": {
-		"bg": "bg-red-600",
-		"text": "text-red-600",
-		"border": "border-red-600"
+		"bg": "bg-orange-400",
+		"text": "text-orange-400",
+		"border": "border-orange-400"
 	},
 	"Photon": {
 		"bg": "bg-blue-400",
