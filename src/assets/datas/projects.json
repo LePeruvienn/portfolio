@@ -140,7 +140,7 @@
 			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",
 			"Apprentissage": "Maitrise des serveurs dédiés et des protocoles réseaux pour les jeux en ligne."
 		},
-		"tech": ["Linux", "Apache"],
+		"tech": ["Linux", "Réseaux"],
 		"color": "purple-400"
 	},
 	{
@@ -164,7 +164,7 @@
 			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",
 			"Apprentissage": "Maitrise des serveurs dédiés et des protocoles réseaux pour les jeux en ligne."
 		},
-		"tech": ["Java"],
+		"tech": ["JAVA"],
 		"color": "purple-400"
 	},
 	{
@@ -176,7 +176,7 @@
 			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",
 			"Apprentissage": "Maitrise des serveurs dédiés et des protocoles réseaux pour les jeux en ligne."
 		},
-		"tech": ["C/C++", "Replit"],
+		"tech": ["C/C++"],
 		"color": "purple-400"
 	},
 	{
