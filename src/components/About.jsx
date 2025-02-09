@@ -174,9 +174,22 @@ function About () {
 
 				<h2 className="mt-8"> Merci ! </h2>
 
-				<p className ="mt-2">
-					Voila c'est tout pour ma présntation ! Hésitez pas à jeter un coup d'oeuil à mes projets si c'est pas déja fait ! 
-				</p>
+				<div className="p-6 flex flex-col md:flex-row justify-between">
+					<div className="pt-5 pr-5 w-full md:w-1/2 mb-4 md:mb-0 text-2xl text-gray-200">
+						<p className="mt-2">
+							Merci d'avoir pris le temps de lire, pour vous remercier, voici une petite photo de mon chien !
+						</p>
+						<p className="mt-5">
+							Si vous avez des questions, n'hésitez pas à me contacter, je me ferai un plaisir de vous répondre ! Sinon, allez jeter un œil à mes projets, ils valent le détour. Qui sait, vous pourriez y trouver une pépite cachée ! ✨
+						</p>
+					</div>
+					
+					<img 
+						src="/portfolio/img/lipton.jpg" 
+						alt="Photo de mon chien" 
+						className="w-full md:w-1/2 max-h-[350px] object-cover rounded-lg shadow-md"
+					/>
+				</div>
 
 				{/* Useful Links Section */}
 				<h2 className="text-2xl font-bold">

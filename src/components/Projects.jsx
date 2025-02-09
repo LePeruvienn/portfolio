@@ -34,7 +34,7 @@ function Projects () {
 					Mes Projets
 				</h1>
 				<p>
-					Voila les différents travaux que j'ai réaliser durant ma vie ! Il y a pas mal de trucs donc hésitez pas à filtrer les projets qui vous intéressent.
+					Voila différents projet que j'ai fait durant mon temps libre ou pendant ma scolarité, je vous est mit un petit filtre juste en dessous pour vous aidez à vous retrouvez dans tout ce bazzare. 😀
 				</p>
 
 				{/* Filter Buttons */}
