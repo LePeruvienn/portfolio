@@ -28,7 +28,7 @@ function Project ( { project } ) {
 					key={currentImage}
 					src={project.images[currentImage]}
 					alt={project.title}
-					className="w-full h-64 object-cover rounded-lg"
+					className="w-full h-80 object-cover rounded-lg"
 					initial={{ opacity: 0, x: -20 }}
 					animate={{ opacity: 1, x: 0 }}
 					transition={{ duration: 0.5 }}
@@ -45,6 +45,16 @@ function Project ( { project } ) {
 				>
 					<ChevronRight size={24} />
 				</button>
+
+				{/* Petites bulles indicatrices */}
+				<div className="absolute bottom-2 left-1/2 transform -translate-x-1/2 flex space-x-2">
+					{project.images.map((_, index) => (
+						<div 
+							key={index} 
+							className={`w-3 h-3 rounded-full transition-all duration-300 ${currentImage === index ? 'bg-white scale-110' : 'bg-gray-500'}`}
+						/>
+					))}
+				</div>
 			</div>
 
 			{/* Contenu du projet avec sections cliquables */}
