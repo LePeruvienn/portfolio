@@ -4,7 +4,7 @@ import UsefulLinks from "./general/UsefulLinks.jsx";
 import Explore from "./about/Explore.jsx";
 import Future from "./about/Future.jsx"
 import TechCarousel from "./about/techsCarousel.jsx";
-import Projects from "./about/projects.jsx";
+import Projects from "./about/Projects.jsx";
 import Outils from "./about/Outils.jsx";
 import Languages from "./about/Languages.jsx";
 import DropdownList from "./about/DropdownList.jsx";

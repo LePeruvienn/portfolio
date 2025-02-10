@@ -43,7 +43,7 @@ function Projects () {
 						<button 
 							key={index} 
 							onClick={() => toggleTech(tech)}
-							className={`px-4 py-2 rounded-lg text-white transition ${selectedTechs.includes(tech) ? `${techsColor[tech]?.bg}` : 'bg-gray-700'}`}
+							className={`px-4 py-2 rounded-lg text-white transition ${selectedTechs.includes(tech) ? `border-gray-400 border-2 ${techsColor[tech]?.bg}` : 'bg-gray-700'}`}
 						>
 							{tech}
 						</button>

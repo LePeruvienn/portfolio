@@ -122,7 +122,7 @@
 	{
 		"title": "Genshin DLE",
 		"date": "2025",
-		"images": ["/portfolio/img/project3-1.png", "/portfolio/img/project3-2.png"],
+		"images": ["/portfolio/img/projets/genshindle-1.png", "/portfolio/img/projets/genshindle-2.png"],
 		"sections": {
 			"Description": "Développement d'un jeu en ligne massivement multijoueur avec serveur dédié et gameplay dynamique.",
 			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",

@@ -21,7 +21,7 @@ function DropdownList () {
 			detailedDesc: "Detailed description about photography. Photography is the art of capturing light with a camera, typically via a digital sensor or film, to create an image."
 		},
 		{
-			title: "Reading",
+			title: "Culture & Expositions",
 			desc: "Exploring new worlds through books.",
 			color: "purple-400",
 			image: "https://via.placeholder.com/150", // Placeholder image URL
