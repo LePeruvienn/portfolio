@@ -1,56 +1,137 @@
 import Navbar from './general/Navbar.jsx';
 import Footer from './general/Footer.jsx';
+import { FaTwitter, FaLinkedin, FaGithub, FaInstagram, FaEnvelope } from 'react-icons/fa';
+import { motion } from 'framer-motion';
 
-function Contact() {
+function Contact () {
+	
+	// Animation variants
+	const containerVariants = {
+		hidden: { opacity: 0 },
+		visible: {
+			opacity: 1,
+			transition: {
+				delayChildren: 0.3,
+				staggerChildren: 0.2,
+			},
+		},
+	};
+
+	const itemVariants = {
+		hidden: { y: 20, opacity: 0 },
+		visible: { y: 0, opacity: 1 },
+	};
+
 	return (
 		<>
-			<Navbar />
+			<Navbar/>
 			<div className="contact-container">
-				<h1>Contact Me</h1>
+				{/* Titre */}
+				<motion.h1
+					initial={{ y: -50, opacity: 0 }}
+					animate={{ y: 0, opacity: 1 }}
+					transition={{ duration: 0.8 }}
+					className="text-5xl md:text-6xl lg:text-8xl font-extrabold py-4 text-center bg-clip-text text-transparent bg-gradient-to-r from-white to-indigo-400"
+				>
+					Contactez-moi
+				</motion.h1>
 
-				<p>
-					Feel free to reach out to me for any inquiries, collaborations, or just to say hello! I'll get back to you as soon as possible.
-				</p>
+				{/* Texte d'introduction */}
+				<motion.p
+					initial={{ y: -20, opacity: 0 }}
+					animate={{ y: 0, opacity: 1 }}
+					transition={{ duration: 0.8, delay: 0.3 }}
+					className="max-w-2xl mx-auto text-lg md:text-xl lg:text-2xl py-4 text-gray-300 text-center"
+				>
+					Je suis disponible sur les réseaux sociaux et par email. N'hésitez pas à me contacter pour des collaborations, des questions ou simplement pour discuter !
+				</motion.p>
 
-				<form className="contact-form">
-					<div className="form-group">
-						<label htmlFor="name">Name</label>
-						<input
-							type="text"
-							id="name"
-							name="name"
-							placeholder="Enter your name"
-							required
-						/>
-					</div>
-					<div className="form-group">
-						<label htmlFor="email">Email</label>
-						<input
-							type="email"
-							id="email"
-							name="email"
-							placeholder="Enter your email"
-							required
-						/>
-					</div>
-					<div className="form-group">
-						<label htmlFor="message">Message</label>
-						<textarea
-							id="message"
-							name="message"
-							placeholder="Write your message here"
-							rows="6"
-							required
-						></textarea>
-					</div>
-					<button type="submit" className="submit-button">
-						Send Message
-					</button>
-				</form>
+				{/* Photo de profil */}
+				<motion.div
+					initial={{ scale: 0 }}
+					animate={{ scale: 1 }}
+					transition={{ duration: 0.8, delay: 0.6 }}
+					className="flex justify-center my-8"
+				>
+					<img
+						src="/portfolio/img/pp.png"
+						alt="Profil"
+						className="object-cover w-32 h-32 md:w-48 md:h-48 rounded-full border-4 border-teal-400 shadow-lg"
+					/>
+				</motion.div>
+
+				{/* Liens de contact */}
+				<motion.div
+					variants={containerVariants}
+					initial="hidden"
+					animate="visible"
+					className="mt-12 space-y-6"
+				>
+					{/* Email */}
+					<motion.div
+						variants={itemVariants}
+						className="flex items-center justify-center space-x-4"
+					>
+						<FaEnvelope className="h-8 w-8 text-teal-400" />
+						<a
+							href="mailto:monemail@example.com"
+							className="text-teal-400 hover:text-teal-600 text-xl transition-colors duration-300"
+						>
+							monemail@example.com
+						</a>
+					</motion.div>
+
+					{/* Réseaux sociaux */}
+					<motion.div
+						variants={itemVariants}
+						className="flex items-center justify-center space-x-8"
+					>
+						{/* Twitter */}
+						<a
+							href="https://twitter.com/votrecompte"
+							target="_blank"
+							rel="noopener noreferrer"
+							className="text-teal-400 hover:text-teal-600 transition-colors duration-300"
+						>
+							<FaTwitter className="h-8 w-8" />
+						</a>
+
+						{/* LinkedIn */}
+						<a
+							href="https://linkedin.com/in/votrecompte"
+							target="_blank"
+							rel="noopener noreferrer"
+							className="text-teal-400 hover:text-teal-600 transition-colors duration-300"
+						>
+							<FaLinkedin className="h-8 w-8" />
+						</a>
+
+						{/* GitHub */}
+						<a
+							href="https://github.com/votrecompte"
+							target="_blank"
+							rel="noopener noreferrer"
+							className="text-teal-400 hover:text-teal-600 transition-colors duration-300"
+						>
+							<FaGithub className="h-8 w-8" />
+						</a>
+
+						{/* Instagram */}
+						<a
+							href="https://instagram.com/votrecompte"
+							target="_blank"
+							rel="noopener noreferrer"
+							className="text-teal-400 hover:text-teal-600 transition-colors duration-300"
+						>
+							<FaInstagram className="h-8 w-8" />
+						</a>
+					</motion.div>
+				</motion.div>
 			</div>
-			<Footer />
+
+			<Footer/>
 		</>
 	);
-}
+};
 
 export default Contact;
