@@ -4,9 +4,8 @@
 		"date": "2025",
 		"images": ["/portfolio/img/projets/portfolio-1.png", "/portfolio/img/projets/portfolio-2.png"],
 		"sections": {
-			"Description": "Mon site internet ! Et oui celui dont vous etes actuellement en train de naviguer, c'est toujours quelque chose que j'ai voulu faire, je l'ai réaliser à l'occasion de mes candidatures lors de ma poursuite d'études, j'espère qu'il vous plait !",
-			"Plus d'infos": "J'ai vraiment voulu que ce site ne soit pas juste un bout de papier que tout le monde lit à peine donc j'ai passer beaucoup de temps à essayer de le donner vie et de faire en sorte qu'il re transcrisse bien ma personnalité.",
-			"Liens": "Maitrise du Canvas API et amélioration des performances en JavaScript."
+			"Description": "Mon site internet ! Et oui celui dont vous etes actuellement en train de naviguer, c'est toujours quelque chose que j'ai voulu faire, je garderais ici tout les travaux que j'ai réaliser et aussi certain article que je voudrais écrire.",
+			"Liens": "Vous pouvez consulter le code source sur le GitHub."
 		},
 		"tech": ["JavaScript","React", "Tailwind CSS", "Git"],
 		"color": "teal-400"
@@ -16,179 +15,156 @@
 		"date": "2024",
 		"images": ["/portfolio/img/projets/feurnite-1.png", "/portfolio/img/projets/feurnite-2.png", "/portfolio/img/projets/feurnite-3.png", "/portfolio/img/projets/feurnite-4.png", "/portfolio/img/projets/feurnite-5.png"],
 		"sections": {
-			"Description": "Un tableau de bord interactif permettant de surveiller des performances serveur en temps réel.",
-			"Défis": "Gestion efficace des requêtes API et rafraîchissement des données en direct.",
-			"Apprentissage": "Expérience approfondie en WebSockets et React Hooks."
+			"Description": "Un battle royale complétement fou avec des canards et iles volante ! Battez vous contres les autres joueur en récupérant des armes et des objets dans des coffres, mais attention à la chut des iles ... Le dernier survivant gagne !",
+			"Plus d'infos": "Ce projet était un travaux réaliser durant mes études ou j'ai été désigner \"Scrum Master\", j'ai alors fait en sort de mener à bien tout le projet. Code source et executable sur GitHub."
 		},
 		"tech": ["Unity", "Photon", "C#", "Git"],
-		"color": "indigo-400"
+		"color": "yellow-400"
 	},
 	{
 		"title": "Amour en images",
-		"date": "2025",
+		"date": "2024",
 		"images": ["/portfolio/img/project3-1.png", "/portfolio/img/project3-2.png"],
 		"sections": {
-			"Description": "Développement d'un jeu en ligne massivement multijoueur avec serveur dédié et gameplay dynamique.",
-			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",
-			"Apprentissage": "Maitrise des serveurs dédiés et des protocoles réseaux pour les jeux en ligne."
+			"Description": "Développement d'une application web dee partage de photos. Développement de l'API avec Django, et frontend en React.",
+			"Liens": "Vous pouvez consultez le code source sur GitHub, j'ai down le site pour évitez tout abus."
 		},
 		"tech": ["JavaScript", "React", "Python", "Django", "Tailwind CSS", "SQL", "Git"],
 		"color": "purple-400"
 	},
 	{
 		"title": "Analyse de données sémantique",
-		"date": "2025",
+		"date": "2024",
 		"images": ["/portfolio/img/projets/semantique-1.png", "/portfolio/img/projets/semantique-2.png", "/portfolio/img/projets/semantique-3.png"],
 		"sections": {
-			"Description": "Développement d'un jeu en ligne massivement multijoueur avec serveur dédié et gameplay dynamique.",
-			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",
-			"Apprentissage": "Maitrise des serveurs dédiés et des protocoles réseaux pour les jeux en ligne."
+			"Description": "Projet data science, j'ai choisi comme sujet \"Quelles sont les pays les plus touchées par les catastrophes naturelle ?\". Données récolter sur WorldsInData et lien avec Wikidata.",
+			"Liens": "Site internet avec la documentation de ma recherche et pour pouvoir éxécuter les requêtes. Code sources sur Github"
 		},
 		"tech": ["JavaScript", "Angular", "Graph DB", "SPARQL", "Git"],
-		"color": "purple-400"
+		"color": "blue-400"
 	},
 	{
 		"title": "Empanadas !",
-		"date": "2025",
+		"date": "2024",
 		"images": ["/portfolio/img/projets/empanadas-1.png", "/portfolio/img/projets/empanadas-2.png", "/portfolio/img/projets/empanadas-3.png"],
 		"sections": {
-			"Description": "Développement d'un jeu en ligne massivement multijoueur avec serveur dédié et gameplay dynamique.",
-			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",
-			"Apprentissage": "Maitrise des serveurs dédiés et des protocoles réseaux pour les jeux en ligne."
+			"Description": "Applications web de ventes de empanadas, avec compte client et page d'administration. Réaliser entièrement avec le framework Django."
 		},
 		"tech": ["HTML", "CSS", "Python", "Django", "SQL", "Git"],
-		"color": "purple-400"
+		"color": "green-400"
 	},
 	{
 		"title": "Fabiola PINEL",
-		"date": "2025",
+		"date": "2024",
 		"images": ["/portfolio/img/projets/fabiola-1.png", "/portfolio/img/projets/fabiola-2.png"],
 		"sections": {
-			"Description": "Développement d'un jeu en ligne massivement multijoueur avec serveur dédié et gameplay dynamique.",
-			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",
-			"Apprentissage": "Maitrise des serveurs dédiés et des protocoles réseaux pour les jeux en ligne."
+			"Description": "Site vitrine pour auteur. Réaliser en utilisant TypeScript.",
+			"Liens": "Site internet et code source sur GitHub."
 		},
 		"tech": ["JavaScript", "React", "Tailwind CSS", "Git"],
-		"color": "purple-400"
+		"color": "red-400"
 	},
 	{
 		"title": "Zombie Math",
-		"date": "2025",
+		"date": "2024",
 		"images": ["/portfolio/img/projets/zombiemath-1.png", "/portfolio/img/projets/zombiemath-2.png", "/portfolio/img/projets/zombiemath-3.png", "/portfolio/img/projets/zombiemath-4.png", "/portfolio/img/projets/zombiemath-5.png"],
 		"sections": {
-			"Description": "Développement d'un jeu en ligne massivement multijoueur avec serveur dédié et gameplay dynamique.",
-			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",
-			"Apprentissage": "Maitrise des serveurs dédiés et des protocoles réseaux pour les jeux en ligne."
+			"Description": "Développement d'un jeu éducatif à but de renforcer ses capacité de calcul mentale, avec un gameplay unique et dynamique, essayer de survivre le plus longtemps possibles aux hordes de zombies !",
+			"Liens": "Executable et code source sur GitHub."
 		},
 		"tech": ["Unity", "C#", "Git"],
 		"color": "purple-400"
 	},
 	{
 		"title": "Administration réseau",
-		"date": "2025",
+		"date": "2024",
 		"images": ["/portfolio/img/projets/marionet-1.png", "/portfolio/img/projets/marionet-2.png"],
 		"sections": {
-			"Description": "Développement d'un jeu en ligne massivement multijoueur avec serveur dédié et gameplay dynamique.",
-			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",
-			"Apprentissage": "Maitrise des serveurs dédiés et des protocoles réseaux pour les jeux en ligne."
+			"Description": "Développement d'une infrastructure réseau pour une entreprise ficitive (routage, DNS, parfeu, ...) à l'aide de Marionet pour simulé des machines réelles."
 		},
 		"tech": ["Linux", "Shell", "Réseaux"],
-		"color": "purple-400"
+		"color": "indigo-400"
 	},
 	{
 		"title": "Platformer 2D",
-		"date": "2025",
+		"date": "2024",
 		"images": ["/portfolio/img/projets/platformer-1.png", "/portfolio/img/projets/platformer-2.png"],
 		"sections": {
-			"Description": "Développement d'un jeu en ligne massivement multijoueur avec serveur dédié et gameplay dynamique.",
-			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",
-			"Apprentissage": "Maitrise des serveurs dédiés et des protocoles réseaux pour les jeux en ligne."
+			"Description": "Développement d'un jeu de plateforme 2d à l'aide de l'API Canvas. J'ai du alors développer moi meme la gestion de la caméra, de la physique et des animations.",
+			"Apprentissage": "Jeu en ligne et code source sur Github"
 		},
 		"tech": ["JavaScript", "Canvas API"],
-		"color": "purple-400"
+		"color": "orange-400"
 	},
 	{
 		"title": "FEUR Pizza",
-		"date": "2025",
+		"date": "2024",
 		"images": ["/portfolio/img/projets/pizza-1.png", "/portfolio/img/projets/pizza-2.png"],
 		"sections": {
-			"Description": "Développement d'un jeu en ligne massivement multijoueur avec serveur dédié et gameplay dynamique.",
-			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",
-			"Apprentissage": "Maitrise des serveurs dédiés et des protocoles réseaux pour les jeux en ligne."
+			"Description": "Développement d'applications en vue à la gestion d'un Pizzeria. Mise en place d'un base de données MySQL, ainsi qu'une applications web pour la commandes des pizza mais aussi d'une applications Java pour la livraison de celle-ci."
 		},
 		"tech": ["HTML", "CSS", "PHP", "JAVA", "SQL"],
-		"color": "purple-400"
+		"color": "blue-500"
 	},
 	{
 		"title": "Genshin DLE",
-		"date": "2025",
+		"date": "2023",
 		"images": ["/portfolio/img/projets/genshindle-1.png", "/portfolio/img/projets/genshindle-2.png"],
 		"sections": {
-			"Description": "Développement d'un jeu en ligne massivement multijoueur avec serveur dédié et gameplay dynamique.",
-			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",
-			"Apprentissage": "Maitrise des serveurs dédiés et des protocoles réseaux pour les jeux en ligne."
+			"Description": "Participation au développement d'un petit jeu web de devinette en JavaScript et PHP.",
+			"Liens": "Site internet géré par un collègue à moi."
 		},
 		"tech": ["HTML", "CSS", "JavaScript", "PHP"],
-		"color": "purple-400"
+		"color": "yellow-400"
 	},
 	{
 		"title": "Serveur Apache",
-		"date": "2025",
+		"date": "2023",
 		"images": ["/portfolio/img/projets/apache-1.png", "portfolio/img/projets/apache-2.png"],
 		"sections": {
-			"Description": "Développement d'un jeu en ligne massivement multijoueur avec serveur dédié et gameplay dynamique.",
-			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",
-			"Apprentissage": "Maitrise des serveurs dédiés et des protocoles réseaux pour les jeux en ligne."
+			"Description": "Mise en place d'un serveur web apache sur sur RaspberryPie."
 		},
 		"tech": ["Linux", "Réseaux"],
 		"color": "purple-400"
 	},
 	{
 		"title": "C Snake",
-		"date": "2025",
+		"date": "2023",
 		"images": ["/portfolio/img/projets/snake-1.png", "/portfolio/img/projets/snake-2.png"],
 		"sections": {
-			"Description": "Développement d'un jeu en ligne massivement multijoueur avec serveur dédié et gameplay dynamique.",
-			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",
-			"Apprentissage": "Maitrise des serveurs dédiés et des protocoles réseaux pour les jeux en ligne."
+			"Description": "Développement du jeu mondialement connu snake en C. Affichage dynamique sur la console avec gestions des inputs."
 		},
 		"tech": ["C/C++"],
-		"color": "purple-400"
+		"color": "indigo-400"
 	},
 	{
 		"title": "Trello Lite",
-		"date": "2025",
+		"date": "2023",
 		"images": ["/portfolio/img/projets/trello-1.png", "/portfolio/img/projets/trello-2.png"],
 		"sections": {
-			"Description": "Développement d'un jeu en ligne massivement multijoueur avec serveur dédié et gameplay dynamique.",
-			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",
-			"Apprentissage": "Maitrise des serveurs dédiés et des protocoles réseaux pour les jeux en ligne."
+			"Description": "Développement d'une application JAVA à l'aide de la librairie Swing. Sérialization et sauvegarde des données entrée par l'utilisateur. (la deuxième image est la maquette initiale du projet)"
 		},
 		"tech": ["JAVA"],
-		"color": "purple-400"
+		"color": "orange-400"
 	},
 	{
 		"title": "Jeu de carte",
-		"date": "2025",
+		"date": "2022",
 		"images": ["/portfolio/img/projets/cartes-1.png", "/portfolio/img/projets/cartes-2.png", "/portfolio/img/projets/cartes-3.png"],
 		"sections": {
-			"Description": "Développement d'un jeu en ligne massivement multijoueur avec serveur dédié et gameplay dynamique.",
-			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",
-			"Apprentissage": "Maitrise des serveurs dédiés et des protocoles réseaux pour les jeux en ligne."
+			"Description": "Jeu de carte automatique solo ou en mutlijoeur locale, développer avec l'utilisation d'alogorythme et aussi d'un robot permettant de jouer en solo."
 		},
 		"tech": ["C/C++"],
-		"color": "purple-400"
+		"color": "blue-400"
 	},
 	{
 		"title": "To the Backs",
-		"date": "2025",
+		"date": "2022",
 		"images": ["/portfolio/img/projets/backs-1.png", "/portfolio/img/projets/backs-2.png", "/portfolio/img/projets/backs-3.png"],
 		"sections": {
-			"Description": "Développement d'un jeu en ligne massivement multijoueur avec serveur dédié et gameplay dynamique.",
-			"Défis": "Synchronisation des actions entre plusieurs joueurs sans latence.",
-			"Apprentissage": "Maitrise des serveurs dédiés et des protocoles réseaux pour les jeux en ligne."
+			"Description": "Développement d'un site vitrine en HTML/CSS pour une entreprise fictive."
 		},
 		"tech": ["HTML", "CSS"],
-		"color": "purple-400"
+		"color": "red-400"
 	}
 ]
