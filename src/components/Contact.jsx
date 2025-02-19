@@ -74,10 +74,10 @@ function Contact () {
 					>
 						<FaEnvelope className="h-8 w-8 text-teal-400" />
 						<a
-							href="mailto:monemail@example.com"
+							href="mailto:koto91@free.fr"
 							className="text-teal-400 hover:text-teal-600 text-xl transition-colors duration-300"
 						>
-							monemail@example.com
+							koto91@free.fr
 						</a>
 					</motion.div>
 
@@ -86,19 +86,10 @@ function Contact () {
 						variants={itemVariants}
 						className="flex items-center justify-center space-x-8"
 					>
-						{/* Twitter */}
-						<a
-							href="https://twitter.com/votrecompte"
-							target="_blank"
-							rel="noopener noreferrer"
-							className="text-teal-400 hover:text-teal-600 transition-colors duration-300"
-						>
-							<FaTwitter className="h-8 w-8" />
-						</a>
 
 						{/* LinkedIn */}
 						<a
-							href="https://linkedin.com/in/votrecompte"
+							href="https://www.linkedin.com/in/arthur-pinel-87a91a270/"
 							target="_blank"
 							rel="noopener noreferrer"
 							className="text-teal-400 hover:text-teal-600 transition-colors duration-300"
@@ -108,7 +99,7 @@ function Contact () {
 
 						{/* GitHub */}
 						<a
-							href="https://github.com/votrecompte"
+							href="https://github.com/leperuvienn"
 							target="_blank"
 							rel="noopener noreferrer"
 							className="text-teal-400 hover:text-teal-600 transition-colors duration-300"
@@ -116,15 +107,6 @@ function Contact () {
 							<FaGithub className="h-8 w-8" />
 						</a>
 
-						{/* Instagram */}
-						<a
-							href="https://instagram.com/votrecompte"
-							target="_blank"
-							rel="noopener noreferrer"
-							className="text-teal-400 hover:text-teal-600 transition-colors duration-300"
-						>
-							<FaInstagram className="h-8 w-8" />
-						</a>
 					</motion.div>
 				</motion.div>
 			</div>

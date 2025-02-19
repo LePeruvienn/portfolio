@@ -63,6 +63,8 @@ function Navbar() {
 					>
 						{t('projects')}
 					</NavLink>
+
+					{/*
 					<NavLink
 						to="/funfacts#"
 						className={({ isActive }) =>
@@ -81,6 +83,8 @@ function Navbar() {
 							{t('contact')}!
 						</button>
 					</Link>
+					*/}
+
 					<Language />
 				</div>
 			</div>
