@@ -75,6 +75,7 @@ function Navbar() {
 					>
 						{t('other')}
 					</NavLink>
+					*/}
 					<Link to="/contact#">
 						<button
 							type="button"
@@ -83,7 +84,6 @@ function Navbar() {
 							{t('contact')}!
 						</button>
 					</Link>
-					*/}
 
 					<Language />
 				</div>

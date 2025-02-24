@@ -24,12 +24,12 @@
 	{
 		"title": "Amour en images",
 		"date": "2024",
-		"images": ["/portfolio/img/project3-1.png", "/portfolio/img/project3-2.png"],
+		"images": ["/portfolio/img/projets/amourenimages-1.png", "/portfolio/img/projets/amourenimages-2.png"],
 		"sections": {
-			"Description": "Développement d'une application web dee partage de photos. Développement de l'API avec Django, et frontend en React.",
+			"Description": "Développement d'une application web dee partage de photos. Développement de l'API avec Django et REST, frontend en React. C'était un projet plutot perso donc j'ai retirer les images publiées et down le site qui était host sur pyhtonanywere.com",
 			"Liens": "Vous pouvez consultez le code source sur GitHub, j'ai down le site pour évitez tout abus."
 		},
-		"tech": ["JavaScript", "React", "Python", "Django", "Tailwind CSS", "SQL", "Git"],
+		"tech": ["JavaScript", "React", "Python", "Django", "Tailwind CSS", "SQL", "Git", "API REST"],
 		"color": "purple-400"
 	},
 	{

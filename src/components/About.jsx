@@ -176,7 +176,7 @@ function About () {
 				<h2 className="mt-8"> Merci ! </h2>
 
 				<div className="p-6 flex flex-col md:flex-row justify-between">
-					<div className="md:pt-5 md:pr-5 w-full md:w-1/2 mb-4 md:mb-0 text-2xl text-gray-200">
+					<div className="md:pt-5 md:pr-5 w-full md:w-1/2 mb-4 md:mb-0 text-lg lg:text-xl text-gray-200">
 						<p className="mt-2">
 							Merci d'avoir pris le temps de lire, pour vous remercier, voici une petite photo de mon chien (Il s'apelle <span className="font-bold"> Lipton</span> ) !
 						</p>
