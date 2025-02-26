@@ -1,0 +1,25 @@
+{
+  "explore": {
+    "sections": [
+      {
+        "title": "Graphics Programming",
+        "paragraphs": [
+          "I've spent considerable time using <span class=\"font-bold\">creative software</span> for images, videos, and games. These tools fascinate me as they enable artists to bring incredible worlds to life. I've explored these tools myself, particularly with <span class=\"font-bold\">Unity</span>. Then one day I thought: <span class=\"italic font-bold\">\"What if instead of just using them, I started developing them myself?\"</span>",
+          "I'm a huge video game enthusiast, particularly interested in their history and technological evolution. After gaining experience with game engines, I wanted to try lower-level programming. I'm currently diving into <span class=\"font-bold\">C/C++</span> programming and libraries like <span class=\"font-bold\">SDL2</span> and <span class=\"font-bold\">OpenGL</span>. I'm still a beginner, but I'm eager to explore the world of graphics programming!",
+          "What significantly influenced this path was my first internship. My mission was to develop a <span class=\"font-bold\">game creation tool</span> for non-programmers. Using the company's proprietary libraries, I discovered lower-level game development and tool creation. That's when I decided to seriously pursue this direction!",
+          "I wish I could present projects using <span class=\"font-bold\">OpenGL</span> or <span class=\"font-bold\">SDL2</span>, but none are finalized yet. Alongside my studies, I worked as a <span class=\"font-bold\">freelance</span> tool & gameplay developer for my internship company. I learned tremendously during this period, though it was time-consuming!"
+        ]
+      },
+      {
+        "title": "AI & Cybersecurity",
+        "paragraphs": [
+          "<span class=\"font-bold\">AI</span> and <span class=\"font-bold\">Cybersecurity</span> are crucial topics in today's society. As a computer science student, I stay updated on advancements and challenges in these fields, but I also want to <span class=\"font-bold\">develop more skills</span> in these areas!",
+          "I've touched on <span class=\"font-bold\">AI</span> during my studies, gaining <span class=\"italic\">basic knowledge</span>, but I know I still have much to learn. For <span class=\"font-bold\">cybersecurity</span>, it's not covered in my curriculum, so I'm self-teaching through platforms like <span class=\"italic\">Root Me</span>. I really want to <span class=\"font-bold\">go further</span> and dive <span class=\"italic\">deeply</span> into this fascinating world.",
+          "There's still <span class=\"font-bold\">so much to learn</span>, but that's exactly what <span class=\"italic\">motivates</span> me!"
+        ]
+      }
+    ],
+    "seeMore": "Show more",
+    "seeLess": "Show less"
+  }
+}

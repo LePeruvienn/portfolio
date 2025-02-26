@@ -1,43 +1,116 @@
 {
-	"aboutMe": "À propos de moi",
-	"aboutP1": "Actuellement étudiant en troisième année d'informatique à l'Université Paris-Saclay, je suis passionné par la technologie et la création. Mon parcours m'a permis d'explorer un large éventail de domaines, des projets informatiques complexes aux activités créatives et sportives, qui ont enrichi ma vision et ma méthodologie de travail.",
-	"aboutH1": "Parcours académique et professionnel",
-	"aboutP2": "Mon intérêt pour les sciences et la technologie est apparu dès le lycée, où j'ai suivi un Baccalauréat Général avec des spécialités en Mathématiques, Physique et Sciences de l'Ingénieur. Après une année en Mesures Physiques à l'IUT d'Orsay, j'ai découvert ma véritable vocation pour l'informatique et j'ai intégré le BUT Informatique, où je suis actuellement en troisième année.",
-	"aboutP3": "En parallèle de mes études, j'ai acquis une expérience significative à travers des projets académiques, personnels et professionnels :",
-	"aboutLS1": "Développeur Freelance",
-	"aboutL1": ", Programmeur de jeux web en freelance.",
-	"aboutLS2": "Stage chez WebGames",
-	"aboutL2": ", Développement d'un outil de création de jeux vidéo.",
-	"someProjects": "Quelques projets",
-	"WebFullStack": "Web FullStack",
-	"WebFullStackDesc": "Développement d'applications Web complètes pour des entreprises.",
-	"SoftwareDevelopment": "Développement logiciel",
-	"SoftwareDevelopmentDesc": "Développement d'applications en JAVA et C#, liées à une base de données MySQL.",
-	"DataAnalysis": "Analyse de données",
-	"DataAnalysisDesc": "À partir de Our World in Data sur les catastrophes naturelles et technologiques avec GrapDB.",
-	"NetworkAndSystems": "Réseaux et systèmes",
-	"NetworkAndSystemsDesc": "Configuration du serveur Apache, configurations réseau (routeurs, pare-feu, ...).",
-	"CreativeAndFunProjects": "Projets créatifs et ludiques",
-	"GraphicDesign": "Design graphique",
-	"GraphicDesignDesc": "Vignettes YouTube et interfaces de streaming avec Photoshop et GIMP.",
-	"VideoEditing": "Montage vidéo",
-	"VideoEditingDesc": "Utilisation de Sony Vegas pour créer des vidéos animées d'Anime (AMV).",
-	"GameDevelopment": "Développement de jeux",
-	"GameDevelopmentDesc": "Jeux multijoueurs et solo avec Unity 3D.",
-	"toSeeMoreProjects": "Pour voir plus de mes projets ...",
-	"TechnicalAndPersonalSkills": "Compétences techniques et personnelles",
-	"TechnologiesAndTools": "Technologies et outils",
-	"Technologies": "HTML/CSS, JavaScript, Python, Java, C/C++, C#, Unity 3D, MySQL, Git.",
-	"Methodologies": "Gestion de projet avec la méthode Agile (Scrum), gestion des versions avec GitHub.",
-	"SoftSkills": "Curiosité, adaptabilité, travail en équipe, créativité et organisation.",
-	"VersatileAndDynamicProfile": "Un profil polyvalent et dynamique",
-	"ProfileDescription": "En dehors de mes projets académiques et professionnels, mes activités extra-scolaires ont également contribué à façonner ma personnalité et ma capacité à relever des défis.",
-	"SportsActivities": "Activités sportives",
-	"SportsActivitiesDesc": "5 ans de batterie, 5 ans de plongée sous-marine (en piscine et en mer), et 2 ans de Kung Fu.",
-	"CreativePassions": "Passions créatives",
-	"CreativePassionsDesc": "Jeux vidéo, musique, et exploration de nouvelles technologies.",
-	"ITPassions": "Passions informatiques",
-	"ITPassionsDesc": "Configuration de systèmes Linux, cybersécurité, OSINT, apprentissage de nouvelles compétences.",
-	"MyVision": "Ma vision",
-	"VisionText": "Je suis motivé par la recherche de solutions innovantes et la création de projets à fort impact, qu'ils soient ludiques, éducatifs ou utilitaires. Mon objectif est de continuer à apprendre, à m'adapter et à mettre mes compétences à profit pour relever des défis de plus en plus ambitieux."
+	"about": {
+		"aboutMe": "À propos",
+		"introduction": {
+			"title": "Salut c'est <strong>Arthur</strong> !",
+			"description1": "Curieux et créatif, j’aime relever des défis et explorer de nouvelles idées. Que ce soit dans le <span class='text-purple-400 font-semibold'>développement de jeux vidéo</span> ou l’apprentissage de nouvelles compétences, je suis toujours à la recherche de projets stimulants.",
+			"description2": "Actuellement <span class='text-teal-400 font-semibold'>développeur freelance</span>, je mets mon imagination et ma motivation au service de projets ambitieux. Toujours en quête de défis, je cherche à créer, innover et donner du sens à mon travail."
+		},
+		
+		"motivation": "🚀 Ce qui me motive ? <strong>Créer</strong>, <strong>innover</strong> et donner du sens à ce que je fais, en alliant passion et engagement.",
+		
+		"whatILove": {
+			"title": "Ce que j'aime faire",
+			"items": [
+				{
+					"title": "Création et développement de jeux vidéo",
+					"description": "J'adore créer toutes sortes de choses et encore plus des jeux vidéo ! Mais ce que j'aime le plus c'est d'apprendre tous les détails techniques des jeux qui font qu'ils sont aussi incroyables aujourd'hui.",
+					"color": "text-teal-400"
+				},
+				{
+					"title": "Configuration de Linux et développement système",
+					"description": "Je suis un grand fan de Linux et de ses différents systèmes d'exploitation. Je m'amuse sur mon temps libre à les personnaliser et à programmer des petits scripts pour effectuer certaines tâches plus facilement.",
+					"color": "text-indigo-400"
+				},
+				{
+					"title": "Vie privée et Cybersécurité",
+					"description": "Je me passionne pour ces sujets et explore leur impact au quotidien. Pour approfondir mes connaissances, je pratique des challenges sur Root Me, m'initie à l'OSINT et cherche à reprendre le contrôle de mes données en utilisant des versions personnalisées d'Android.",
+					"color": "text-purple-400"
+				}
+			]
+		},
+
+		"explorePrompt": "Ce que je cherche à explorer aujourd'hui ✨",
+		
+		"timeline": {
+			"title": "Mon Parcours",
+			"description": "Est apparu le 2 décembre 2003 en Essonne ..."
+		},
+
+		"future": {
+			"title": "Et après ?"
+		},
+
+		"projects": {
+			"title": "Quelques Projets",
+			"description1": "J'ai réalisé de nombreux <strong>projets</strong> ces <strong>trois dernières années</strong>, que ce soit dans le cadre de <strong>mes études</strong> ou à titre <strong>personnel</strong>. Je me suis toujours <strong>donné à fond</strong> dans ce que j'entreprenais.",
+			"description2": "Je vous présente ici <strong>trois projets</strong> que j'ai trouvés <strong>cool</strong> ! N'hésitez pas à aller <strong>jeter un coup d'œil</strong> à la section <Link to='/projects'>Projets</Link>, où vous pourrez découvrir <strong>d'autres réalisations</strong>."
+		},
+
+		"techStack": "Voici une petite liste de toutes les technologies avec lesquelles j'ai eu de l'expérience, hésitez pas à me contacter si vous voulez collaborer pour un projet :)",
+
+		"tools": {
+			"title": "Mes Outils"
+		},
+
+		"languages": {
+			"title": "Langues",
+			"description1": "Je viens d'une famille <strong>péruvienne et française</strong>, et grâce à ma <strong>double nationalité</strong>, j'ai grandi en parlant <strong>espagnol et français</strong>, mes deux <strong>langues maternelles</strong>.",
+			"description2": "Voici une petite liste des langues que je parle (plus ou moins bien). <strong>Clique pour les découvrir</strong> !"
+		},
+
+		"hobbies": {
+			"title": "Mes hobbys",
+			"description": "Sinon comme tout le monde j'ai plein d'hobbys en dehors de l'informatique comme par exemple ..."
+		},
+
+		"thankYou": {
+			"title": "Merci !",
+			"description1": "Merci d'avoir pris le temps de lire, pour vous remercier, voici une petite photo de mon chien (Il s'appelle <strong>Lipton</strong> ) !",
+			"description2": "Si vous avez des questions, n'hésitez pas à me <Link to='/contact'>contacter</Link>, je me ferai un plaisir de vous répondre ! Sinon, allez jeter un œil à mes <Link to='/projects'>projets</Link>, ils sont plutôt pas mal."
+		},
+
+		"usefulLinks": {
+			"title": "Liens Utiles",
+			"description": "In case you missed them on the home page ..."
+		}
+	},
+	"timeline": {
+		"items": [
+			{
+				"year": "2022",
+				"title": "BUT Informatique",
+				"context": "Université Paris-Saclay",
+				"description": "Après un baccalauréat général et une année en Mesures Physiques, j'ai finalement décidé de me lancer dans l'informatique à l'IUT d'Orsay !",
+				"color": "teal-400"
+			},
+			{
+				"year": "2024 - 3 mois",
+				"title": "Stage Développeur Gameplay",
+				"context": "WebGames",
+				"description": "Ma première expérience dans le jeu vidéo ! Ma mission était de développer un outil de création de jeux web en utilisant un moteur de jeu propriétaire.",
+				"color": "indigo-400"
+			},
+			{
+				"year": "2024",
+				"title": "Développeur Freelance",
+				"context": "WebGames",
+				"description": "Suite à un stage très réussi, j'ai poursuivi ma collaboration avec l'entreprise en tant que prestataire indépendant.",
+				"color": "purple-400"
+			},
+			{
+				"year": "2025 - 4 mois",
+				"title": "Stage Développeur Multijoueur",
+				"context": "WebGames",
+				"description": "Après une première expérience enrichissante, j’ai souhaité prendre davantage de responsabilités au sein de l’entreprise et approfondir mes connaissances sur le développement de jeux en ligne.",
+				"color": "purple-500"
+			}
+		]
+	},
+	"future": {
+		"mainText": "Après l'obtention de mon <strong>BUT Informatique (BAC+3)</strong>, j'aimerais poursuivre mes études jusqu'à un <strong>BAC+5</strong>, que ce soit en école d'ingénieur ou en Master. J'apprécie apprendre et approfondir mes connaissances, et si l'opportunité se présente, je souhaiterais même aller plus loin en intégrant un <strong>Mastère Spécialisé</strong> ou en poursuivant un <strong>Doctorat</strong>. Ces parcours me permettraient non seulement de me spécialiser, mais aussi de contribuer à l'avancement des connaissances dans mon domaine.",
+		"additionalText": "Par ailleurs, l'<strong>enseignement</strong> m'intéresse particulièrement, car transmettre des connaissances est une vocation qui me tient à cœur. Toutefois, avant d'envisager un rôle d'enseignant, je souhaite d'abord construire ma propre carrière, que ce soit dans le secteur public ou privé. Acquérir une solide expérience professionnelle me permettra non seulement de mieux maîtriser mon domaine, mais aussi de partager mon expertise de manière plus pertinente et enrichissante lorsque l'occasion se présentera.",
+		"seeMore": "Voir plus",
+		"seeLess": "Voir moins"
+	}
 }

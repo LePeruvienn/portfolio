@@ -1,43 +1,116 @@
 {
-	"aboutMe": "About me",
-	"aboutP1": "Currently a third-year student in Computer Science at the University of Paris-Saclay, I am passionate about technology and creation. My journey has allowed me to explore a wide range of fields, from complex IT projects to creative and sports activities, which have enriched my perspective and work methodology.",
-	"aboutH1": "Academic and Professional Background",
-	"aboutP2": "My interest in science and technology emerged early in high school, where I followed a General Baccalaureate with specializations in Mathematics, Physics, and Engineering Sciences. After a year in Physical Measurements at the IUT of Orsay, I discovered my true calling in computer science and joined the Computer Science Bachelor’s degree (BUT), where I am currently in my third year.",
-	"aboutP3": "Alongside my studies, I have gained significant experience through academic, personal, and professional projects:",
-	"aboutLS1": "Freelance Developer",
-	"aboutL1": ", Gameplay programmer for web games.",
-	"aboutLS2": "Internship at WebGames",
-	"aboutL2": ", development of a video game creation tool.",
-	"someProjects": "Some Projects",
-	"WebFullStack": "Web FullStack",
-	"WebFullStackDesc": "Development of complete Web Applications for companies.",
-	"SoftwareDevelopment": "Software Development",
-	"SoftwareDevelopmentDesc": "Development of Applications in JAVA and C#, linked to a MySQL database.",
-	"DataAnalysis": "Data Analysis",
-	"DataAnalysisDesc": "From Our World in Data on natural and technological disasters with GrapDB.",
-	"NetworkAndSystems": "Network and Systems",
-	"NetworkAndSystemsDesc": "Configuration of Apache Server, Network configurations (routers, firewall, ...).",
-	"CreativeAndFunProjects": "Creative and Fun Projects",
-	"GraphicDesign": "Graphic design",
-	"GraphicDesignDesc": "YouTube thumbnails and streaming interfaces with Photoshop and GIMP.",
-	"VideoEditing": "Video Editing",
-	"VideoEditingDesc": "Using Sony Vegas to create Anime Animated videos (AMV).",
-	"GameDevelopment": "Game Development",
-	"GameDevelopmentDesc": "Multiplayer and solo games using Unity 3D.",
-	"toSeeMoreProjects": "To see more of my projects ...",
-	"TechnicalAndPersonalSkills": "Technical and Personal Skills",
-	"TechnologiesAndTools": "Technologies and Tools",
-	"Technologies": "HTML/CSS, JavaScript, Python, Java, C/C++, C#, Unity 3D, MySQL, Git.",
-	"Methodologies": "Project management using Agile (Scrum), version control with GitHub.",
-	"SoftSkills": "Curiosity, adaptability, teamwork, creativity, and organization.",
-	"VersatileAndDynamicProfile": "A Versatile and Dynamic Profile",
-	"ProfileDescription": "Outside of my academic and professional projects, my extracurricular activities have also helped shape my personality and ability to take on challenges.",
-	"SportsActivities": "Sports Activities",
-	"SportsActivitiesDesc": "5 years of drumming, 5 years of scuba diving (both in pools and at sea), and 2 years of Kung Fu.",
-	"CreativePassions": "Creative Passions",
-	"CreativePassionsDesc": "Video games, music, and exploring new technologies.",
-	"ITPassions": "IT Passions",
-	"ITPassionsDesc": "Linux System Configuration, Cybersecurity, OSINT, Learning new Skills.",
-	"MyVision": "My Vision",
-	"VisionText": "I am driven by the search for innovative solutions and the creation of impactful projects, whether they are fun, educational, or utilitarian. My goal is to continue learning, adapting, and leveraging my skills to meet increasingly ambitious challenges."
+	"about": {
+		"aboutMe": "About Me",
+		"introduction": {
+			"title": "Hey, I'm <strong>Arthur</strong>!",
+			"description1": "Curious and creative, I love tackling challenges and exploring new ideas. Whether it's <span class='text-purple-400 font-semibold'>game development</span> or learning new skills, I'm always seeking stimulating projects.",
+			"description2": "Currently working as a <span class='text-teal-400 font-semibold'>freelance developer</span>, I channel my imagination and motivation into ambitious projects. Always seeking challenges, I aim to create, innovate, and bring meaning to my work."
+		},
+		
+		"motivation": "🚀 What drives me? <strong>Creating</strong>, <strong>innovating</strong>, and bringing purpose to my work through passion and commitment.",
+		
+		"whatILove": {
+			"title": "What I Like",
+			"items": [
+				{
+					"title": "Game Creation & Development",
+					"description": "I love creating all sorts of things, especially video games! What fascinates me most is understanding the technical details that make today's games so incredible.",
+					"color": "text-teal-400"
+				},
+				{
+					"title": "Linux Tinkering & System Development",
+					"description": "I'm a huge Linux enthusiast. In my free time, I enjoy customizing distros and writing scripts to automate tasks more efficiently.",
+					"color": "text-indigo-400"
+				},
+				{
+					"title": "Privacy & Cybersecurity",
+					"description": "Passionate about these fields, I explore their daily impacts through Root Me challenges, OSINT investigations, and custom Android ROMs to reclaim data control.",
+					"color": "text-purple-400"
+				}
+			]
+		},
+
+		"explorePrompt": "What I'm currently exploring ✨",
+		
+		"timeline": {
+			"title": "My Background",
+			"description": "First appeared on December 2, 2003 in Essonne..."
+		},
+
+		"future": {
+			"title": "What's Next?"
+		},
+
+		"projects": {
+			"title": "Selected Projects",
+			"description1": "I've completed numerous <strong>projects</strong> over the <strong>past three years</strong>, both academic and personal. I always give <strong>100% effort</strong> to everything I undertake.",
+			"description2": "Here are <strong>three projects</strong> I find particularly <strong>cool</strong>! Feel free to check out the <Link to='/projects'>Projects</Link> section for <strong>more creations</strong>."
+		},
+
+		"techStack": "Here's a list of technologies I've worked with - feel free to <strong>contact me</strong> for collaborations!",
+
+		"tools": {
+			"title": "My Toolkit"
+		},
+
+		"languages": {
+			"title": "Languages",
+			"description1": "Coming from a <strong>Peruvian-French family</strong> with <strong>dual citizenship</strong>, I grew up speaking <strong>Spanish and French</strong> as <strong>native languages</strong>.",
+			"description2": "Here are the languages I speak (with varying proficiency). <strong>Click to discover</strong> them!"
+		},
+
+		"hobbies": {
+			"title": "Beyond Coding",
+			"description": "Like everyone else, I have various hobbies outside tech such as..."
+		},
+
+		"thankYou": {
+			"title": "Thank You!",
+			"description1": "Thanks for reading! As a token of appreciation, here's a picture of my dog (His name's <strong>Lipton</strong>)!",
+			"description2": "Got questions? Don't hesitate to <Link to='/contact'>contact me</Link> - I'll be happy to answer! Or check out my <Link to='/projects'>projects</Link>, they're pretty neat."
+		},
+
+		"usefulLinks": {
+			"title": "Useful Resources",
+			"description": "In case you missed them on the home page..."
+		}
+	},
+	"timeline": {
+		"items": [
+			{
+				"year": "2022",
+				"title": "Bachelor's in Computer Science",
+				"context": "Paris-Saclay University",
+				"description": "After a general baccalaureate and a year in Physical Measurements, I finally decided to dive into computer science at IUT d'Orsay!",
+				"color": "teal-400"
+			},
+			{
+				"year": "2024 - 3 months",
+				"title": "Gameplay Developer Internship",
+				"context": "WebGames",
+				"description": "My first experience in video games! My mission was to develop a web game creation tool using a proprietary game engine.",
+				"color": "indigo-400"
+			},
+			{
+				"year": "2024",
+				"title": "Freelance Developer",
+				"context": "WebGames",
+				"description": "Following a successful internship, I continued my collaboration with the company as an independent contractor.",
+				"color": "purple-400"
+			},
+			{
+				"year": "2025 - 4 months",
+				"title": "Multiplayer Developer Internship",
+				"context": "WebGames",
+				"description": "After an enriching initial experience, I wanted to take on more responsibilities within the company and deepen my knowledge of online game development.",
+				"color": "purple-500"
+			}
+		]
+	},
+	"future": {
+		"mainText": "After obtaining my <strong>Bachelor's in Computer Science (BAC+3)</strong>, I would like to continue my studies up to a <strong>Master's degree (BAC+5)</strong>, whether in an engineering school or a university Master's program. I enjoy learning and deepening my knowledge, and given the opportunity, I would even consider pursuing a <strong>Specialized Master's</strong> or a <strong>PhD</strong>. These paths would not only allow me to specialize but also contribute to advancing knowledge in my field.",
+		"additionalText": "Additionally, I'm particularly interested in <strong>teaching</strong>, as sharing knowledge is a vocation close to my heart. However, before considering a teaching role, I first want to build my career in either the public or private sector. Gaining solid professional experience will not only help me master my field better but also allow me to share my expertise in a more relevant and meaningful way when the time comes.",
+		"seeMore": "Show more",
+		"seeLess": "Show less"
+	}
 }
