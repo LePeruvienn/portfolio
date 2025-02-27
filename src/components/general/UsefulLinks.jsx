@@ -3,6 +3,7 @@ import { useTranslation } from 'react-i18next';
 function UsefulLinks () {
 
 	const { t, i18n } = useTranslation ("home");
+
 	// Get the current language
 	const language = i18n.language;
 
@@ -35,7 +36,7 @@ function UsefulLinks () {
 						{ t ("resume") }
 					</span>
 					<span className="m-2 absolute opacity-0 translate-y-full sm:group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 ease-in-out text-center">
-						Le papier qui m'aide à trouver mes stage 🤓
+						{ t ("resumeText") }
 					</span>
 				</div>
 			</a>
@@ -62,7 +63,7 @@ function UsefulLinks () {
 				</span>
 
 				<span className="z-10 m-2 absolute opacity-0 translate-y-full sm:group-hover:opacity-100 group-hover:translate-y-0 transition-all duration-300 ease-in-out text-center">
-					Tout les trucs cools que j'ai fait 😎 (ou pas)
+					{ t ("projectsText") }
 				</span>
 			</a>
 			<a
@@ -86,7 +87,7 @@ function UsefulLinks () {
 						GitHub
 					</span>
 					<span className="m-2 absolute opacity-0 translate-y-full sm:group-hover:opacity-100 group-hover:translate-y-1/2 transition-all duration-300 ease-in-out text-center">
-						C'est ici que j'amuse 👨‍💻
+						{ t ("githubText") }
 					</span>
 				</div>
 			</a>
@@ -112,7 +113,7 @@ function UsefulLinks () {
 					</span>
 
 					<span className="m-2 absolute opacity-0 translate-y-full sm:group-hover:opacity-100 group-hover:translate-y-1/2 transition-all duration-300 ease-in-out text-center">
-						Mon (petit) réseau 👥
+						{ t ("linkedinText") }
 					</span>
 				</div>
 			</a>
@@ -136,7 +137,7 @@ function UsefulLinks () {
 						Mail
 					</span>
 					<span className="m-2 absolute opacity-0 translate-y-full sm:group-hover:opacity-100 group-hover:translate-y-1/2 transition-all duration-300 ease-in-out text-center">
-						Je répond vite promis !
+						{ t ("mailText") }
 					</span>
 				</div>
 			</a>
@@ -160,7 +161,7 @@ function UsefulLinks () {
 						{ t ("aboutMe") }
 					</span>
 					<span className="m-2 absolute opacity-0 translate-y-full sm:group-hover:opacity-100 group-hover:translate-y-1/2 transition-all duration-300 ease-in-out text-center">
-						Mieux me connaitre 🔍
+						{ t ("aboutmeText") }
 					</span>
 				</div>
 			</a>

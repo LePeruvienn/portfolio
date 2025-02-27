@@ -1,13 +1,8 @@
 {
-  "funFacts": "Fun Facts",
-  "funFactsIntro": "Aside from my academic and professional pursuits, I have a variety of interests and passions that fuel my creativity and curiosity.",
-  "videoGamesEnthusiast": "Video Games Enthusiast:",
-  "videoGamesDesc": "I have spent countless hours playing competitive games like Counter-Strike and League of Legends, where I’ve learned a lot (and wasted even more time). Currently, I’m immersed in Elden Ring and Brotato, enjoying their unique gameplay experiences.",
-  "steamProfileLink": "Check out my Steam profile!",
-  "cybersecurityPassion": "Cybersecurity Passion:",
-  "cybersecurityDesc": "I love learning about cybersecurity and exploring the world of ethical hacking. I often use Root Me to practice my skills and keep up with the latest in the field.",
-  "privacyOSINT": "Privacy & OSINT Enthusiast:",
-  "privacyOSINTDesc": "I am constantly educating myself about online privacy and OSINT (Open Source Intelligence), diving into various tools and techniques to better understand how information is gathered and shared on the web.",
-  "linuxCustomization": "Linux Customization:",
-  "linuxCustomizationDesc": "In my spare time, I enjoy customizing my Linux system, tweaking everything from desktop environments to terminal configurations. It’s a fun and rewarding hobby that keeps me sharp in system administration and problem-solving."
+	"resumeText": "The paper that helps me find my internships 🤓",
+	"githubText": "This is where I have fun 👨‍💻",
+	"projectsText": "All the cool things I've done 😎 (or not)",
+	"aboutmeText": "Get to know me better 🔍",
+	"linkedinText": "My (small) network 👥",
+	"mailText": "I reply quickly, i swear!"
 }
