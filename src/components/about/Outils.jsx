@@ -1,13 +1,28 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 import { SiNeovim, SiArchlinux, SiHyprland } from "react-icons/si";
 import { FaGithub } from "react-icons/fa";
 
 function Outils() {
+
+	const { t } = useTranslation("about");
+
 	const outils = [
-		{ icon: <SiNeovim size={48} className="text-green-400" />, name: "Neovim" },
-		{ icon: <SiArchlinux size={48} className="text-blue-400" />, name: "Arch Linux" },
-		{ icon: <SiHyprland size={48} className="text-teal-400" />, name: "Hyprland" },
-		{ icon: <FaGithub size={48} className="text-gray-400" />, name: "GitHub" },
+		{
+			icon: <SiNeovim size={48} className="text-green-400" />,
+			name: "Neovim"
+		},
+		{
+			icon: <SiArchlinux size={48} className="text-blue-400" />,
+			name: "Arch Linux"
+		},
+		{
+			icon: <SiHyprland size={48} className="text-teal-400" />,
+			name: "Hyprland" },
+		{
+			icon: <FaGithub size={48} className="text-gray-400" />,
+			name: "GitHub"
+		},
 	];
 
 	return (
@@ -21,9 +36,10 @@ function Outils() {
 				<div className="bg-gray-900 bg-opacity-90 rounded-xl shadow-lg p-8 md:p-12">
 
 					{/* Description */}
-					<p className="text-lg md:text-xl text-gray-300 mb-8 text-center">
-						Je travaille sur un PC portable sous <span className="text-blue-400 font-semibold">Arch Linux</span> avec l’environnement de bureau <span className="text-teal-400 font-semibold">Hyprland</span>.
-						Pour coder, j’utilise <span className="text-green-400 font-semibold">Neovim</span> et je gère mes projets avec <span className="text-gray-400 font-semibold">GitHub</span> et ses pipelines CI/CD.
+					<p
+						className="text-lg md:text-xl text-gray-300 mb-8 text-center"
+						dangerouslySetInnerHTML={{ __html: t ("tools") }}
+					>
 					</p>
 
 					{/* Grille des icônes */}

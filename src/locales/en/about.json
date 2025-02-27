@@ -42,12 +42,12 @@
 		},
 
 		"projects": {
-			"title": "Selected Projects",
+			"title": "Some Projects",
 			"description1": "I've completed numerous <strong>projects</strong> over the <strong>past three years</strong>, both academic and personal. I always give <strong>100% effort</strong> to everything I undertake.",
 			"description2": "Here are <strong>three projects</strong> I find particularly <strong>cool</strong>! Feel free to check out the <Link to='/projects'>Projects</Link> section for <strong>more creations</strong>."
 		},
 
-		"techStack": "Here's a list of technologies I've worked with - feel free to <strong>contact me</strong> for collaborations!",
+		"techStack": "Here's a list of technologies I've worked with - feel free to <strong>contact me</strong> for collaborations :)",
 
 		"tools": {
 			"title": "My Toolkit"
@@ -112,5 +112,52 @@
 		"additionalText": "Additionally, I'm particularly interested in <strong>teaching</strong>, as sharing knowledge is a vocation close to my heart. However, before considering a teaching role, I first want to build my career in either the public or private sector. Gaining solid professional experience will not only help me master my field better but also allow me to share my expertise in a more relevant and meaningful way when the time comes.",
 		"seeMore": "Show more",
 		"seeLess": "Show less"
-	}
+	},
+	"projects": [
+		{
+			"title": "Card Game",
+			"description": "Automatic card game developed in C/C++ on Replit. Build your deck from numerous available cards and battle against another player or bots. May the best win!"
+		},
+		{
+			"title": "FEURnite",
+			"description": "A \"Fortnite\" clone with ducks. Multiplayer battle royale game set on floating islands - watch out for collapsing terrain! Developed with Unity and Photon for multiplayer."
+		},
+		{
+			"title": "2D Platformer",
+			"description": "Basic 2D platformer game developed in Vanilla JavaScript with Canvas API. Implemented custom animation, collision detection and camera systems."
+		}
+	],
+	"tools": "I work on a laptop running <span class='text-blue-400 font-semibold'>Arch Linux</span> with the <span class='text-teal-400 font-semibold'>Hyprland</span> desktop environment. For coding, I use <span class='text-green-400 font-semibold'>Neovim</span> and manage my projects with <span class='text-gray-400 font-semibold'>GitHub</span> and its CI/CD pipelines.",
+	"languages": [
+		{ 
+			"lang": "French", 
+			"level": "Fluent"
+		},
+		{ 
+			"lang": "Spanish", 
+			"level": "Fluent"
+		},
+		{ 
+			"lang": "English", 
+			"level": "C1"
+		},
+		{ 
+			"lang": "German", 
+			"level": "A2"
+		}
+	],
+	"hobbies": [
+		{
+			"title": "Chess",
+			"description": "Amateur player, holding his ground with the Caro-Kann :)"
+		},
+		{
+			"title": "Video Games",
+			"description": "From CounterStrike, to Souls, I've always loved video games."
+		},
+		{
+			"title": "Music",
+			"description": "Music is life... I really love Nujabes."
+		}
+	]
 }

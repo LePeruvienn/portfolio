@@ -112,5 +112,52 @@
 		"additionalText": "Par ailleurs, l'<strong>enseignement</strong> m'intéresse particulièrement, car transmettre des connaissances est une vocation qui me tient à cœur. Toutefois, avant d'envisager un rôle d'enseignant, je souhaite d'abord construire ma propre carrière, que ce soit dans le secteur public ou privé. Acquérir une solide expérience professionnelle me permettra non seulement de mieux maîtriser mon domaine, mais aussi de partager mon expertise de manière plus pertinente et enrichissante lorsque l'occasion se présentera.",
 		"seeMore": "Voir plus",
 		"seeLess": "Voir moins"
-	}
+	},
+	"projects": [
+		{
+			"title": "Jeu de cartes",
+			"description": "Petit jeu de cartes automatique développé en C/C++ sur Replit. Construisez votre deck parmi les nombreuses cartes disponibles et combattez contre un autre joueur ou contre des bots. Que le meilleur gagne !"
+		},
+		{
+			"title": "FEURnite",
+			"description": "Un clone du jeu \"Fortnite\" avec des canards. Un jeu multijoueur battle royale qui prend place sur des îles volantes, attention à la chute des îles ! Développé avec Unity et Photon pour le multijoueur."
+		},
+		{
+			"title": "Plateformer 2D",
+			"description": "Petit jeu de plateforme 2D basique, développé en JavaScript Vanilla avec l'API Canvas. J'ai moi-même développé la gestion des animations, des collisions et de la caméra."
+		}
+	],
+	"tools": "Je travaille sur un PC portable sous <span class='text-blue-400 font-semibold'>Arch Linux</span> avec l’environnement de bureau <span class='text-teal-400 font-semibold'>Hyprland</span>. Pour coder, j’utilise <span class='text-green-400 font-semibold'>Neovim</span> et je gère mes projets avec <span class='text-gray-400 font-semibold'>GitHub</span> et ses pipelines CI/CD.",
+	"languages": [
+		{ 
+			"lang": "Français", 
+			"level": "Langue maternelle"
+		},
+		{ 
+			"lang": "Espagnol", 
+			"level": "Langue maternelle"
+		},
+		{ 
+			"lang": "Anglais", 
+			"level": "C1"
+		},
+		{ 
+			"lang": "Allemand", 
+			"level": "A2"
+		}
+	],
+	"hobbies": [
+		{
+			"title": "Échecs",
+			"description": "Petit joueur amateur se défend bien avec sa Caro-Kann :)"
+		},
+		{
+			"title": "Jeux vidéo",
+			"description": "De CounterStrike aux Souls, j'ai toujours adoré les jeux vidéo."
+		},
+		{
+			"title": "Musique",
+			"description": "La musique, c'est la vie... J'aime beaucoup Nujabes."
+		}
+	]
 }

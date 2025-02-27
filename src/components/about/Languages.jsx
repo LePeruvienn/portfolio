@@ -1,36 +1,33 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-
-const languages = [
-	{ 
-		lang: "Français", 
-		level: "Langue maternelle", 
-		flag: "🇫🇷", 
-		color: "text-blue-400"
-	},
-	{ 
-		lang: "Espagnol", 
-		level: "Langue maternelle", 
-		flag: "🇪🇸", 
-		color: "text-red-400"
-	},
-	{ 
-		lang: "Anglais", 
-		level: "C1", 
-		flag: "🇬🇧", 
-		color: "text-green-400"
-	},
-	{ 
-		lang: "Allemand", 
-		level: "A2", 
-		flag: "🇩🇪", 
-		color: "text-gray-400"
-	},
-];
+import { useTranslation } from "react-i18next";
 
 function LanguageCarousel () {
 
-	const [flippedCards, setFlippedCards] = useState (Array (languages.length).fill(false));
+	const { t } = useTranslation("about");
+
+	const languagesAssets = [
+		{ 
+			flag: "🇫🇷", 
+			color: "text-blue-400"
+		},
+		{ 
+			flag: "🇪🇸", 
+			color: "text-red-400"
+		},
+		{ 
+			flag: "🇬🇧", 
+			color: "text-green-400"
+		},
+		{ 
+			flag: "🇩🇪", 
+			color: "text-gray-400"
+		},
+	];
+
+	const languagesData = t ("languages", { returnObjects: true });
+
+	const [flippedCards, setFlippedCards] = useState (Array (languagesData.length).fill(false));
 
 	const handleCardClick = (index) => {
 
@@ -47,7 +44,7 @@ function LanguageCarousel () {
 
 			{/* Carrousel de langues */}
 			<div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6">
-				{languages.map((language, index) => (
+				{languagesData.map((language, index) => (
 					<div
 						key={index}
 						className="relative w-full h-48 cursor-pointer"
@@ -72,9 +69,9 @@ function LanguageCarousel () {
 								) : (
 									<div className="flex flex-col items-center">
 										<div className="text-5xl mb-3">
-											{language.flag}
+											{languagesAssets[index].flag}
 										</div>
-										<h3 className={`text-2xl font-bold ${language.color}`}>
+										<h3 className={`text-2xl font-bold ${languagesAssets[index].color}`}>
 											{language.lang}
 										</h3>
 										<p className="font-bold text-gray-400 text-md">{language.level}</p>
