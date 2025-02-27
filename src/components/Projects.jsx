@@ -8,7 +8,7 @@ import techsColor from "../assets/datas/techsColor.json"
 
 function Projects () {
 
-	const { t, i18n } = useTranslation();
+	const { t } = useTranslation ("projects");
 	const [selectedTechs, setSelectedTechs] = useState([]);
 
 	const techs = [...new Set(projectsData.flatMap(project => project.tech))];
@@ -31,10 +31,10 @@ function Projects () {
 			<div className="md-container">
 
 				<h1 className="text-6xl text-white">
-					Mes Projets
+					{ t ("projectsTitle") }
 				</h1>
 				<p>
-					Voila différents projet que j'ai fait durant mon temps libre ou pendant ma scolarité, je vous est mit un petit filtre juste en dessous pour vous aidez à vous retrouvez dans tout ce bazzare. 😀
+					{ t ("projectsDescription") }
 				</p>
 
 				{/* Filter Buttons */}
@@ -57,13 +57,16 @@ function Projects () {
 						))
 					) : (
 						<p className="text-white text-xl">
-							Aucun projet trouvé avec ces critères :'(
+							{ t ("noProjectsFound") }
 						</p>
 					)}
 				</div>
 
 				<p className="mt-20">
-					<strong> Feel free to see more by visiting my <a href="https://github.com/LePeruvienn?tab=repositories" target="_blank"> GitHub repositories </a> ! </strong>
+					<strong
+						dangerouslySetInnerHTML={{ __html: t ("githubLink") }}
+					>
+					</strong>
 				</p>
 			</div>
 

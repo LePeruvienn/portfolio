@@ -1,1 +1,6 @@
-{}
+{
+	"projectsTitle": "My Projects",
+	"projectsDescription": "Here are different projects I've worked on during my free time or school. I've added a small filter below to help you navigate through this mess. 😀",
+	"noProjectsFound": "No projects found with these criteria :'(",
+	"githubLink": "Feel free to see more by visiting my <a href=\"https://github.com/LePeruvienn?tab=repositories\" target=\"_blank\"> GitHub repositories </a> !"
+}
