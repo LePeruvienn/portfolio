@@ -1,9 +1,12 @@
 import Navbar from './general/Navbar.jsx';
 import Footer from './general/Footer.jsx';
-import { FaTwitter, FaLinkedin, FaGithub, FaInstagram, FaEnvelope } from 'react-icons/fa';
+import { FaLinkedin, FaGithub, FaEnvelope } from 'react-icons/fa';
 import { motion } from 'framer-motion';
+import { useTranslation } from "react-i18next";
 
 function Contact () {
+
+	const { t } = useTranslation ("contact");
 	
 	// Animation variants
 	const containerVariants = {
@@ -33,7 +36,7 @@ function Contact () {
 					transition={{ duration: 0.8 }}
 					className="text-5xl md:text-6xl lg:text-8xl font-extrabold py-4 text-center bg-clip-text text-transparent bg-gradient-to-r from-white to-indigo-400"
 				>
-					Contactez-moi
+					{ t ("contactMe") }
 				</motion.h1>
 
 				{/* Texte d'introduction */}
@@ -43,7 +46,7 @@ function Contact () {
 					transition={{ duration: 0.8, delay: 0.3 }}
 					className="max-w-2xl mx-auto text-lg md:text-xl lg:text-2xl py-4 text-gray-300 text-center"
 				>
-					Je suis disponible sur les réseaux sociaux et par email. N'hésitez pas à me contacter pour des collaborations, des questions ou simplement pour discuter !
+					{ t ("description") }
 				</motion.p>
 
 				{/* Photo de profil */}
