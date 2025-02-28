@@ -63,19 +63,16 @@ function Navbar() {
 					>
 						{t('projects')}
 					</NavLink>
-
-					{/*
 					<NavLink
-						to="/funfacts#"
+						to="/blog#"
 						className={({ isActive }) =>
 							isActive
 								? "text-lg text-indigo-400"
 								: "text-lg text-gray-400 hover:text-indigo-400"
 						}
 					>
-						{t('other')}
+						Blog
 					</NavLink>
-					*/}
 					<Link to="/contact#">
 						<button
 							type="button"
@@ -126,7 +123,7 @@ function Navbar() {
 						{t('projects')}
 					</NavLink>
 					<NavLink
-						to="/funfacts#"
+						to="/blog#"
 						onClick={toggleMenu}
 						className={({ isActive }) =>
 							isActive
@@ -134,7 +131,7 @@ function Navbar() {
 								: "text-lg text-gray-400 hover:text-indigo-400"
 						}
 					>
-						{t('other')}
+						Blog
 					</NavLink>
 					<Link to="/contact#" onClick={toggleMenu}>
 						<button

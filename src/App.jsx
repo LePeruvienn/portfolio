@@ -6,7 +6,7 @@ import Home from './components/Home.jsx';
 import About from './components/About.jsx';
 import Projects from './components/Projects.jsx';
 import Contact from './components/Contact.jsx';
-import FunFacts from './components/FunFacts.jsx';
+import Blog from './components/Blog.jsx';
 import ScrollToTop from './components/utils/ScrollToTop.jsx';
 
 function App() {
@@ -37,10 +37,8 @@ function App() {
 				<Route path="/home" element={<Home />} />
 				<Route path="/about" element={<About />} />
 				<Route path="/projects" element={<Projects />} />
+				<Route path="/blog" element={<Blog />} />
 				<Route path="/contact" element={<Contact />} />
-				{/*
-				<Route path="/funfacts" element={<FunFacts />} />
-				*/}
 			</Routes>
 		</HashRouter>
 	);
