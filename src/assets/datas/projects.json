@@ -1,170 +1,435 @@
 [
 	{
-		"title": "Portfolio",
-		"date": "2025",
-		"images": ["/portfolio/img/projets/portfolio-1.png", "/portfolio/img/projets/portfolio-2.png"],
-		"sections": {
-			"Description": "Mon site internet ! Et oui celui dont vous etes actuellement en train de naviguer, c'est toujours quelque chose que j'ai voulu faire, je garderais ici tout les travaux que j'ai réaliser et aussi certain article que je voudrais écrire.",
-			"Liens": "Vous pouvez consulter le code source sur le GitHub."
+		"title": {
+			"en": "Portfolio",
+			"fr": "Portfolio"
 		},
-		"tech": ["JavaScript","React", "Tailwind CSS", "Git"],
+		"date": "2025",
+		"images": [
+			"/portfolio/img/projets/portfolio-1.png",
+			"/portfolio/img/projets/portfolio-2.png"
+		],
+		"sections": {
+			"en": {
+				"Description": "My website! Yes, the one you are currently browsing is something I've always wanted to create. I will keep here all the work I have done and also some articles I want to write.",
+				"Links": "You can check the source code on <a target=\"_blank\" href=\"https://github.com/LePeruvienn/portfolio\">GitHub</a>."
+			},
+			"fr": {
+				"Description": "Mon site internet ! Et oui celui dont vous etes actuellement en train de naviguer, c'est toujours quelque chose que j'ai voulu faire, je garderais ici tout les travaux que j'ai réaliser et aussi certain article que je voudrais écrire.",
+				"Liens": "Vous pouvez consulter le code source sur le <a target=\"_blank\" href=\"https://github.com/LePeruvienn/portfolio\">GitHub</a>."
+			}
+		},
+		"tech": [
+			"JavaScript",
+			"React",
+			"Tailwind CSS",
+			"Git"
+		],
 		"color": "teal-400"
 	},
 	{
-		"title": "FEURnite",
-		"date": "2024",
-		"images": ["/portfolio/img/projets/feurnite-1.png", "/portfolio/img/projets/feurnite-2.png", "/portfolio/img/projets/feurnite-3.png", "/portfolio/img/projets/feurnite-4.png", "/portfolio/img/projets/feurnite-5.png"],
-		"sections": {
-			"Description": "Un battle royale complétement fou avec des canards et iles volante ! Battez vous contres les autres joueur en récupérant des armes et des objets dans des coffres, mais attention à la chut des iles ... Le dernier survivant gagne !",
-			"Plus d'infos": "Ce projet était un travaux réaliser durant mes études ou j'ai été désigner \"Scrum Master\", j'ai alors fait en sort de mener à bien tout le projet. Code source et executable sur GitHub."
+		"title": {
+			"en": "FEURnite",
+			"fr": "FEURnite"
 		},
-		"tech": ["Unity", "Photon", "C#", "Git"],
+		"date": "2024",
+		"images": [
+			"/portfolio/img/projets/feurnite-1.png",
+			"/portfolio/img/projets/feurnite-2.png",
+			"/portfolio/img/projets/feurnite-3.png",
+			"/portfolio/img/projets/feurnite-4.png",
+			"/portfolio/img/projets/feurnite-5.png"
+		],
+		"sections": {
+			"en": {
+				"Description": "A completely crazy battle royale with ducks and flying islands! Fight against other players by collecting weapons and items from chests, but watch out for the falling islands... The last survivor wins!",
+				"About": "This project was completed during my studies where I was designated \"Scrum Master\". I ensured the project was carried out successfully. Source code and <a target=\"_blank\" href=\"https://github.com/LePeruvienn/FEURnite/releases/tag/Livrable4\">.exe file</a> available on <a target=\"_blank\" href=\"https://github.com/LePeruvienn/portfolio\">GitHub</a>."
+			},
+			"fr": {
+				"Description": "Un battle royale complétement fou avec des canards et iles volante ! Battez vous contres les autres joueur en récupérant des armes et des objets dans des coffres, mais attention à la chut des iles ... Le dernier survivant gagne !",
+				"Plus d'infos": "Ce projet était un travaux réaliser durant mes études ou j'ai été désigner \"Scrum Master\", j'ai alors fait en sort de mener à bien tout le projet. Code source et <a target=\"_blank\" href=\"https://github.com/LePeruvienn/FEURnite/releases/tag/Livrable4\">executable</a> sur <a target=\"_blank\" href=\"https://github.com/LePeruvienn/portfolio\">GitHub</a>."
+			}
+		},
+		"tech": [
+			"Unity",
+			"Photon",
+			"C#",
+			"Git"
+		],
 		"color": "yellow-400"
 	},
 	{
-		"title": "Amour en images",
-		"date": "2024",
-		"images": ["/portfolio/img/projets/amourenimages-1.png", "/portfolio/img/projets/amourenimages-2.png"],
-		"sections": {
-			"Description": "Développement d'une application web dee partage de photos. Développement de l'API avec Django et REST, frontend en React. C'était un projet plutot perso donc j'ai retirer les images publiées et down le site qui était host sur pyhtonanywere.com",
-			"Liens": "Vous pouvez consultez le code source sur GitHub, j'ai down le site pour évitez tout abus."
+		"title": {
+			"en": "Love in Pictures",
+			"fr": "Amour en images"
 		},
-		"tech": ["JavaScript", "React", "Python", "Django", "Tailwind CSS", "SQL", "Git", "API REST"],
+		"date": "2024",
+		"images": [
+			"/portfolio/img/projets/amourenimages-1.png",
+			"/portfolio/img/projets/amourenimages-2.png"
+		],
+		"sections": {
+			"en": {
+				"Description": "Development of a web application for sharing photos. API developed with Django and REST, frontend in React. It was a rather personal project so I removed the published images and took down the site that was hosted on pythonanywhere.com.",
+				"Links": "You can check the source code on <a target=\"_blank\" href=\"https://github.com/LePeruvienn/amour-en-images\">GitHub</a>; I took down the site to avoid any abuse."
+			},
+			"fr": {
+				"Description": "Développement d'une application web dee partage de photos. Développement de l'API avec Django et REST, frontend en React. C'était un projet plutot perso donc j'ai retirer les images publiées et down le site qui était host sur pyhtonanywere.com",
+				"Liens": "Vous pouvez consultez le code source sur <a target=\"_blank\" href=\"https://github.com/LePeruvienn/amour-en-images\">GitHub</a>, j'ai down le site pour évitez tout abus."
+			}
+		},
+		"tech": [
+			"JavaScript",
+			"React",
+			"Python",
+			"Django",
+			"Tailwind CSS",
+			"SQL",
+			"Git",
+			"API REST"
+		],
 		"color": "purple-400"
 	},
 	{
-		"title": "Analyse de données sémantique",
-		"date": "2024",
-		"images": ["/portfolio/img/projets/semantique-1.png", "/portfolio/img/projets/semantique-2.png", "/portfolio/img/projets/semantique-3.png"],
-		"sections": {
-			"Description": "Projet data science, j'ai choisi comme sujet \"Quelles sont les pays les plus touchées par les catastrophes naturelle ?\". Données récolter sur WorldsInData et lien avec Wikidata.",
-			"Liens": "Site internet avec la documentation de ma recherche et pour pouvoir éxécuter les requêtes. Code sources sur Github"
+		"title": {
+			"en": "Semantic Data Analysis",
+			"fr": "Analyse de données sémantique"
 		},
-		"tech": ["JavaScript", "Angular", "Graph DB", "SPARQL", "Git"],
+		"date": "2024",
+		"images": [
+			"/portfolio/img/projets/semantique-1.png",
+			"/portfolio/img/projets/semantique-2.png",
+			"/portfolio/img/projets/semantique-3.png"
+		],
+		"sections": {
+			"en": {
+				"Description": "Data science project, I chose the topic 'Which countries are most affected by natural disasters?' Data collected from WorldsInData and linked with Wikidata.",
+				"Links": "<a target=\"_blank\" href=\"https://leperuvienn.github.io/BUT3-Web-Semantique/\">Website</a> with documentation of my research and to execute the queries. Source code on <a target=\"_blank\" href=\"https://github.com/LePeruvienn/BUT3-Web-Semantique\">GitHub</a>."
+			},
+			"fr": {
+				"Description": "Projet data science, j'ai choisi comme sujet \"Quelles sont les pays les plus touchées par les catastrophes naturelle ?\". Données récolter sur WorldsInData et lien avec Wikidata.",
+				"Liens": "<a target=\"_blank\" href=\"https://leperuvienn.github.io/BUT3-Web-Semantique/\">Site internet</a> avec la documentation de ma recherche et pour pouvoir éxécuter les requêtes. Code sources sur <a target=\"_blank\" href=\"https://github.com/LePeruvienn/BUT3-Web-Semantique\">GitHub</a>."
+			}
+		},
+		"tech": [
+			"JavaScript",
+			"Angular",
+			"Graph DB",
+			"SPARQL",
+			"Git"
+		],
 		"color": "blue-400"
 	},
 	{
-		"title": "Empanadas !",
-		"date": "2024",
-		"images": ["/portfolio/img/projets/empanadas-1.png", "/portfolio/img/projets/empanadas-2.png", "/portfolio/img/projets/empanadas-3.png"],
-		"sections": {
-			"Description": "Applications web de ventes de empanadas, avec compte client et page d'administration. Réaliser entièrement avec le framework Django."
+		"title": {
+			"en": "Empanadas!",
+			"fr": "Empanadas !"
 		},
-		"tech": ["HTML", "CSS", "Python", "Django", "SQL", "Git"],
+		"date": "2024",
+		"images": [
+			"/portfolio/img/projets/empanadas-1.png",
+			"/portfolio/img/projets/empanadas-2.png",
+			"/portfolio/img/projets/empanadas-3.png"
+		],
+		"sections": {
+			"en": {
+				"Description": "Web application for selling empanadas, with customer accounts and an admin page. Built entirely with the Django framework."
+			},
+			"fr": {
+				"Description": "Applications web de ventes de empanadas, avec compte client et page d'administration. Réaliser entièrement avec le framework Django."
+			}
+		},
+		"tech": [
+			"HTML",
+			"CSS",
+			"Python",
+			"Django",
+			"SQL",
+			"Git"
+		],
 		"color": "green-400"
 	},
 	{
-		"title": "Fabiola PINEL",
-		"date": "2024",
-		"images": ["/portfolio/img/projets/fabiola-1.png", "/portfolio/img/projets/fabiola-2.png"],
-		"sections": {
-			"Description": "Site vitrine pour auteur. Réaliser en utilisant TypeScript.",
-			"Liens": "Site internet et code source sur GitHub."
+		"title": {
+			"en": "Fabiola PINEL",
+			"fr": "Fabiola PINEL"
 		},
-		"tech": ["JavaScript", "React", "Tailwind CSS", "Git"],
+		"date": "2024",
+		"images": [
+			"/portfolio/img/projets/fabiola-1.png",
+			"/portfolio/img/projets/fabiola-2.png"
+		],
+		"sections": {
+			"en": {
+				"Description": "Showcase site for an author. Built using TypeScript.",
+				"Links": "<a target=\"_blank\" href=\"https://leperuvienn.github.io/react-project/\">Website</a> and source code on <a target=\"_blank\" href=\"https://github.com/LePeruvienn/react-project\">GitHub</a>."
+			},
+			"fr": {
+				"Description": "Site vitrine pour auteur. Réaliser en utilisant TypeScript.",
+				"Liens": "<a target=\"_blank\" href=\"https://leperuvienn.github.io/react-project/\">Site internet</a> et code source sur <a target=\"_blank\" href=\"https://github.com/LePeruvienn/react-project\">GitHub</a>."
+			}
+		},
+		"tech": [
+			"JavaScript",
+			"React",
+			"Tailwind CSS",
+			"Git"
+		],
 		"color": "red-400"
 	},
 	{
-		"title": "Zombie Math",
-		"date": "2024",
-		"images": ["/portfolio/img/projets/zombiemath-1.png", "/portfolio/img/projets/zombiemath-2.png", "/portfolio/img/projets/zombiemath-3.png", "/portfolio/img/projets/zombiemath-4.png", "/portfolio/img/projets/zombiemath-5.png"],
-		"sections": {
-			"Description": "Développement d'un jeu éducatif à but de renforcer ses capacité de calcul mentale, avec un gameplay unique et dynamique, essayer de survivre le plus longtemps possibles aux hordes de zombies !",
-			"Liens": "Executable et code source sur GitHub."
+		"title": {
+			"en": "Zombie Math",
+			"fr": "Zombie Math"
 		},
-		"tech": ["Unity", "C#", "Git"],
+		"date": "2024",
+		"images": [
+			"/portfolio/img/projets/zombiemath-1.png",
+			"/portfolio/img/projets/zombiemath-2.png",
+			"/portfolio/img/projets/zombiemath-3.png",
+			"/portfolio/img/projets/zombiemath-4.png",
+			"/portfolio/img/projets/zombiemath-5.png"
+		],
+		"sections": {
+			"en": {
+				"Description": "Development of an educational game aimed at boosting mental arithmetic skills, featuring unique and dynamic gameplay; try to survive as long as possible against hordes of zombies!",
+				"Links": "<a target=\"_blank\" href=\"https://github.com/LePeruvienn/Unity-Math/releases/tag/Build\">.exe file</a> and source code available on <a target=\"_blank\" href=\"https://github.com/LePeruvienn/Unity-Math\">GitHub</a>."
+			},
+			"fr": {
+				"Description": "Développement d'un jeu éducatif à but de renforcer ses capacité de calcul mentale, avec un gameplay unique et dynamique, essayer de survivre le plus longtemps possibles aux hordes de zombies !",
+				"Liens": "<a target=\"_blank\" href=\"https://github.com/LePeruvienn/Unity-Math/releases/tag/Build\">Executable</a> et code source sur <a target=\"_blank\" href=\"https://github.com/LePeruvienn/Unity-Math\">GitHub</a>."
+			}
+		},
+		"tech": [
+			"Unity",
+			"C#",
+			"Git"
+		],
 		"color": "purple-400"
 	},
 	{
-		"title": "Administration réseau",
-		"date": "2024",
-		"images": ["/portfolio/img/projets/marionet-1.png", "/portfolio/img/projets/marionet-2.png"],
-		"sections": {
-			"Description": "Développement d'une infrastructure réseau pour une entreprise ficitive (routage, DNS, parfeu, ...) à l'aide de Marionet pour simulé des machines réelles."
+		"title": {
+			"en": "Network Administration",
+			"fr": "Administration réseau"
 		},
-		"tech": ["Linux", "Shell", "Réseaux"],
+		"date": "2024",
+		"images": [
+			"/portfolio/img/projets/marionet-1.png",
+			"/portfolio/img/projets/marionet-2.png"
+		],
+		"sections": {
+			"en": {
+				"Description": "Development of a network infrastructure for a fictitious company (routing, DNS, firewall, ...) using Marionet to simulate real machines."
+			},
+			"fr": {
+				"Description": "Développement d'une infrastructure réseau pour une entreprise ficitive (routage, DNS, parfeu, ...) à l'aide de Marionet pour simulé des machines réelles."
+			}
+		},
+		"tech": [
+			"Linux",
+			"Shell",
+			"Réseaux"
+		],
 		"color": "indigo-400"
 	},
 	{
-		"title": "Platformer 2D",
-		"date": "2024",
-		"images": ["/portfolio/img/projets/platformer-1.png", "/portfolio/img/projets/platformer-2.png"],
-		"sections": {
-			"Description": "Développement d'un jeu de plateforme 2d à l'aide de l'API Canvas. J'ai du alors développer moi meme la gestion de la caméra, de la physique et des animations.",
-			"Apprentissage": "Jeu en ligne et code source sur Github"
+		"title": {
+			"en": "Platformer 2D",
+			"fr": "Platformer 2D"
 		},
-		"tech": ["JavaScript", "Canvas API"],
+		"date": "2024",
+		"images": [
+			"/portfolio/img/projets/platformer-1.png",
+			"/portfolio/img/projets/platformer-2.png"
+		],
+		"sections": {
+			"en": {
+				"Description": "Development of a 2D platformer game using the Canvas API. I had to develop the camera management, physics, and animations myself.",
+				"Links": "<a target=\"_blank\" href=\"https://leperuvienn.github.io/1stPlaformer/html/\">Online game</a> and source code available on <a target=\"_blank\" href=\"https://github.com/LePeruvienn/1stPlaformer\">GitHub</a>. <strong>Press F5 if you dont see the player</strong> !"
+			},
+			"fr": {
+				"Description": "Développement d'un jeu de plateforme 2d à l'aide de l'API Canvas. J'ai du alors développer moi meme la gestion de la caméra, de la physique et des animations.",
+				"Liens": "<a target=\"_blank\" href=\"https://leperuvienn.github.io/1stPlaformer/html/\">Jeu en ligne</a> et code source sur <a target=\"_blank\" href=\"https://github.com/LePeruvienn/1stPlaformer\">Github</a>. <strong>Appuyer sur F5 si votre personnage ne charge pas</strong>!"
+			}
+		},
+		"tech": [
+			"JavaScript",
+			"Canvas API"
+		],
 		"color": "orange-400"
 	},
 	{
-		"title": "FEUR Pizza",
-		"date": "2024",
-		"images": ["/portfolio/img/projets/pizza-1.png", "/portfolio/img/projets/pizza-2.png"],
-		"sections": {
-			"Description": "Développement d'applications en vue à la gestion d'un Pizzeria. Mise en place d'un base de données MySQL, ainsi qu'une applications web pour la commandes des pizza mais aussi d'une applications Java pour la livraison de celle-ci."
+		"title": {
+			"en": "FEUR Pizza",
+			"fr": "FEUR Pizza"
 		},
-		"tech": ["HTML", "CSS", "PHP", "JAVA", "SQL"],
+		"date": "2024",
+		"images": [
+			"/portfolio/img/projets/pizza-1.png",
+			"/portfolio/img/projets/pizza-2.png"
+		],
+		"sections": {
+			"en": {
+				"Description": "Development of applications for managing a pizzeria. Implementation of a MySQL database, as well as a web application for ordering pizzas and a Java application for delivery."
+			},
+			"fr": {
+				"Description": "Développement d'applications en vue à la gestion d'un Pizzeria. Mise en place d'un base de données MySQL, ainsi qu'une applications web pour la commandes des pizza mais aussi d'une applications Java pour la livraison de celle-ci."
+			}
+		},
+		"tech": [
+			"HTML",
+			"CSS",
+			"PHP",
+			"JAVA",
+			"SQL"
+		],
 		"color": "blue-500"
 	},
 	{
-		"title": "Genshin DLE",
-		"date": "2023",
-		"images": ["/portfolio/img/projets/genshindle-1.png", "/portfolio/img/projets/genshindle-2.png"],
-		"sections": {
-			"Description": "Participation au développement d'un petit jeu web de devinette en JavaScript et PHP.",
-			"Liens": "Site internet géré par un collègue à moi."
+		"title": {
+			"en": "Genshin DLE",
+			"fr": "Genshin DLE"
 		},
-		"tech": ["HTML", "CSS", "JavaScript", "PHP"],
+		"date": "2023",
+		"images": [
+			"/portfolio/img/projets/genshindle-1.png",
+			"/portfolio/img/projets/genshindle-2.png"
+		],
+		"sections": {
+			"en": {
+				"Description": "Participation in the development of a small web guessing game using JavaScript and PHP.",
+				"Links": "<a target=\"_blank\" href=\"http://www.guessgame.fun:8080/\">Website</a> managed by a friend (peut-être hors ligne)."
+			},
+			"fr": {
+				"Description": "Participation au développement d'un petit jeu web de devinette en JavaScript et PHP.",
+				"Liens": "<a target=\"_blank\" href=\"http://www.guessgame.fun:8080/\">Site internet</a> géré par un collègue à moi."
+			}
+		},
+		"tech": [
+			"HTML",
+			"CSS",
+			"JavaScript",
+			"PHP"
+		],
 		"color": "yellow-400"
 	},
 	{
-		"title": "Serveur Apache",
-		"date": "2023",
-		"images": ["/portfolio/img/projets/apache-1.png", "portfolio/img/projets/apache-2.png"],
-		"sections": {
-			"Description": "Mise en place d'un serveur web apache sur sur RaspberryPie."
+		"title": {
+			"en": "Apache Server",
+			"fr": "Serveur Apache"
 		},
-		"tech": ["Linux", "Réseaux"],
+		"date": "2023",
+		"images": [
+			"/portfolio/img/projets/apache-1.png",
+			"/portfolio/img/projets/apache-2.png"
+		],
+		"sections": {
+			"en": {
+				"Description": "Setup of an Apache web server on a Raspberry Pi using Debian."
+			},
+			"fr": {
+				"Description": "Mise en place d'un serveur web apache sur sur Raspberry Pi sous Debian."
+			}
+		},
+		"tech": [
+			"Linux",
+			"Réseaux"
+		],
 		"color": "purple-400"
 	},
 	{
-		"title": "C Snake",
-		"date": "2023",
-		"images": ["/portfolio/img/projets/snake-1.png", "/portfolio/img/projets/snake-2.png"],
-		"sections": {
-			"Description": "Développement du jeu mondialement connu snake en C. Affichage dynamique sur la console avec gestions des inputs."
+		"title": {
+			"en": "C Snake",
+			"fr": "C Snake"
 		},
-		"tech": ["C/C++"],
+		"date": "2023",
+		"images": [
+			"/portfolio/img/projets/snake-1.png",
+			"/portfolio/img/projets/snake-2.png"
+		],
+		"sections": {
+			"en": {
+				"Description": "Development of the globally known Snake game in C. Dynamic display on the console with input management."
+			},
+			"fr": {
+				"Description": "Développement du jeu mondialement connu snake en C. Affichage dynamique sur la console avec gestions des inputs."
+			}
+		},
+		"tech": [
+			"C/C++"
+		],
 		"color": "indigo-400"
 	},
 	{
-		"title": "Trello Lite",
-		"date": "2023",
-		"images": ["/portfolio/img/projets/trello-1.png", "/portfolio/img/projets/trello-2.png"],
-		"sections": {
-			"Description": "Développement d'une application JAVA à l'aide de la librairie Swing. Sérialization et sauvegarde des données entrée par l'utilisateur. (la deuxième image est la maquette initiale du projet)"
+		"title": {
+			"en": "Trello Lite",
+			"fr": "Trello Lite"
 		},
-		"tech": ["JAVA"],
+		"date": "2023",
+		"images": [
+			"/portfolio/img/projets/trello-1.png",
+			"/portfolio/img/projets/trello-2.png"
+		],
+		"sections": {
+			"en": {
+				"Description": "Development of a JAVA application using the Swing library. Serialization and saving of user input data. (The second image is the project's initial mockup.)"
+			},
+			"fr": {
+				"Description": "Développement d'une application JAVA à l'aide de la librairie Swing. Sérialization et sauvegarde des données entrée par l'utilisateur. (la deuxième image est la maquette initiale du projet)"
+			}
+		},
+		"tech": [
+			"JAVA"
+		],
 		"color": "orange-400"
 	},
 	{
-		"title": "Jeu de carte",
-		"date": "2022",
-		"images": ["/portfolio/img/projets/cartes-1.png", "/portfolio/img/projets/cartes-2.png", "/portfolio/img/projets/cartes-3.png"],
-		"sections": {
-			"Description": "Jeu de carte automatique solo ou en mutlijoeur locale, développer avec l'utilisation d'alogorythme et aussi d'un robot permettant de jouer en solo."
+		"title": {
+			"en": "Card Game",
+			"fr": "Jeu de carte"
 		},
-		"tech": ["C/C++"],
+		"date": "2022",
+		"images": [
+			"/portfolio/img/projets/cartes-1.png",
+			"/portfolio/img/projets/cartes-2.png",
+			"/portfolio/img/projets/cartes-3.png"
+		],
+		"sections": {
+			"en": {
+				"Description": "Automated card game for solo or local multiplayer play, developed using algorithms and including a bot to play solo."
+			},
+			"fr": {
+				"Description": "Jeu de carte automatique solo ou en mutlijoeur locale, développer avec l'utilisation d'alogorythme et aussi d'un robot permettant de jouer en solo."
+			}
+		},
+		"tech": [
+			"C/C++"
+		],
 		"color": "blue-400"
 	},
 	{
-		"title": "To the Backs",
-		"date": "2022",
-		"images": ["/portfolio/img/projets/backs-1.png", "/portfolio/img/projets/backs-2.png", "/portfolio/img/projets/backs-3.png"],
-		"sections": {
-			"Description": "Développement d'un site vitrine en HTML/CSS pour une entreprise fictive."
+		"title": {
+			"en": "To the Backs",
+			"fr": "To the Backs"
 		},
-		"tech": ["HTML", "CSS"],
+		"date": "2022",
+		"images": [
+			"/portfolio/img/projets/backs-1.png",
+			"/portfolio/img/projets/backs-2.png",
+			"/portfolio/img/projets/backs-3.png"
+		],
+		"sections": {
+			"en": {
+				"Description": "Development of a showcase website in HTML/CSS for a fictitious company."
+			},
+			"fr": {
+				"Description": "Développement d'un site vitrine en HTML/CSS pour une entreprise fictive."
+			}
+		},
+		"tech": [
+			"HTML",
+			"CSS"
+		],
 		"color": "red-400"
 	}
 ]

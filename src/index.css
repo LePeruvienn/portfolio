@@ -42,7 +42,7 @@ body {
 
 	/* Links */
 	.md-container p a {
-		@apply text-teal-400 hover:text-teal-600 transition-colors duration-300;
+		@apply text-teal-400 hover:text-teal-600 transition-colors duration-300 underline;
 	}
 
 	/* Container Background */

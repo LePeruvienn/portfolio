@@ -1,20 +1,27 @@
 import { useState } from "react";
-import { ChevronLeft, ChevronRight } from "lucide-react";
 import { motion } from "framer-motion";
+import { useTranslation } from "react-i18next";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
-import techsColor from "../../assets/datas/techsColor.json"
+import techsColor from "../../assets/datas/techsColor.json";
 
-function Project ( { project } ) {
+function Project({ project }) {
 
-	const [currentImage, setCurrentImage] = useState(0);
-	const [selectedSection, setSelectedSection] = useState("Description");
+	const { i18n } = useTranslation ();
+	const currentLang = i18n.language; // expects "en" or "fr"
+
+	const [currentImage, setCurrentImage] = useState (0);
+	
+	const initialSection = Object.keys (project.sections[currentLang])[0];
+	const [selectedSection, setSelectedSection] = useState (initialSection);
 
 	const nextImage = () => {
-		setCurrentImage((prev) => (prev + 1) % project.images.length);
+
+		setCurrentImage ((prev) => (prev + 1) % project.images.length);
 	};
 
 	const prevImage = () => {
-		setCurrentImage((prev) => (prev - 1 + project.images.length) % project.images.length);
+		setCurrentImage ((prev) => (prev - 1 + project.images.length) % project.images.length);
 	};
 
 	return (
@@ -22,12 +29,12 @@ function Project ( { project } ) {
 			className="flex flex-col md:flex-row bg-gray-800 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300 p-6"
 			whileHover={{ scale: 1.02 }}
 		>
-			{/* Carrousel d'images agrandi */}
+			{/* Enlarged image carousel */}
 			<div className="relative w-full md:w-2/5">
 				<motion.img
 					key={currentImage}
 					src={project.images[currentImage]}
-					alt={project.title}
+					alt={project.title[currentLang]}
 					className="w-full h-80 object-cover rounded-lg"
 					initial={{ opacity: 0, x: -20 }}
 					animate={{ opacity: 1, x: 0 }}
@@ -46,7 +53,7 @@ function Project ( { project } ) {
 					<ChevronRight size={24} />
 				</button>
 
-				{/* Petites bulles indicatrices */}
+				{/* Small indicator bubbles */}
 				<div className="absolute bottom-2 left-1/2 transform -translate-x-1/2 flex space-x-2">
 					{project.images.map((_, index) => (
 						<div 
@@ -57,14 +64,16 @@ function Project ( { project } ) {
 				</div>
 			</div>
 
-			{/* Contenu du projet avec sections cliquables */}
+			{/* Project content with clickable sections */}
 			<div className="p-6 md:w-3/5 flex flex-col">
-				<h3 className={`text-3xl font-bold text-gray-200`}>{project.title}</h3>
+				<h3 className="text-3xl font-bold text-gray-200">
+					{project.title[currentLang]}
+				</h3>
 				<p className="text-gray-400 font-semibold text-xl">{project.date}</p>
 
-				{/* Navigation entre sections */}
+				{/* Navigation between sections */}
 				<div className="flex space-x-4 mt-4 border-b border-gray-600 pb-2">
-					{Object.keys(project.sections).map((section) => (
+					{Object.keys(project.sections[currentLang]).map((section) => (
 						<button
 							key={section}
 							className={`text-lg font-semibold transition-colors duration-300 ${
@@ -77,18 +86,18 @@ function Project ( { project } ) {
 					))}
 				</div>
 
-				{/* Contenu dynamique */}
+				{/* Dynamic content */}
 				<motion.p 
 					key={selectedSection}
 					className="text-gray-300 mt-4 text-lg"
 					initial={{ opacity: 0, y: 10 }}
 					animate={{ opacity: 1, y: 0 }}
 					transition={{ duration: 0.3 }}
+					dangerouslySetInnerHTML={{ __html: project.sections[currentLang][selectedSection] }}
 				>
-					{project.sections[selectedSection]}
 				</motion.p>
 
-				{/* Technologies utilisées */}
+				{/* Technologies used */}
 				<div className="mt-6 flex flex-wrap gap-2">
 					{project.tech.map((tech, index) => (
 						<motion.span 
