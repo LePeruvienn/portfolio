@@ -10,6 +10,7 @@ import Blog from './components/Blog.jsx';
 import ScrollToTop from './components/utils/ScrollToTop.jsx';
 
 function App() {
+	
 	const { i18n } = useTranslation();
 
 	useEffect(() => {

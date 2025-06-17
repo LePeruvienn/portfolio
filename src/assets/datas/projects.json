@@ -1,6 +1,33 @@
 [
 	{
 		"title": {
+			"en": "2D Game Engine",
+			"fr": "Moteur de jeu 2D"
+		},
+		"date": "2025",
+		"images": [
+			"/portfolio/img/projets/brotafeur-1.png",
+			"/portfolio/img/projets/brotafeur-2.png"
+		],
+		"sections": {
+			"en": {
+				"Description": "A Small 2D game engine that i made in C++ ! It features a Physics engine a Scene Manager and a Log System. The goal of this game engine was to made my first game from scratch using C++ !",
+				"Links": "You can check the source code on <a target=\"_blank\" href=\"https://github.com/LePeruvienn/brotafeur\">GitHub</a>."
+			},
+			"fr": {
+				"Description": "Un petit moteur de jeu 2D que j'ai créé en C++ ! Il comprend un moteur physique, un gestionnaire de scènes et un système de journalisation. L'objectif de ce moteur était de créer mon premier jeu entièrement en C++ !",
+				"Liens": "Vous pouvez consulter le code source sur <a target=\"_blank\" href=\"https://github.com/LePeruvienn/brotafeur\">GitHub</a>."
+			}
+		},
+		"tech": [
+			"C/C++",
+			"SFML",
+			"Git"
+		],
+		"color": "purple-400"
+	},
+	{
+		"title": {
 			"en": "Portfolio",
 			"fr": "Portfolio"
 		},
@@ -53,6 +80,34 @@
 		"tech": [
 			"Unity",
 			"Photon",
+			"C#",
+			"Git"
+		],
+		"color": "yellow-400"
+	},
+	{
+		"title": {
+			"en": "Unity Platformer",
+			"fr": "Pltaformer Unity"
+		},
+		"date": "2025",
+		"images": [
+			"/portfolio/img/projets/unity-platformer-1.png",
+			"/portfolio/img/projets/unity-platformer-2.png",
+			"/portfolio/img/projets/unity-platformer-3.png"
+		],
+		"sections": {
+			"en": {
+				"Description": "A Pltaformer game that i have made in Unity in my Bachelors Degree.",
+				"Links": "You can check the source code on <a target=\"_blank\" href=\"https://github.com/LePeruvienn/Unity-Platformer\">GitHub</a>."
+			},
+			"fr": {
+				"Description": "Un jeu de plateforme que j'ai réalisé avec Unity pendant ma licence.",
+				"Links": "Vous pouvez consulter le code source sur <a target=\"_blank\" href=\"https://github.com/LePeruvienn/Unity-Platformer\">GitHub</a>."
+			}
+		},
+		"tech": [
+			"Unity",
 			"C#",
 			"Git"
 		],
